@@ -10,7 +10,37 @@
       }
     ],
     "puntos": 0,
-    "categoria": ""
+    "categoria": "",
+    "beneficios":[
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      }
+    ]
   },
   {
     "saldo": "$1.000",

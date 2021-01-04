@@ -1,5 +1,9 @@
+.containerButtonsNavBeneficios{
+  padding-top: 20vw;
+}
 .scrollNavBar {
   display: flex;
+  position: fixed;
   flex-wrap: nowrap;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
@@ -11,24 +15,24 @@
 .btnMenu {
   flex: 0 0 auto;
   border:none;
-  width: 40%;
+  width: 45%;
   height: 15vw;
   background-color: #F6F6F6;
   border:none;
   color: #6200EE;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 4.5vw;
   outline:none;
 }
 .btnMenuActivate {
   flex: 0 0 auto;
   border:none;
-  width: 40%;
+  width: 45%;
   height: 15vw;
   background: linear-gradient(to bottom,  #F6F6F6 90%, #6200EE 90%,#6200EE 100%);
   border:none;
   color: #6200EE;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 4.5vw;
   outline:none;
 }
