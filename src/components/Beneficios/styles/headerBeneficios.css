@@ -1,0 +1,21 @@
+.containerHeaderBeneficios{
+  display: flex;
+  flex-flow: row nowrap;
+  width:100vw;
+  height: 20vw;
+  background-color: #6200EE;
+  justify-content: center;
+  align-items: center;
+}
+.containerElementsBeneficios{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.textHeaderBeneficios{
+  display: flex;
+  color: white;
+  font-size: 17px;
+  align-items: center;
+  font-weight: bold;
+}
