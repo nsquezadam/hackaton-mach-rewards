@@ -10,19 +10,25 @@ import desafio from "../../../img/desafioDelDia.svg";
 import ProgressBar from "react-customizable-progressbar";
 import imgBoton from "../../../img/Historial_icono.png";
 import logoColores from "../../../img/pointsIcon.svg";
-
+import CountUp from "react-countup";
 
 const UserProfile = () => {
   const { userValue } = useContext(ContextUser);
   const [user] = userValue;
 
-  const category = user === 0 ? 'MACH Explorer' : 'MACH Lover';
-  const classPointsChallenge = user === 0 ? 'textPointsBegginer' : 'textPointsAdvance';
-  const classNumberBenefitsProfile = user === 0 ? 'numberBenefitsPointsBegginer' : 'numberBenefitsPointsAdvance';
+  const category = user === 0 ? "MACH Explorer" : "MACH Lover";
+  const classPointsChallenge =
+    user === 0 ? "textPointsBegginer" : "textPointsAdvance";
+  const classNumberBenefitsProfile =
+    user === 0 ? "numberBenefitsPointsBegginer" : "numberBenefitsPointsAdvance";
 
   return (
     <div className="profile">
-      <img className="logoBeginner" src={data[user].perfil.logoCategoria} alt="logoCategoria" />
+      <img
+        className="logoBeginner"
+        src={data[user].perfil.logoCategoria}
+        alt="logoCategoria"
+      />
       <div className="containerPointsProfile">
         {/* primera carta */}
         <section className="cardProfile">
@@ -38,60 +44,122 @@ const UserProfile = () => {
             radius={40}
             strokeWidth={10}
             trackStrokeWidth={10}
+            initialAnimation="false"
+            initialAnimationDelay={0}
+            transition="0.6 ease"
+            steps={100}
           />
-          <div className='containerNextPoints'>
+          <div className="containerNextPoints">
             <img src={logoColores} alt="" />
-            <span className='textCardPoints'>Hasta <strong>50.000 puntos</strong></span>
+            <span className="textCardPoints">
+              Hasta <strong>50.000 puntos</strong>
+            </span>
           </div>
-          <div className='containerTextCardProfile'>
-            <span className='textNextCategory'>Próxima categoría:</span>
+          <div className="containerTextCardProfile">
+            <span className="textNextCategory">Próxima categoría:</span>
             <span>{category}</span>
           </div>
         </section>
         {/* segunda carta */}
         <section className="cardProfile">
           <img className="fotoDesafio" src={desafio} alt="" />
-          <span className={classPointsChallenge}><strong>+3000 </strong>Puntos</span>
-          <span className='textChallengeDay'>Desafío del día</span>
+          <span className={classPointsChallenge}>
+            <strong>+3000 </strong>Puntos
+          </span>
+          <span className="textChallengeDay">Desafío del día</span>
           <span>Paga una cuenta de servicio con MACH</span>
         </section>
       </div>
       <button className="boton-historial">
-        <img className='iconButtonProfile' src={imgBoton} alt="" />
-          Mi historial
+        <img className="iconButtonProfile" src={imgBoton} alt="" />
+        Mi historial
       </button>
-      <div className='containerBenefitsProfile'>
-        <span className='titleBenefits'>Tus ganancias MACHer</span>
-        <span className='textBenefits'>Revisa las ganacias que has obtenido con MACH</span>
+      <div className="containerBenefitsProfile">
+        <span className="titleBenefits">Tus ganancias MACHer</span>
+        <span className="textBenefits">
+          Revisa las ganacias que has obtenido con MACH
+        </span>
         <div className="containerCardsBefitsProfile">
           <div className="boxProfile">
             <img src={Pig} alt="pig" />
-            <span className={classNumberBenefitsProfile}>{data[user].perfil.dineroAhorrado}</span>
-            <span className='textBenefitsProfile'>Dinero ahorrado, usando los beneficios MACH</span>
+
+            <CountUp start={0} end={data[user].perfil.dineroAhorrado} delay={0}>
+              {({ countUpRef }) => (
+                <div>
+                  <span className={classNumberBenefitsProfile}>$</span>
+                  <span
+                    className={classNumberBenefitsProfile}
+                    ref={countUpRef}
+                  />
+                </div>
+              )}
+            </CountUp>
+            <span className="textBenefitsProfile">
+              Dinero ahorrado, usando los beneficios MACH
+            </span>
           </div>
+
           <div className="boxProfile">
             <img src={Puño} alt="" />
-            <div>
-              <img src={logoColores} alt="" />
-              <span className={classNumberBenefitsProfile}>{data[user].perfil.puntosAmigos}</span>
+            <div className="containerNumbersCount">
+            <img src={logoColores} alt="" />
+              <CountUp start={0} end={data[user].perfil.puntosAmigos} delay={0}>
+              {({ countUpRef }) => (
+                <div>
+                  <span
+                    className={classNumberBenefitsProfile}
+                    ref={countUpRef}
+                  />
+                </div>
+              )}
+            </CountUp>
             </div>
-            <span className='textBenefitsProfile'>Dinero ahorrado, usando los beneficios MACH</span>
+            <span className="textBenefitsProfile">
+              Dinero ahorrado, usando los beneficios MACH
+            </span>
           </div>
           <div className="boxProfile">
             <img src={tarjeta} alt="" />
             <div>
               <img src={logoColores} alt="" />
-              <span className={classNumberBenefitsProfile}>{data[user].perfil.puntosCarga}</span>
+              <span className={classNumberBenefitsProfile}>
+              <CountUp start={0} end={data[user].perfil.puntosCarga} delay={0}>
+              {({ countUpRef }) => (
+                <div>
+                  <span
+                    className={classNumberBenefitsProfile}
+                    ref={countUpRef}
+                  />
+                </div>
+              )}
+            </CountUp>
+              </span>
             </div>
-            <span className='textBenefitsProfile'>Dinero ahorrado, usando los beneficios MACH</span>
+            <span className="textBenefitsProfile">
+              Dinero ahorrado, usando los beneficios MACH
+            </span>
           </div>
           <div className="boxProfile">
             <img src={nextCategory} alt="" />
             <div>
               <img src={logoColores} alt="" />
-              <span className={classNumberBenefitsProfile}>{data[user].perfil.puntosProxCategoria}</span>
+              <span className={classNumberBenefitsProfile}>
+              <CountUp start={0} end={data[user].perfil.puntosProxCategoria} delay={0}>
+              {({ countUpRef }) => (
+                <div>
+                  <span
+                    className={classNumberBenefitsProfile}
+                    ref={countUpRef}
+                  />
+                </div>
+              )}
+
+              </CountUp>
+              </span>
             </div>
-            <span className='textBenefitsProfile'>Dinero ahorrado, usando los beneficios MACH</span>
+            <span className="textBenefitsProfile">
+              Dinero ahorrado, usando los beneficios MACH
+            </span>
           </div>
         </div>
       </div>
