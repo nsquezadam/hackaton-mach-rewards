@@ -10,7 +10,7 @@
 }
 .containerElementsFooterSaldo{
   display: flex;
-  width: 80%;
+  width: 80vw;
   justify-content: space-between;
   align-items: center;
 }
@@ -18,12 +18,12 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  height: 40px;
+  height: 11vw;
   justify-content: space-between;
 }
 .textFooter{
   color: #999999;
-  font-size: 11.5px;
+  font-size: 3vw;
 }
 .iconPressed{
   fill:#6200EE;
@@ -35,4 +35,13 @@
   text-decoration: none;
   display: flex;
   flex-flow: column nowrap;
+}
+.slick-track {
+  display: flex;
+}
+.slick-track .slick-slide {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
 }

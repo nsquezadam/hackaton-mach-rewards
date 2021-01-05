@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './styles/navBar.css';
 import Rewards from '../Beneficios/Canjes/Rewards'
+import Benefits from './Beneficios/Benefits';
 
 const NavBar = () => {
   // Profile, Benefits, Challenges, Rewards
@@ -18,7 +19,7 @@ const NavBar = () => {
   let reward = '';
 
   // if (menuPressed === 'Profile') reward = <Profile />
-  // if (menuPressed === 'Benefits') reward = <Benefits />
+  if (menuPressed === 'Benefits') reward = <Benefits/>
   // if (menuPressed === 'Challenges') reward = <Challenges />
   if (menuPressed === 'Rewards') reward = <Rewards/>
 

@@ -26,6 +26,36 @@
           "categoria":"Cafeteria",
           "imgCanje":"../img/canjes/catBarCafeteria.svg",
           "description":"Más de 20 Locales para disfrutar"
+          }],
+
+    "beneficios":[
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
       }
     ]
   },
