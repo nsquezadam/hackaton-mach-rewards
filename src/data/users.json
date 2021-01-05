@@ -136,7 +136,11 @@
       }
     ],
     "perfil":{
-      "logoCategoria": "../img/Banner_Mach_Begginer.png"
+      "logoCategoria": "../img/Banner_Mach_Begginer.png",
+      "dineroAhorrado":"$0",
+      "puntosAmigos":"0",
+      "puntosCarga":"0",
+      "puntosProxCategoria":"0"
     },
     "beneficios": [
       {
@@ -184,6 +188,13 @@
         "mensaje": "Por cada amigo que se registre...",
         "fecha": "11/04/2020"
       }
-    ]
+    ],
+    "perfil":{
+      "logoCategoria": "../img/Banner_Mach_Begginer.png",
+      "dineroAhorrado":"$15538",
+      "puntosAmigos":"5000",
+      "puntosCarga":"3000",
+      "puntosProxCategoria":"60430"
+    }
   }
 ]
