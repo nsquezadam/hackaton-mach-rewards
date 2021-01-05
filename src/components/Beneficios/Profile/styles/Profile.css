@@ -2,8 +2,10 @@
     width: 100vw;
 }
 
-.foto-desafio{
-    width: 186px;
+.container-points{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .card{
@@ -15,6 +17,30 @@
     text-align: center;
 }
 
+/* Imagen dentro de uno de los card*/
+
+.foto-desafio{
+    width: 186px;
+}
+
+.progressBar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* texto que va en medio del ProgressBar*/
+.text p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #999999;
+    mix-blend-mode: normal;
+    }
+
+/* Tipografias dentro de card y box */
 .card h2{
     font-family: Nunito;
     font-style: normal;
