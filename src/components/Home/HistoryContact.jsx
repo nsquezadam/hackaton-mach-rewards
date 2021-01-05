@@ -4,10 +4,13 @@ import data from '../../data/users.json'
 import { ContextUser } from '../../App'
 
 const HistoryContact = () => {
-  const [user] = useContext(ContextUser)
+  const {userValue} = useContext(ContextUser);
+  
+  const [user] = userValue;
+
   return (
     <section className='containerHistoryContact'>
-      {data[user].comentariosHome.map((data, index) => {
+      {data[userValue].comentariosHome.map((data, index) => {
         return <div key={index} className='containerEachHistoryContact'>
           <div className='containerElementsHistoryContact'>
             <div className='containerImgName'>

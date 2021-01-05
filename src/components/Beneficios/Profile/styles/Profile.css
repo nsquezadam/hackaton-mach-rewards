@@ -169,3 +169,7 @@
   margin: 0 5px 0 5px;
   text-align: center;
 }
+.containerNumbersCount{
+  display: flex;
+  flex-flow: row nowrap;
+}
