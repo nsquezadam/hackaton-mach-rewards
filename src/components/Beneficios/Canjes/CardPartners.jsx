@@ -2,12 +2,11 @@ import React, {useContext} from 'react'
 import  data from '../../../data/users.json'
 import './styles/cardPartners.css'
 import { ContextUser } from '../../../App';
-// const { userValue } = useContext(ContextUser);
-//   const [user] = userValue;
+
 
 const CardPartners = (props) => {
-  console.log(props)
-  const [user] = useContext(ContextUser)
+  const { userValue } = useContext(ContextUser);
+  const [user] = userValue;
 
   return (
     <>
