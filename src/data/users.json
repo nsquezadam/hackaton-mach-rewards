@@ -10,7 +10,24 @@
       }
     ],
     "puntos": 0,
-    "categoria": ""
+    "categoria": "",
+    "canjes":[
+      {
+      "categoria":"Cafeteria",
+      "imgCanje":"../img/canjes/catBarCafeteria.svg",
+      "description":"Más de 20 Locales para disfrutar"
+      },
+      {
+        "categoria":"Cafeteria",
+        "imgCanje":"../img/canjes/catBarCafeteria.svg",
+        "description":"Más de 20 Locales para disfrutar"
+      },
+      {
+          "categoria":"Cafeteria",
+          "imgCanje":"../img/canjes/catBarCafeteria.svg",
+          "description":"Más de 20 Locales para disfrutar"
+      }
+    ]
   },
   {
     "saldo": "$1.000",

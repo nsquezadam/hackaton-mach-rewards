@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './styles/navBar.css'
+import './styles/navBar.css';
+import Rewards from '../Beneficios/Canjes/Rewards'
 
 const NavBar = () => {
   // Profile, Benefits, Challenges, Rewards
@@ -19,7 +20,7 @@ const NavBar = () => {
   // if (menuPressed === 'Profile') reward = <Profile />
   // if (menuPressed === 'Benefits') reward = <Benefits />
   // if (menuPressed === 'Challenges') reward = <Challenges />
-  // if (menuPressed === 'Rewards') reward = <Rewards/>
+  if (menuPressed === 'Rewards') reward = <Rewards/>
 
   return (
     <section className='containerButtonsNavBeneficios'>
