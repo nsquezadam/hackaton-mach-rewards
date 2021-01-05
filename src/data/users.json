@@ -10,7 +10,8 @@
       }
     ],
     "puntos": 0,
-    "categoria": ""
+    "categoria": "",
+    "logoCategoria":"../img/Banner_Mach_Begginer.png"
   },
   {
     "saldo": "$1.000",
