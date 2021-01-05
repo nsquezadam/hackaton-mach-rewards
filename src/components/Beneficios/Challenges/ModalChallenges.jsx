@@ -1,6 +1,7 @@
 import React from 'react';
+import './Styles/ModalChallenges.css';
 
-const ModalChallenges = () => {
+const ModalChallenges = (props) => {
     return (
         <div className="Modal">
             <div className="modal-content">
