@@ -11,7 +11,37 @@
     ],
     "puntos": 0,
     "categoria": "",
-    "logoCategoria":"../img/Banner_Mach_Begginer.png"
+    "logoCategoria":"../img/Banner_Mach_Begginer.png",
+    "beneficios":[
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      }
+    ]
   },
   {
     "saldo": "$1.000",

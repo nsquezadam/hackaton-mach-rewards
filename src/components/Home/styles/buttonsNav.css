@@ -1,0 +1,13 @@
+.containerButtonsNav{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.buttonNav{
+  width: 50%;
+  height: 15vw;
+  background-color: #F6F6F6;
+  border:none;
+  color: #6200EE;
+  font-weight: bold;
+  font-size: 4vw;
+}
