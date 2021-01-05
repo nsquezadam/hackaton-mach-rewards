@@ -3,6 +3,7 @@ import React, {useContext} from 'react';
 import './Styles/Challenges.css';
 import {ContextUser} from '../../../App.js';
 import data from '../../../data/users.json';
+import filter from '../../../img/filter.svg';
 
 const Challenges = () => {
 
@@ -21,20 +22,12 @@ const Challenges = () => {
         {/*Cards in slide */ }
         <section className="cardContainers">
           {data[user].desafiosprincipales.map((data, index) =>{
-            return <div key={index} className="card">
-              <div className="cardImage">
+            return <div key={index} className="cardChallengePpal">
               <img src={data.foto} alt="" srcset=""/>
-              </div>
-              <div className="cardText">
-                <div className="points">
-                  <p>{data.puntos}</p>
-                </div>
-                <div className="cardSubtitle">
-                  <p>{data.titulo}</p>
-                </div>
-                <div className="cardExplanation">
-                  <p>{data.Explicacion}</p>
-                </div>
+              <div className="cardTextPpal">
+                  <p className="pointsPpal">{data.puntos}</p>
+                  <p className="cardSubtitlePpal">{data.titulo}</p>
+                  <p className="cardExplanationPpal">{data.Explicacion}</p>
               </div>
               <button className="btnDesafio">
                 {data.textobton}
@@ -48,13 +41,11 @@ const Challenges = () => {
             <p>Paga con tu tarjeta MACH en cualquiera de estas tiendas y ganarás más puntos, 
               cada categoría tiene puntajes diferentes.</p>
           </div>
-          <div className="containerFilters">
+          <div className="containerFiltersChallenge">
             <button className="btonCategorias">
               Todos los desafíos
             </button>
-            <button>
-              Filtros
-            </button>
+              <img src={filter} className ="filterCategories" alt="filterchallenge" srcset=""/>
           </div>
         </section>
         <section className="cardsCategories">
@@ -64,15 +55,9 @@ const Challenges = () => {
                 <img src={data.foto} alt="" srcset=""/>
               </div>
               <div className="challengeText">
-                <div className="challengePoints">
-                  <p> {data.puntos}</p>
-                </div>
-                <div className="challengeName">
-                  <p> {data.titulo}</p>
-                </div>
-                <div className="challengeSumary">
-                  <p>{data.descripcion}</p>
-                </div>
+                  <p className="challengePoints"> {data.puntos}</p>
+                  <p className="challengeName"> {data.titulo}</p>
+                  <p className="challengeSumary">{data.descripcion}</p>
               </div>
             </div>
           })}
