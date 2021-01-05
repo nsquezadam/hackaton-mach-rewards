@@ -20,20 +20,12 @@ const Challenges = () => {
         {/*Cards in slide */ }
         <section className="cardContainers">
           {data[user].desafiosprincipales.map((data, index) =>{
-            return <div key={index} className="card">
-              <div className="cardImage">
+            return <div key={index} className="cardChallengePpal">
               <img src={data.foto} alt="" srcset=""/>
-              </div>
-              <div className="cardText">
-                <div className="points">
-                  <p>{data.puntos}</p>
-                </div>
-                <div className="cardSubtitle">
-                  <p>{data.titulo}</p>
-                </div>
-                <div className="cardExplanation">
-                  <p>{data.Explicacion}</p>
-                </div>
+              <div className="cardTextPpal">
+                  <p className="pointsPpal">{data.puntos}</p>
+                  <p className="cardSubtitlePpal">{data.titulo}</p>
+                  <p className="cardExplanationPpal">{data.Explicacion}</p>
               </div>
               <button className="btnDesafio">
                 {data.textobton}
