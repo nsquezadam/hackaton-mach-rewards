@@ -23,4 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 .eslintcache
+<<<<<<< HEAD
 
+=======
+>>>>>>> cd4d1f5d4b1adc5d5bd9340f9cefea87606832fe
