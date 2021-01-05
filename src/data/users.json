@@ -10,7 +10,7 @@
       }
     ],
     "puntos": 0,
-    "categoria": "", 
+    "nivel": "", 
     "desafiosprincipales": [
       {
         "titulo": "Invita a un amigo", 
@@ -117,6 +117,55 @@
         "puntos": "+ 3.000 Puntos", 
         "foto":"", 
         "descripcion":"¿Te faltan compras en el hogar?"
+      }
+    ], 
+    "categoria": "",
+    "canjes":[
+      {
+      "categoria":"Cafeteria",
+      "imgCanje":"../img/canjes/catBarCafeteria.svg",
+      "description":"Más de 20 Locales para disfrutar"
+      },
+      {
+        "categoria":"Cafeteria",
+        "imgCanje":"../img/canjes/catBarCafeteria.svg",
+        "description":"Más de 20 Locales para disfrutar"
+      },
+      {
+          "categoria":"Cafeteria",
+          "imgCanje":"../img/canjes/catBarCafeteria.svg",
+          "description":"Más de 20 Locales para disfrutar"
+          }],
+    "logoCategoria":"../img/Banner_Mach_Begginer.png",
+
+    "beneficios":[
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
+      },
+      {
+        "foto":"../img/lippi.svg",
+        "nombre":"Lippi",
+        "texto":"15% de descuento en tu primera compra",
+        "descuento":"15%",
+        "categoria":"comida"
       }
     ]
   },

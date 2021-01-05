@@ -1,0 +1,91 @@
+.containerLogin{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #6200EE;
+  width: 100vw;
+  height: 100vh;
+}
+.containerPinUp{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 5vh;
+}
+.containerPinDown{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+.containerNumbers{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 60%;
+  align-items: space-between;
+}
+.rowNumbers{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.btnNumberLogin{
+  display: flex;
+  border: none;
+  background-color: #6200EE;
+  color: white;
+  font-size: 9vw;
+  font-weight: lighter;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  outline:none
+}
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 0.5s;
+  animation: pulse 0.5s;
+  box-shadow: 0 0 0 0.8em rgba(255, 255, 255, 0);
+  
+}
+.pulse{
+  --color: #410397;
+  --hover: #410397;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover),inset 0 0 0 2em var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover),inset 0 0 0 2em var(--hover);
+  }
+}
+
+.textLogin{
+  color: white;
+  font-size: 4vw;
+}
+.containerSecretPin{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 35vw;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.eachNumberPin{
+  color: white;
+  font-size: 7vw;
+  font-weight: lighter;
+}
+.fingerPrint{
+  fill: white;
+}

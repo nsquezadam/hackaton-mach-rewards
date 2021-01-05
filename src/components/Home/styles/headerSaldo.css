@@ -1,0 +1,26 @@
+.containerHeaderSaldo{
+  display: flex;
+  flex-flow: column nowrap;
+  width:100vw;
+  height: 40vw;
+  background-color: #6200EE;
+  justify-content: center;
+  align-items: center;
+}
+.containerElementsSaldo{
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+}
+.svgQR{
+  fill:white
+}
+.textSaldo{
+  color:white;
+  font-size:4.5vw;
+}
+.numberSaldo{
+  color: white;
+  font-size: 10vw;
+  font-weight: bold;
+}

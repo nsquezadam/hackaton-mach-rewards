@@ -1,5 +1,7 @@
 .containerHeaderBeneficios{
   display: flex;
+  position: fixed;
+  top:0;
   flex-flow: row nowrap;
   width:100vw;
   height: 20vw;
@@ -15,7 +17,7 @@
 .textHeaderBeneficios{
   display: flex;
   color: white;
-  font-size: 17px;
+  font-size: 5.5vw;
   align-items: center;
   font-weight: bold;
 }
