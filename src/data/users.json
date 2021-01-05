@@ -148,28 +148,28 @@
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": "Comida"
       },
       {
         "foto": "../img/lippi.svg",
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": "Comida"
       },
       {
         "foto": "../img/lippi.svg",
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": "Ropa"
       },
       {
         "foto": "../img/lippi.svg",
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": ""
       }
     ]
   },

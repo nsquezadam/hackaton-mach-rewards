@@ -1,12 +1,20 @@
-import React, { useState } from 'react';
-
+import React, { useState, useContext } from 'react';
+import { ContextUser } from '../../App';
 import Challenges from './Challenges/Challenges';
 import './styles/navBar.css';
 import Rewards from '../Beneficios/Canjes/Rewards'
 import Profile from "./Profile/Profile";
 import Benefits from './Beneficios/Benefits';
+import ModalTutorial from './ModalTutorial';
 
 const NavBar = () => {
+
+  const { modalWalktroughtValue, } = useContext(ContextUser);
+
+  const [modalWalktrought] = modalWalktroughtValue;
+
+
+
   // Profile, Benefits, Challenges, Rewards
   const [menuPressed, setMenuPressed] = useState('Profile')
 
@@ -34,6 +42,7 @@ const NavBar = () => {
         <button className={classMenuChallenges} onClick={() => menuClicked('Challenges')}>Desafíos MACH</button>
         <button className={classMenuRewards} onClick={() => menuClicked('Rewards')}>Canjes MACH</button>
       </nav>
+      {/* {modalWalktrought === false ? null : <ModalTutorial/>} */}
       {reward}
     </section>
   );

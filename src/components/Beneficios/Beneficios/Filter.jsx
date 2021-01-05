@@ -1,31 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles/filter.css'
 import back from '../../../img/back.svg'
 
 const Filter = (props) => {
   const classToogle = props.filter === true ? 'toggleVisible' : 'toggleHidden';
 
-  console.log(props.filter)
+  const handleInputChange = (event) => {
+    props.setFilterMark([...props.filterMark, event.target.value])
+  }
+
+  const enviarDatos = () => {
+    console.log(props.filterMark)
+  }
+
   return (
     <div className='containerFilter'>
       <div className={classToogle}>
-        <div className='containerTitleFilter'>
-          <img onClick={() => props.setFilter(!props.filter)} src={back} alt="" />
-          <span>Filtros</span>
-          <span>Limpiar</span>
+        <div className='containerElementsFilter'>
+          <div className='containerTitleFilter'>
+            <img onClick={() => props.setFilter(!props.filter)} src={back} alt="" />
+            <span className='textTitleFilter'>Filtros</span>
+            <span className='textClearFilter'>Limpiar</span>
+          </div>
+          <span className='textTitleFilterKind'>Tipo de beneficio</span>
+          <div className='containerAllFilters'>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox"  value="Streaming" /> Streaming </label>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox"  value="Tecnología" /> Tecnología </label>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox"  value="Ropa" /> Ropa </label>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox" value="Mascotas" /> Mascotas </label>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox" value="Comida" /> Comida </label>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox" value="Planes Mobile" /> Planes Mobile </label>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox" value="Hogar" /> Hogar </label>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox"  value="Todas las categorías" /> Todas las categorías </label>
+          </div>
+          <div className='containerExitFilter'>
+            <span className='textClearFilter' onClick={() => props.setFilter(!props.filter)}>Salir</span>
+            <button className='btnFilter' onClick={() => {{props.setFilter(!props.filter)}; enviarDatos()}}>Aplicar</button>
+          </div>
         </div>
-        <span>Tipo de beneficio</span>
-        <div className='containerAllFilters'>
-          <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Streaming </label>
-          <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Tecnología </label>
-          <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Ropa </label>
-          <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Mascotas </label>
-          <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Comida </label>
-          <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Planes Mobile </label>
-          <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Hogar </label>
-          <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Todas las categorías </label>
-        </div>
-
       </div>
     </div>
   );

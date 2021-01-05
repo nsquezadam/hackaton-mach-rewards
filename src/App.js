@@ -8,9 +8,9 @@ import LoginPage from './pages/LoginPage';
 export const ContextUser = createContext(null);
 
 function App() {
-
   const [user, setUser] = useState(0);
-  console.log(setUser);
+  const [modalWalktrought, setModalWalktrought]=useState(false)
+
   return (
     <Router>
       <Switch>
@@ -20,12 +20,20 @@ function App() {
           </ContextUser.Provider>
         </Route>
         <Route path="/home" exact>
-          <ContextUser.Provider value={[user]}>
+          <ContextUser.Provider 
+          value={{
+            userValue: [user],
+            modalWalktroughtValue: [modalWalktrought, setModalWalktrought]
+          }}>
             <HomePage/>
           </ContextUser.Provider>
         </Route>
         <Route path="/beneficios" exact>
-          <ContextUser.Provider value={[user]}>
+          <ContextUser.Provider 
+          value={{
+            userValue: [user],
+            modalWalktroughtValue: [modalWalktrought, setModalWalktrought]
+          }}>
             <BeneficiosPage />
           </ContextUser.Provider>
         </Route>
