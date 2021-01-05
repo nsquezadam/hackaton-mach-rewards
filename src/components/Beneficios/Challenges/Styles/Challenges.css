@@ -1,0 +1,67 @@
+.challengeContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding:5%;
+    
+}
+
+.challengeIntro, .categoriesIntro, .machChallenge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid purple;
+    padding: 5%;
+    margin: 5px 10px 5px 10px;
+}
+h2{
+    color: #6200EE;
+    font-size: 6vw;
+}
+
+p{
+    color: #333333;
+    font-size: 4vw;
+}
+.card{
+    height: 350px;
+    width: 80%;
+    border: 3px solid blue;
+    padding: 5%;
+    margin: 5px 10px 5px 10px;
+}
+.card .cardImage img{
+    height: 15vh;
+
+}
+
+.btnDesafio{
+    background-color: #6200EE;
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 60vw;
+    height: 7vh;
+    padding: 5px;
+    margin: 5px 10px 5px 10px;
+    font-weight: 700;
+}
+
+.containerFilters{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 13px;
+}
+
+.btonCategorias{
+    background-color: #FFFFFF;
+    border: 2px solid #6200EE;
+    border-radius: 50px;
+    color:#6200EE ;
+    width: 45vw;
+    height: 7vh;
+    padding: 5px;
+    margin: 5px 10px 5px 10px;
+    font-weight: 700;
+}
