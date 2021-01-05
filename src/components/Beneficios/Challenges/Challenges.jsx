@@ -44,7 +44,7 @@ const Challenges = () => {
             <button className="btonCategorias">
               Todos los desafíos
             </button>
-              <img src={filter} alt="filterchallenge" srcset=""/>
+              <img src={filter} className ="filterCategories" alt="filterchallenge" srcset=""/>
           </div>
         </section>
         <section className="cardsCategories">
