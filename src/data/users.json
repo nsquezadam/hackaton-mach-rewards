@@ -14,7 +14,7 @@
       {
         "titulo": "Invita a un amigo",
         "puntos": "+ 1.000 puntos",
-        "foto": "../img/DesafioAmigos.png",
+        "foto": "../img/desafios/DesafioAmigos.svg",
         "Explicacion": "Ayúdanos a que la comunidad MACH crezca y gana puntos fácilmente",
         "iconobton": "",
         "textobton": "Invita y gana"
@@ -22,7 +22,7 @@
       {
         "titulo": "Colecciona las letras",
         "puntos": "+ 1.000 puntos x letra",
-        "foto": "",
+        "foto": "../img/desafios/DesafioLetras.svg",
         "Explicacion": "Cada letra coleccionada de M-A-C-H te regalará un SUPER BENEFICIO",
         "iconobton": "",
         "textobton": "Colecciona y gana"
@@ -30,7 +30,7 @@
       {
         "titulo": "Desafío del mes",
         "puntos": "+ 5.000 puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioMes.svg",
         "Explicacion": "Acepta este desafío, gana puntaje y descubre la caja sorpresa MACH",
         "iconobton": "",
         "textobton": "Acepta y gana"
@@ -38,7 +38,7 @@
       {
         "titulo": "Recarga tu tarjeta MACH",
         "puntos": "+ 2.000 puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioRecarga.svg",
         "Explicacion": "Mantén tu tarjeta con saldo y paga rápidamente en el comercio",
         "iconobton": "",
         "textobton": "Recarga y gana"
@@ -48,73 +48,73 @@
       {
         "titulo": "Telefonía",
         "puntos": "+ 3.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioTelefonia.svg",
         "descripcion": "Paga tu cuenta con MACH"
       },
       {
         "titulo": "Banda Ancha",
         "puntos": "+ 3.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioBandaAncha.svg",
         "descripcion": "No te quedes sin internet"
       },
       {
         "titulo": "Streaming",
         "puntos": "+ 2.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioStreaming.svg",
         "descripcion": "Que esperas para disfrutar y relajarte"
       },
       {
         "titulo": "Televisión",
         "puntos": "+ 3.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioTelevision.svg",
         "descripcion": "Paga tu cuenta con MACH"
       },
       {
         "titulo": "Viajes",
         "puntos": "+ 10.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioViajes.svg",
         "descripcion": "Conoce nuevos lugares"
       },
       {
         "titulo": "Sabores",
         "puntos": "+ 1.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioSabores.svg",
         "descripcion": "Alimentate, disfruta y gana"
       },
       {
         "titulo": "Mascotas",
         "puntos": "+ 3.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioMascotas.svg",
         "descripcion": "Eso que necesita tu mascota"
       },
       {
         "titulo": "Experiencias",
         "puntos": "+ 3.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioExperiencias.svg",
         "descripcion": "Desconéctate un momento"
       },
       {
         "titulo": "Tecnología",
         "puntos": "+ 5.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioTecnologia.svg",
         "descripcion": "Paga con MACH y suma puntos"
       },
       {
         "titulo": "Salud",
         "puntos": "+ 2.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioSalud.svg",
         "descripcion": "Paga tus remedios con MACH"
       },
       {
         "titulo": "Deportes",
         "puntos": "+ 3.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioDeportes.svg",
         "descripcion": "¡Que esperas para ejercitarte!"
       },
       {
         "titulo": "Mercadería",
         "puntos": "+ 3.000 Puntos",
-        "foto": "",
+        "foto": "../img/desafios/DesafioMercaderia.svg",
         "descripcion": "¿Te faltan compras en el hogar?"
       }
     ],
@@ -278,7 +278,11 @@
     ],
    
     "perfil":{
-      "logoCategoria": "../img/Banner_Mach_Begginer.png"
+      "logoCategoria": "../img/Banner_Mach_Begginer.png",
+      "dineroAhorrado":"$0",
+      "puntosAmigos":"0",
+      "puntosCarga":"0",
+      "puntosProxCategoria":"0"
     },
     "beneficios": [
       {
@@ -286,28 +290,28 @@
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": "Comida"
       },
       {
         "foto": "../img/lippi.svg",
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": "Comida"
       },
       {
         "foto": "../img/lippi.svg",
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": "Ropa"
       },
       {
         "foto": "../img/lippi.svg",
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": ""
       }
     ]
   },
@@ -326,6 +330,13 @@
         "mensaje": "Por cada amigo que se registre...",
         "fecha": "11/04/2020"
       }
-    ]
+    ],
+    "perfil":{
+      "logoCategoria": "../img/Banner_Mach_Begginer.png",
+      "dineroAhorrado": 15538,
+      "puntosAmigos":"5000",
+      "puntosCarga":"3000",
+      "puntosProxCategoria":"60430"
+    }
   }
 ]
