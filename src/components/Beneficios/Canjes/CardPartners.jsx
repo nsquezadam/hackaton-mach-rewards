@@ -1,45 +1,40 @@
-import React from 'react'
-import logoPtos from '../../../img/logPtos.svg';
-import imgCategory from '../../../img/catBarCafeteria.svg'
-//import  allData from '../../../data/users.json'
+import React, {useContext} from 'react'
+import  data from '../../../data/users.json'
 import './styles/cardPartners.css'
+import { ContextUser } from '../../../App';
+// const { userValue } = useContext(ContextUser);
+//   const [user] = userValue;
 
-const CardPartners = () => {
-
-//   const [SwapsCards, setSwapsCards] = useState([]);
-
-// useEffect(() => {
-//   const fetchData = async() => {
-//  await fetch(allData)
-//  .then((response)=> response.json())
-// .then((data)=>{
-//   console.log(data)
-//   return setSwapsCards(data)
-// } )
-
-// // .catch((error)=> console.log('error:', error))
-// }
-// fetchData()
-//   }, [])
-
-  
-
+const CardPartners = (props) => {
+  console.log(props)
+  const [user] = useContext(ContextUser)
 
   return (
     <>
-    <div className="cardPartners">
-    <div className="containerImgCategory">
-      <img src={imgCategory} alt="imgCategory"/>
-    </div>
-    <div className="containerLogPtos">
-      <img src={logoPtos} alt="logoPtos"/>
-    </div>
-    <div className="containerDetails">
-      <h6>Bar/Cafetería</h6>
-      <p>Más de 20 locales para Disfrutar</p>
-    </div>
+  
+    {data[user].canjes.map((data, index) => {
+      return <div key={index} className="cardPartners" onClick={()=>console.log("click",index)}>
+      <div  className="containerImgCategory">
+        <img   src={`${data.imgCanje}`} alt="imgCategory"/>
+      
+      </div>
+      <div className="pointAndLevel">
+      <div className="containerLogPtos">
+      <img  src={`${data.imgPointCat}`} alt="logoPtos"/>
+      </div>
+      <h5>{data.pointCategoria}</h5>
+      
+      </div>
+      <div className="containerDetails">
+        <h6>{data.categoria}</h6>
+        <p>{data.description}</p>
+      </div>
+  
+      </div>
+     
 
-    </div>
+    })}
+ 
     </>
   )
 }
