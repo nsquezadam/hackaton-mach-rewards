@@ -54,13 +54,13 @@ const UserProfile = () => {
 
       <p>Hasta el momento con MACH</p>
 
-      <div class="container">
-        <div class="box">
+      <div className="container">
+        <div className="box">
           <img src={Pig} alt="pig" />
           <h1>$15.000</h1>
           <p>Dinero ahorrado, usando los beneficios MACH</p>
         </div>
-        <div class="box">
+        <div className="box">
           <img src={Puño} />
           <h1>
             <img src={logoColores} alt="" />
@@ -68,7 +68,7 @@ const UserProfile = () => {
           </h1>
           <p>Puntos ganados por invitar amigos</p>
         </div>
-        <div class="box">
+        <div className="box">
           <img src={tarjeta} />
           <h1>
             <img src={logoColores} alt="" />
@@ -76,7 +76,7 @@ const UserProfile = () => {
           </h1>
           <p>Puntos ganados por cargar tu tarjeta MACH</p>
         </div>
-        <div class="box">
+        <div className="box">
           <img src={nextCategory} />
           <h1>
             <img src={logoColores} alt="" />
