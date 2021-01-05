@@ -11,6 +11,7 @@
     ],
     "puntos": 0,
     "categoria": "",
+    "logoCategoria":"../img/Banner_Mach_Begginer.png",
     "beneficios":[
       {
         "foto":"../img/lippi.svg",
