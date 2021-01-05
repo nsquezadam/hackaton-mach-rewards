@@ -15,6 +15,8 @@
 .toggleVisible {
   display: flex;
   position: fixed;
+  align-items: center;
+  justify-content: center;
   flex-flow: column nowrap;
   transform: translateX(0%);
   top: 20vw;
@@ -28,12 +30,66 @@
   cursor:pointer;
   background-color: white
 }
+.containerElementsFilter{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90vw;
+  height: 90vh;
+}
 .containerTitleFilter{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 .containerAllFilters{
   display: flex;
   flex-flow: column nowrap;
+  margin-top: 30px;
+}
+.textTitleFilter{
+  font-weight: bold;
+  font-size: 4.2vw;
+  color: #333333;
+}
+.textClearFilter{
+  font-weight: bold;
+  font-size: 4.2vw;
+  color: #999999;
+}
+.textTitleFilterKind{
+  font-weight: bold;
+  font-size: 4.5vw;
+  color: #333333;
+}
+.eachFilterName{
+  display: flex;
+  font-size: 4.5vw;
+  color: #333333;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.eachInputCheckbox{
+  width: 5vw;
+  height: 5vw;
+  margin-right: 30px;
+}
+.containerExitFilter{
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btnFilter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6200EE;
+  border-radius: 10px;
+  width: 25vw;
+  height: 10vw;
+  color: white;
+  font-size:4.5vw;
+  border:none;
 }

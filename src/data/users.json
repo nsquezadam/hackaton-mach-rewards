@@ -148,28 +148,28 @@
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": "Comida"
       },
       {
         "foto": "../img/lippi.svg",
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": "Comida"
       },
       {
         "foto": "../img/lippi.svg",
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": "Ropa"
       },
       {
         "foto": "../img/lippi.svg",
         "nombre": "Lippi",
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
-        "categoria": "comida"
+        "categoria": ""
       }
     ]
   },
@@ -191,7 +191,7 @@
     ],
     "perfil":{
       "logoCategoria": "../img/Banner_Mach_Begginer.png",
-      "dineroAhorrado":"$15538",
+      "dineroAhorrado": 15538,
       "puntosAmigos":"5000",
       "puntosCarga":"3000",
       "puntosProxCategoria":"60430"

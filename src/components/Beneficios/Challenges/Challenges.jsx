@@ -7,7 +7,8 @@ import filter from '../../../img/filter.svg';
 
 const Challenges = () => {
 
-  const [user] = useContext(ContextUser);
+  const { userValue } = useContext(ContextUser);
+  const [user] = userValue;
     return (
       <div className="challengeContainer">
         <section className="challengeIntro">

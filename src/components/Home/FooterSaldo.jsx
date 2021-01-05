@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom'
 import transferir from '../../img/transferir.svg';
 import tarjeta from '../../img/tarjeta.svg';
+import { ContextUser } from '../../App'
 import servicios from '../../img/servicios.svg';
 import beneficiosNuevos from '../../img/beneficiosNuevo.svg';
 
 const FooterSaldo = () => {
+
+  const { modalWalktroughtValue, userValue } = useContext(ContextUser);
+
+  const [modalWalktrought, setModalWalktrought] = modalWalktroughtValue;
+  const [user] = userValue;
+
   return (
     <section className='containerFooterSaldo'>
       <div className='containerElementsFooterSaldo'>
@@ -36,7 +43,7 @@ const FooterSaldo = () => {
           </span>
         </div>
         <div className='containereEachElementFooterSaldo'>
-          <Link className='containerLinks' to='/beneficios'>
+          <Link className='containerLinks' to='/beneficios' onClick={() => { if (user === 0) setModalWalktrought(!modalWalktrought) }}>
             <img className='imgBeneficiosNuevos' src={beneficiosNuevos} alt='beneficiosNuevos' />
             <span className='textFooter'>
               Beneficios
