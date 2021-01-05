@@ -186,40 +186,46 @@
         "categoria": "Aventuras",
         "subCategoria":[
             {
-            "img":"",
+            "img":"../img/canjes/subcategorias/farellones.svg",
             "title": "Farellones",
             "points":"50.000 Puntos",
-            "imgPoint":""
+            "imgPointCat":"../img/canjes/logPtos.svg",
+            "description":"Entrada 1 adulto para pista Ski por un día"
+
           },
           {
-          "img":"",
+          "img":"../img/canjes/subcategorias/clasesdesurf.svg",
           "title": "Clase de surf",
           "points":"5.000 Puntos",
-          "imgPoint":""
+          "imgPointCat":"../img/canjes/logPtos.svg",
+          "description":"Clases de Surf en Viña del mar 1 adulto"
           },
           {
-          "img":"",
+          "img":"../img/canjes/subcategorias/clasedeescalada.svg",
           "title": "Clase de escalada",
           "points":"25.000 Puntos",
-          "imgPoint":""
+          "imgPointCat":"../img/canjes/logPtos.svg",
+          "description":"Aprende a escalar en el cajón de Maipo tu y un@ amig@"
           },
           {
-          "img":"",
+          "img":"../img/canjes/subcategorias/parapente.svg",
           "title": "Parapente",
           "points":"25.000 Puntos",
-          "imgPoint":""
+          "imgPointCat":"../img/canjes/logPtos.svg",
+          "description":"Disfruta del cielo y vuela con un instructor"
           },
           {
-          "img":"",
+          "img":"../img/canjes/subcategorias/paseoenmoto.svg",
           "title": "Paseo en moto",
           "points":"8.000 Puntos",
-          "imgPoint":""
+          "imgPointCat":"../img/canjes/logPtos.svg",
+          "description":"Siéntete todo terreno con este circuito en moto 4 ruedas"
           },
           {
-          "img":"",
+          "img":"../img/canjes/subcategorias/raftingpara4.svg",
           "title": "Rafting para 4",
-          "points":"8.000 Puntos",
-          "imgPoint":""
+          "imgPointCat":"../img/canjes/logPtos.svg",
+          "description":"Navega por el río Maipo con 4 amigos"
           }
         ],
         "pointCategoria":"Beginner",
