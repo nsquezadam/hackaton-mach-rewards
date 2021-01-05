@@ -20,7 +20,7 @@ const NavBar = () => {
   // if (menuPressed === 'Profile') reward = <Profile />
   if (menuPressed === 'Benefits') reward = <Benefits/>
   // if (menuPressed === 'Challenges') reward = <Challenges />
-  // if (menuPressed === 'Rewards') reward = <Rewards/>
+  if (menuPressed === 'Rewards') reward = <Rewards/>
 
   return (
     <section className='containerButtonsNavBeneficios'>
