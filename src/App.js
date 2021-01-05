@@ -10,7 +10,7 @@ export const ContextUser = createContext(null);
 function App() {
 
   const [user, setUser] = useState(0);
-
+  console.log(setUser);
   return (
     <Router>
       <Switch>

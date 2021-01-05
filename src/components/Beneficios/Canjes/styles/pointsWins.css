@@ -1,0 +1,13 @@
+.container_point_informations{
+  width: 309px;
+  height: 49px;
+background-color: transparent;
+border: 1px solid #EE9B00;
+box-sizing: border-box;
+border-radius: 10px;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+}
+
