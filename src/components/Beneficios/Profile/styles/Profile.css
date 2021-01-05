@@ -1,0 +1,110 @@
+.logoBegginer{
+    width: 100vw;
+}
+
+.container-points{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card{
+    width: 186px;
+    height: 287px;
+    background: #ffffff;
+    box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.18), 0px 4px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Imagen dentro de uno de los card*/
+
+.foto-desafio{
+    width: 186px;
+}
+
+.progressBar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* texto que va en medio del ProgressBar*/
+.text p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #999999;
+    mix-blend-mode: normal;
+    }
+
+/* Tipografias dentro de card y box */
+.card h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    mix-blend-mode: normal;
+}
+
+.card p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    mix-blend-mode: normal;  
+}
+
+.boton-historial{
+    background-color: #6200EE;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 174px;
+    height: 55px;
+    font-size: 15px;
+    border: none;
+}
+
+p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    mix-blend-mode: normal;
+}
+
+.box{
+    width: 183px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.18), 0px 4px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box h1{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #EE9B00;
+}
+
+.box p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    mix-blend-mode: normal;     
+}
