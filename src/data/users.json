@@ -191,7 +191,7 @@
     ],
     "perfil":{
       "logoCategoria": "../img/Banner_Mach_Begginer.png",
-      "dineroAhorrado":"$15538",
+      "dineroAhorrado": 15538,
       "puntosAmigos":"5000",
       "puntosCarga":"3000",
       "puntosProxCategoria":"60430"
