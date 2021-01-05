@@ -18,13 +18,14 @@ const Rewards = () => {
       <div>
         <h3>filters</h3>
       </div>
+    
       <div className="containerCanjes">
      <CardPartners />
-     
+     </div>
       </div>
      
       </div>
-    </div>
+
   )
 }
 

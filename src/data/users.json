@@ -123,153 +123,154 @@
         "categoria": "Bar / Cafeteria",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/catBarCafeteria.svg",
+        "imgCanje": "../img/canjes/categorias/catBarCafeteria.svg",
         "description": "Más de 20 Locales para disfrutar"
       },
       {
         "categoria": "Telefonia",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/telefonia.svg",
+        "imgCanje": "../img/canjes/categorias/telefonia.svg",
         "description": "Planes, moviles en Virgin, WOM"
       },
       {
         "categoria": "Streaming",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/streaming.svg",
+        "imgCanje": "../img/canjes/categorias/streaming.svg",
         "description": "Música, series, películas y más"
       },
       {
         "categoria": "Accesorios",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/accesorios.svg",
+        "imgCanje": "../img/canjes/categorias/accesorios.svg",
         "description": "Complementa tu estilo con estos..."
       },
       {
         "categoria": "Internacional",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/internacional.svg",
+        "imgCanje": "../img/canjes/categorias/internacional.svg",
         "description": "Aliexpress, Shein, tiendas extranjeras"
       },
       {
         "categoria": "Hogar",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/hogar.svg",
+        "imgCanje": "../img/canjes/categorias/hogar.svg",
         "description": "Decora tu hogar y dale tu toque"
       },
       {
         "categoria": "Restaurant",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/restaurant.svg",
+        "imgCanje": "../img/canjes/categorias/restaurant.svg",
         "description": "Más de 20 locales para disfrutar"
       },
       {
         "categoria": "Mascotas",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/mascotas.svg",
+        "imgCanje": "../img/canjes/categorias/mascotas.svg",
         "description": "Alimento, accesorios, med..."
       },
       {
         "categoria": "Viajes",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/viajes.svg",
+        "imgCanje": "../img/canjes/categorias/viajes.svg",
         "description": "Nacionales e internacionales"
       },
       {
         "categoria": "Aventuras",
+        "subCategoria":[
+            {
+            "img":"",
+            "title": "Farellones",
+            "points":"50.000 Puntos",
+            "imgPoint":""
+          },
+          {
+          "img":"",
+          "title": "Clase de surf",
+          "points":"5.000 Puntos",
+          "imgPoint":""
+          },
+          {
+          "img":"",
+          "title": "Clase de escalada",
+          "points":"25.000 Puntos",
+          "imgPoint":""
+          },
+          {
+          "img":"",
+          "title": "Parapente",
+          "points":"25.000 Puntos",
+          "imgPoint":""
+          },
+          {
+          "img":"",
+          "title": "Paseo en moto",
+          "points":"8.000 Puntos",
+          "imgPoint":""
+          },
+          {
+          "img":"",
+          "title": "Rafting para 4",
+          "points":"8.000 Puntos",
+          "imgPoint":""
+          }
+        ],
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/aventuras.svg",
+        "imgCanje": "../img/canjes/categorias/aventuras.svg",
         "description": "Que esperas para vivir al límite"
       },
       {
         "categoria": "Hoteles",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/hoteles.svg",
+        "imgCanje": "../img/canjes/categorias/hoteles.svg",
         "description": "Desconéctate por un tiempo"
       },
       {
         "categoria": "Tecnología",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/tecnologia.svg",
+        "imgCanje": "../img/canjes/categorias/tecnologia.svg",
         "description": "Xbox, Play Station, accesorios y más"
       },
       {
         "categoria": "Deportes",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/deportes.svg",
+        "imgCanje": "../img/canjes/categorias/deportes.svg",
         "description": "Ropa, accesorios para diferentes ..."
       },
       {
         "categoria": "Banda ancha",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/bandaancha.svg",
+        "imgCanje": "../img/canjes/categorias/bandaancha.svg",
         "description": "Canjea tus puntos por internet hogar"
       },
       {
         "categoria": "Juguetería",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/jugueteria.svg",
+        "imgCanje": "../img/canjes/categorias/jugueteria.svg",
         "description": "Juegos de mesa, para niñ@s"
       },
       {
         "categoria": "Mercadería",
         "pointCategoria":"Beginner",
         "imgPointCat":"../img/canjes/logPtos.svg",
-        "imgCanje": "../img/canjes/mercaderia.svg",
+        "imgCanje": "../img/canjes/categorias/mercaderia.svg",
         "description": "Frutas, verduras, concervas ..."
       }
     ],
-    "canjeCatAventuras":[
-      {
-      "img":"",
-      "title": "Farellones",
-      "points":"50.000 Puntos",
-      "imgPoint":""
-    },
-    {
-    "img":"",
-    "title": "Clase de surf",
-    "points":"5.000 Puntos",
-    "imgPoint":""
-    },
-    {
-    "img":"",
-    "title": "Clase de escalada",
-    "points":"25.000 Puntos",
-    "imgPoint":""
-    },
-    {
-    "img":"",
-    "title": "Parapente",
-    "points":"25.000 Puntos",
-    "imgPoint":""
-    },
-    {
-    "img":"",
-    "title": "Paseo en moto",
-    "points":"8.000 Puntos",
-    "imgPoint":""
-    },
-    {
-    "img":"",
-    "title": "Rafting para 4",
-    "points":"8.000 Puntos",
-    "imgPoint":""
-    }
-],
+   
     "perfil":{
       "logoCategoria": "../img/Banner_Mach_Begginer.png"
     },

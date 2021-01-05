@@ -2,6 +2,8 @@ import React, {useContext} from 'react'
 import  data from '../../../data/users.json'
 import './styles/cardPartners.css'
 import { ContextUser } from '../../../App';
+// const { userValue } = useContext(ContextUser);
+//   const [user] = userValue;
 
 const CardPartners = (props) => {
   console.log(props)
@@ -16,9 +18,12 @@ const CardPartners = (props) => {
         <img   src={`${data.imgCanje}`} alt="imgCategory"/>
       
       </div>
+      <div className="pointAndLevel">
       <div className="containerLogPtos">
       <img  src={`${data.imgPointCat}`} alt="logoPtos"/>
+      </div>
       <h5>{data.pointCategoria}</h5>
+      
       </div>
       <div className="containerDetails">
         <h6>{data.categoria}</h6>
