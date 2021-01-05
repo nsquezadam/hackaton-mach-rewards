@@ -4,6 +4,7 @@ import './styles/rewards.css'
 import PointsWins from  './PointsWins'
 
 const Rewards = () => {
+  
   return (
     <div className="container_rewards">
       <div className="container_rewards_components">
@@ -19,16 +20,9 @@ const Rewards = () => {
       </div>
       <div className="containerCanjes">
      <CardPartners />
-     <CardPartners />
-     <CardPartners />
-     <CardPartners />
+     
       </div>
-      <div className="containerCanjes">
-     <CardPartners />
-     <CardPartners />
-     <CardPartners />
-     <CardPartners />
-      </div>
+     
       </div>
     </div>
   )

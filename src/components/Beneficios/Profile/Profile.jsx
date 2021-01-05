@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import styles from "../Profile/styles/Profile.css";
+import  "../Profile/styles/Profile.css";
 import { ContextUser } from "../../../App";
 import data from "../../../data/users.json";
 import Pig from "../../../img/Dinero_ahorrado.png";
@@ -39,7 +39,7 @@ const UserProfile = () => {
         </section>
         <div>
           <section className="card">
-            <img className="foto-desafio" src={desafio} />
+            <img className="foto-desafio" src={desafio}/>
             <h2>Desafío del día</h2>
             <p>Paga una cuenta de servicio con MACH</p>
           </section>
