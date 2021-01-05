@@ -11,7 +11,24 @@
     ],
     "puntos": 0,
     "categoria": "",
+    "canjes":[
+      {
+      "categoria":"Cafeteria",
+      "imgCanje":"../img/canjes/catBarCafeteria.svg",
+      "description":"Más de 20 Locales para disfrutar"
+      },
+      {
+        "categoria":"Cafeteria",
+        "imgCanje":"../img/canjes/catBarCafeteria.svg",
+        "description":"Más de 20 Locales para disfrutar"
+      },
+      {
+          "categoria":"Cafeteria",
+          "imgCanje":"../img/canjes/catBarCafeteria.svg",
+          "description":"Más de 20 Locales para disfrutar"
+          }],
     "logoCategoria":"../img/Banner_Mach_Begginer.png",
+
     "beneficios":[
       {
         "foto":"../img/lippi.svg",
