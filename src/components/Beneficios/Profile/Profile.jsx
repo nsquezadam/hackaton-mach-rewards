@@ -49,7 +49,7 @@ const UserProfile = () => {
           > 
           <div className="indicator">
             
-            <p className="pointsProgressBar"> <img src={logoColores} alt=""/> 0 </p>
+            <p className="pointsProgressBar"> <img src={logoColores} alt=""/> {data[user].puntos} </p>
             <p>Puntos</p>
           </div>
           </ProgressBar>
