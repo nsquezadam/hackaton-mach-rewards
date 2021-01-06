@@ -296,11 +296,15 @@
     },
     "beneficios": [
       {
-        "foto": "../img/lippi.svg",
-        "nombre": "Lippi",
-        "texto": "15% de descuento en tu primera compra",
-        "descuento": "15%",
-        "categoria": "Comida"
+        "foto": "../img/beneficios/netflix.svg",
+        "nombre": "Netflix",
+        "texto": "Contrata un plan básico y te devolvemos $3.000 a tu cuenta el próximo mes",
+        "descuento": "../img/dinero.svg",
+        "categoria": "Streaming",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio":"Para hacer válido este beneficio deberás hacer lo siguiente: 1. Ingresa al sitio de Netflix: https://www.netflix.com/cl/ 2. Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”. 3. Selecciona el plan básico por los meses que te acomode.4. Paga tu cuenta de Netflix con tu tarjeta MACH5. Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000 ",
+        "textoTerminosBeneficios":"1. Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones 2. La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.VIGENCIA: 1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/lippi.svg",
