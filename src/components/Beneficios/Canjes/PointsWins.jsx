@@ -20,7 +20,7 @@ const PointsWins = () => {
       <div className="containerLogPtos">
       <img src={logoPtos} alt="logoPtos"/>
       </div>
-       <h4>0</h4>
+       <h4>{data[user].puntos}</h4>
   
       </div>
       <h5>Categoria Beginner:Hasta 50.000 Puntos</h5>
