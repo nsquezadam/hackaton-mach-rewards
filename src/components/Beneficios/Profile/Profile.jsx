@@ -11,6 +11,7 @@ import ProgressBar from "react-customizable-progressbar";
 import imgBoton from "../../../img/Historial_icono.png";
 import logoColores from "../../../img/pointsIcon.svg";
 import CountUp from "react-countup";
+import Walkthrough from './Walkthrough';
 
 const UserProfile = () => {
   const [user]= useContext(ContextUser);
@@ -23,6 +24,7 @@ const UserProfile = () => {
 
   return (
     <div className="profile">
+      {/* <Walkthrough/> */}
       <img
         className="logoBeginner"
         src={data[user].perfil.logoCategoria}
