@@ -92,7 +92,7 @@
 .textGetCouponAdventure{
   font-weight: bold;
   font-size: 3.8vw;
-  color: #EE9B00;
+  color: #009189;
 }
 .containerEachGift {
   display: flex ! Important  ;
@@ -115,7 +115,6 @@
   text-align: center;
   font-size: 4vw;
 }
-
 .containerFiltersBenefit{
   display: flex;
   flex-flow: row nowrap;

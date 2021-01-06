@@ -5,6 +5,7 @@ import data from '../../../data/users.json'
 import filterIcon from '../../../img/filter.svg'
 import Filter from './Filter';
 import SliderComp from './Slider';
+import ModalBenefit from './ModalBenefit';
 
 
 const Benefits = () => {
@@ -15,6 +16,12 @@ const Benefits = () => {
   const [filterMark, setFilterMark] = useState([]);
   const [modalBenefit,setModalBenefit]=useState(false);
 
+	const closeModalBenefit = () => {
+    setModalBenefit(false);
+    console.log('ola');
+    console.log(modalBenefit);
+  }
+  
   const classContainerDiscount = user === 0 ? 'containerDiscountBegginer' : 'containerDiscountAdventure';
   const classTextGetCoupon = user === 0 ? 'textGetCouponBegginer' : 'textGetCouponAdventure';
 
@@ -55,7 +62,8 @@ const Benefits = () => {
         <div className='containerAllCardsBenefits'>
           {data[user].beneficios.map((data, index) => {
             if (filterMark.length === 0) {
-              return <div key={index} className='containerEachCard'>
+              return <div key={index} className='containerEachCard' onClick={() => setModalBenefit(!modalBenefit)}>
+                {modalBenefit === false ? null : <ModalBenefit close={closeModalBenefit} />}
                 <img src={`${data.foto}`} alt='foto beneficios' />
                 <div className='containerInfoBenefit'>
                   <div className='containerNameSubjectBenefit'>
@@ -80,7 +88,8 @@ const Benefits = () => {
             else {
               for (let i = 0; i < filterMark.length; i++) {
                 if (data.categoria === filterMark[i]) {
-                  return <div key={index} className='containerEachCard'>
+                  return <div key={index} className='containerEachCard' onClick={() => setModalBenefit(true)}>
+                    {modalBenefit === false ? null :<ModalBenefit close={closeModalBenefit}/>}
                     <img src={`${data.foto}`} alt='foto beneficios' />
                     <div className='containerInfoBenefit'>
                       <div className='containerNameSubjectBenefit'>
