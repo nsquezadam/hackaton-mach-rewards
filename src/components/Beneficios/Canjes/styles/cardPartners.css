@@ -1,3 +1,44 @@
+.containerFiltersCanjes{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 15px 0 15px 0;
+}
+.containerButtonsFilterCanjes{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+.buttonFilterCanjes{
+  border: 2px solid #6200EE;
+  border-radius: 50px;
+  color: #6200EE;
+  background-color: white;
+  font-size: 4vw;
+  padding: 5px 10px 5px 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+
+
+
+
+.containerCanjes{
+  margin-bottom: 5vh;
+  display:flex;
+  width: 100vw;
+  flex-flow: column wrap;
+  max-height: 600px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  
+}
+.containerCanjes ::-webkit-scrollbar {
+  display: none;
+}
 /* ancho tarjeta  ancho 177px x largo 279px */
 .cardPartners{
   /* width: 42.7536231884058vw;

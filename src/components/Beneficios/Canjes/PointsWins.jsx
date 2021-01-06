@@ -1,17 +1,27 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import logoPtos from '../../../img/logPtos.svg';
 import './styles/pointsWins.css';
+//import { ContextUser } from '../../../App';
+//import  data from '../../../data/users.json'
 
 const PointsWins = () => {
+  //const { userValue } = useContext(ContextUser);
+  //const [user] = userValue;
+ // const classContainerPointWin = user === 0 ? 'container_point_informationsBegginer' : 'container_point_informationsAdventure';
+  //const classTextGetCoupon = user === 0 ? 'textGetCouponBegginer' : 'textGetCouponAdventure';
+
+
   return (
-    <>
+    <>  
+   
       <h3>Puntos Acumulados</h3>
-      <div>
-        <div className="container_point_informations">
+      
+        <div className="container_point_informationsBegginer">
       <div className="containerLogPtos">
       <img src={logoPtos} alt="logoPtos"/>
       </div>
-      </div>
+       {/* <h4>{data[user].puntos}</h4> */}
+  
       </div>
       <h5>Categoria Beginner:Hasta 50.000 Puntos</h5>
     </>
