@@ -11,6 +11,7 @@ import ProgressBar from "react-customizable-progressbar";
 import imgBoton from "../../../img/Historial_icono.png";
 import logoColores from "../../../img/pointsIcon.svg";
 import CountUp from "react-countup";
+import Walkthrough from './Walkthrough';
 
 const UserProfile = () => {
   const [user]= useContext(ContextUser);
@@ -23,6 +24,7 @@ const UserProfile = () => {
 
   return (
     <div className="profile">
+      {/* <Walkthrough/> */}
       <img
         className="logoBeginner"
         src={data[user].perfil.logoCategoria}
@@ -76,10 +78,11 @@ const UserProfile = () => {
           <span>Paga una cuenta de servicio con MACH</span>
         </section>
       </div>
-      <button className="boton-historial">
+      <button className="boton-historial" >
         <img className="iconButtonProfile" src={imgBoton} alt="" />
         Mi historial
       </button>
+      
       <div className="containerBenefitsProfile">
         <span className="titleBenefits">Tus ganancias MACHer</span>
         <span className="textBenefits">
