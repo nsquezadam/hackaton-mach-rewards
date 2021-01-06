@@ -4,6 +4,7 @@ import './styles/pointsWins.css';
 import { ContextUser } from '../../../App';
 import  data from '../../../data/users.json'
 
+
 const PointsWins = () => {
   const [user] = useContext(ContextUser);
   

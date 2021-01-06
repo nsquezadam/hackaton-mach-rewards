@@ -18,7 +18,9 @@
         "foto": "../img/desafios/DesafioAmigos.svg",
         "Explicacion": "Ayúdanos a que la comunidad MACH crezca y gana puntos fácilmente",
         "iconobton": "",
-        "textobton": "Invita y gana"
+        "textobton": "Invita y gana",
+        "titulomodal":"Invita a tus amigos",
+        "textomodal": "Ayúdanos a que la comunidad de MACH crezca e invíta a un amig@ a descargar la App."
       },
       {
         "titulo": "Colecciona las letras",
