@@ -49,248 +49,262 @@
         "titulo": "Telefonía",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioTelefonia.svg",
-        "descripcion": "Paga tu cuenta con MACH"
+        "descripcion": "Paga tu cuenta con MACH",
+        "categorias": ""
       },
       {
         "titulo": "Banda Ancha",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioBandaAncha.svg",
-        "descripcion": "No te quedes sin internet"
+        "descripcion": "No te quedes sin internet",
+        "categorias": ""
       },
       {
         "titulo": "Streaming",
         "puntos": "+ 2.000 Puntos",
         "foto": "../img/desafios/DesafioStreaming.svg",
-        "descripcion": "Que esperas para disfrutar y relajarte"
+        "descripcion": "Que esperas para disfrutar y relajarte",
+        "categorias": ""
       },
       {
         "titulo": "Televisión",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioTelevision.svg",
-        "descripcion": "Paga tu cuenta con MACH"
+        "descripcion": "Paga tu cuenta con MACH",
+        "categorias": ""
       },
       {
         "titulo": "Viajes",
         "puntos": "+ 10.000 Puntos",
         "foto": "../img/desafios/DesafioViajes.svg",
-        "descripcion": "Conoce nuevos lugares"
+        "descripcion": "Conoce nuevos lugares",
+        "categorias": ""
       },
       {
         "titulo": "Sabores",
         "puntos": "+ 1.000 Puntos",
         "foto": "../img/desafios/DesafioSabores.svg",
-        "descripcion": "Alimentate, disfruta y gana"
+        "descripcion": "Alimentate, disfruta y gana",
+        "categorias": ""
       },
       {
         "titulo": "Mascotas",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioMascotas.svg",
-        "descripcion": "Eso que necesita tu mascota"
+        "descripcion": "Eso que necesita tu mascota",
+        "categorias": ""
       },
       {
         "titulo": "Experiencias",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioExperiencias.svg",
-        "descripcion": "Desconéctate un momento"
+        "descripcion": "Desconéctate un momento",
+        "categorias": ""
       },
       {
         "titulo": "Tecnología",
         "puntos": "+ 5.000 Puntos",
         "foto": "../img/desafios/DesafioTecnologia.svg",
-        "descripcion": "Paga con MACH y suma puntos"
+        "descripcion": "Paga con MACH y suma puntos",
+        "categorias": ""
       },
       {
         "titulo": "Salud",
         "puntos": "+ 2.000 Puntos",
         "foto": "../img/desafios/DesafioSalud.svg",
-        "descripcion": "Paga tus remedios con MACH"
+        "descripcion": "Paga tus remedios con MACH",
+        "categorias": ""
       },
       {
         "titulo": "Deportes",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioDeportes.svg",
-        "descripcion": "¡Que esperas para ejercitarte!"
+        "descripcion": "¡Que esperas para ejercitarte!",
+        "categorias": ""
       },
       {
         "titulo": "Mercadería",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioMercaderia.svg",
-        "descripcion": "¿Te faltan compras en el hogar?"
+        "descripcion": "¿Te faltan compras en el hogar?",
+        "categorias": ""
       }
     ],
     "canjes": [
       {
         "categoria": "Bar / Cafeteria",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/catBarCafeteria.svg",
         "description": "Más de 20 Locales para disfrutar"
       },
       {
         "categoria": "Telefonia",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/telefonia.svg",
         "description": "Planes, moviles en Virgin, WOM"
       },
       {
         "categoria": "Streaming",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/streaming.svg",
         "description": "Música, series, películas y más"
       },
       {
         "categoria": "Accesorios",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/accesorios.svg",
         "description": "Complementa tu estilo con estos..."
       },
       {
         "categoria": "Internacional",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/internacional.svg",
         "description": "Aliexpress, Shein, tiendas extranjeras"
       },
       {
         "categoria": "Hogar",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/hogar.svg",
         "description": "Decora tu hogar y dale tu toque"
       },
       {
         "categoria": "Restaurant",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/restaurant.svg",
         "description": "Más de 20 locales para disfrutar"
       },
       {
         "categoria": "Mascotas",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/mascotas.svg",
         "description": "Alimento, accesorios, med..."
       },
       {
         "categoria": "Viajes",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/viajes.svg",
         "description": "Nacionales e internacionales"
       },
       {
         "categoria": "Aventuras",
-        "subCategoria":[
-            {
-            "img":"../img/canjes/subcategorias/farellones.svg",
+        "subCategoria": [
+          {
+            "img": "../img/canjes/subcategorias/farellones.svg",
             "title": "Farellones",
-            "points":"50.000 Puntos",
-            "imgPointCat":"../img/canjes/logPtos.svg",
-            "description":"Entrada 1 adulto para pista Ski por un día"
-
+            "points": "50.000 Puntos",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Entrada 1 adulto para pista Ski por un día"
           },
           {
-          "img":"../img/canjes/subcategorias/clasesdesurf.svg",
-          "title": "Clase de surf",
-          "points":"5.000 Puntos",
-          "imgPointCat":"../img/canjes/logPtos.svg",
-          "description":"Clases de Surf en Viña del mar 1 adulto"
+            "img": "../img/canjes/subcategorias/clasesdesurf.svg",
+            "title": "Clase de surf",
+            "points": "5.000 Puntos",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Clases de Surf en Viña del mar 1 adulto"
           },
           {
-          "img":"../img/canjes/subcategorias/clasedeescalada.svg",
-          "title": "Clase de escalada",
-          "points":"25.000 Puntos",
-          "imgPointCat":"../img/canjes/logPtos.svg",
-          "description":"Aprende a escalar en el cajón de Maipo tu y un@ amig@"
+            "img": "../img/canjes/subcategorias/clasedeescalada.svg",
+            "title": "Clase de escalada",
+            "points": "25.000 Puntos",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Aprende a escalar en el cajón de Maipo tu y un@ amig@"
           },
           {
-          "img":"../img/canjes/subcategorias/parapente.svg",
-          "title": "Parapente",
-          "points":"25.000 Puntos",
-          "imgPointCat":"../img/canjes/logPtos.svg",
-          "description":"Disfruta del cielo y vuela con un instructor"
+            "img": "../img/canjes/subcategorias/parapente.svg",
+            "title": "Parapente",
+            "points": "25.000 Puntos",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Disfruta del cielo y vuela con un instructor"
           },
           {
-          "img":"../img/canjes/subcategorias/paseoenmoto.svg",
-          "title": "Paseo en moto",
-          "points":"8.000 Puntos",
-          "imgPointCat":"../img/canjes/logPtos.svg",
-          "description":"Siéntete todo terreno con este circuito en moto 4 ruedas"
+            "img": "../img/canjes/subcategorias/paseoenmoto.svg",
+            "title": "Paseo en moto",
+            "points": "8.000 Puntos",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Siéntete todo terreno con este circuito en moto 4 ruedas"
           },
           {
-          "img":"../img/canjes/subcategorias/raftingpara4.svg",
-          "title": "Rafting para 4",
-          "imgPointCat":"../img/canjes/logPtos.svg",
-          "description":"Navega por el río Maipo con 4 amigos"
+            "img": "../img/canjes/subcategorias/raftingpara4.svg",
+            "title": "Rafting para 4",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Navega por el río Maipo con 4 amigos"
           }
         ],
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/aventuras.svg",
         "description": "Que esperas para vivir al límite"
       },
       {
         "categoria": "Hoteles",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/hoteles.svg",
         "description": "Desconéctate por un tiempo"
       },
       {
         "categoria": "Tecnología",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/tecnologia.svg",
         "description": "Xbox, Play Station, accesorios y más"
       },
       {
         "categoria": "Deportes",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/deportes.svg",
         "description": "Ropa, accesorios para diferentes ..."
       },
       {
         "categoria": "Banda ancha",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/bandaancha.svg",
         "description": "Canjea tus puntos por internet hogar"
       },
       {
         "categoria": "Juguetería",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/jugueteria.svg",
         "description": "Juegos de mesa, para niñ@s"
       },
       {
         "categoria": "Mercadería",
-        "pointCategoria":"Beginner",
-        "imgPointCat":"../img/canjes/logPtos.svg",
+        "pointCategoria": "Beginner",
+        "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/mercaderia.svg",
         "description": "Frutas, verduras, concervas ..."
       }
     ],
-   
-    "perfil":{
+    "perfil": {
       "logoCategoria": "../img/Banner_Mach_Begginer.png",
-      "dineroAhorrado":"$0",
-      "puntosAmigos":"0",
-      "puntosCarga":"0",
-      "puntosProxCategoria":"0"
+      "dineroAhorrado": "$0",
+      "puntosAmigos": "0",
+      "puntosCarga": "0",
+      "puntosProxCategoria": "0"
     },
     "beneficios": [
       {
-        "foto": "../img/lippi.svg",
-        "nombre": "Lippi",
-        "texto": "15% de descuento en tu primera compra",
-        "descuento": "15%",
-        "categoria": "Comida"
+        "foto": "../img/beneficios/netflix.svg",
+        "nombre": "Netflix",
+        "texto": "Contrata un plan básico y te devolvemos $3.000 a tu cuenta el próximo mes",
+        "descuento": "../img/dinero.svg",
+        "categoria": "Streaming",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio":"Para hacer válido este beneficio deberás hacer lo siguiente: 1. Ingresa al sitio de Netflix: https://www.netflix.com/cl/ 2. Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”. 3. Selecciona el plan básico por los meses que te acomode.4. Paga tu cuenta de Netflix con tu tarjeta MACH5. Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000 ",
+        "textoTerminosBeneficios":"1. Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones 2. La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.VIGENCIA: 1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/lippi.svg",
@@ -331,12 +345,35 @@
         "fecha": "11/04/2020"
       }
     ],
-    "perfil":{
+    "perfil": {
       "logoCategoria": "../img/Banner_Mach_Begginer.png",
       "dineroAhorrado": 15538,
-      "puntosAmigos":"5000",
-      "puntosCarga":"3000",
-      "puntosProxCategoria":"60430"
-    }
+      "puntosAmigos": "5000",
+      "puntosCarga": "3000",
+      "puntosProxCategoria": "60430"
+    },
+    "beneficios": [
+      {
+        "foto": "../img/lippi.svg",
+        "nombre": "Lippi",
+        "texto": "15% de descuento en tu primera compra",
+        "descuento": "15%",
+        "categoria": "Comida"
+      },
+      {
+        "foto": "../img/lippi.svg",
+        "nombre": "Lippi",
+        "texto": "15% de descuento en tu primera compra",
+        "descuento": "15%",
+        "categoria": "Comida"
+      },
+      {
+        "foto": "../img/lippi.svg",
+        "nombre": "Lippi",
+        "texto": "15% de descuento en tu primera compra",
+        "descuento": "15%",
+        "categoria": "Ropa"
+      }
+    ]
   }
 ]

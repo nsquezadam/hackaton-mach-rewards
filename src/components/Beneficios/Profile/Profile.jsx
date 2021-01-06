@@ -13,8 +13,7 @@ import logoColores from "../../../img/pointsIcon.svg";
 import CountUp from "react-countup";
 
 const UserProfile = () => {
-  const { userValue } = useContext(ContextUser);
-  const [user] = userValue;
+  const [user]= useContext(ContextUser);
 
   const category = user === 0 ? "MACH Explorer" : "MACH Lover";
   const classPointsChallenge =

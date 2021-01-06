@@ -8,8 +8,7 @@ import filterIcon from '../../../img/filter.svg'
 
 
 const CardPartners = (props) => {
-  const { userValue } = useContext(ContextUser);
-  const [user] = userValue;
+  const [user]= useContext(ContextUser);
 
   const [filter, setFilter] = useState(false);
   // seleccion segun   usuario  beginner  o adventure

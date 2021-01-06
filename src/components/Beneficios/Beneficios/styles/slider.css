@@ -1,0 +1,22 @@
+.containerSlider{
+  margin-bottom: 10vw;
+  margin-top: 15px;
+  display: flex;
+  width: 85vw ! Important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color:  #6200EE;
+}
+.slick-dots li button:before {
+  font-size: 12px;
+}
+.slick-track {
+  display: flex;
+}
+.slick-track .slick-slide {
+  display: flex;
+  /* height: auto; */
+  align-items: center;
+  justify-content: center;
+}
