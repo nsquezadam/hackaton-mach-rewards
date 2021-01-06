@@ -15,7 +15,24 @@ const CardPartners = (props) => {
 
   const [filterMark, setFilterMark] = useState([])
 
-  let buttonFilter=''
+  let buttonFilterCanjes=''
+
+  if(filterMark.length===0){
+    buttonFilterCanjes=<div className=''>
+    <button className='buttonFilterCanjes'>
+      Todos los beneficios
+    </button>
+  </div>
+  }
+  else{
+    buttonFilterCanjes=filterMark.map((data, index) => {
+    return <div key={index} className=''>
+      <button className='buttonFilterCanjes'>
+        {data}
+      </button>
+    </div>
+  })
+}
   
 
    // const classContainerDiscount = user === 0 ? 'containerDiscountBegginer' : 'containerDiscountAdventure';
@@ -25,8 +42,8 @@ const CardPartners = (props) => {
   return (
     <div>
      <div className='containerFiltersCanjes'>
-          <div className='containerButtonsFilter'>
-            {buttonFilter}
+          <div className='containerButtonsFilterCanjes'>
+            {buttonFilterCanjes}
           </div>
           <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
         </div>
