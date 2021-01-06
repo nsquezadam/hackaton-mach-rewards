@@ -1,50 +1,41 @@
 import React, { useContext, useState } from 'react';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import './styles/benefits.css';
 import { ContextUser } from '../../../App';
 import data from '../../../data/users.json'
-import Slider from "react-slick";
 import filterIcon from '../../../img/filter.svg'
 import Filter from './Filter';
+import SliderComp from './Slider';
 
 
 const Benefits = () => {
 
-  const { userValue } = useContext(ContextUser);
-  const [user] = userValue;
+  const [user] = useContext(ContextUser);
 
   const [filter, setFilter] = useState(false);
-  const [filterMark, setFilterMark] = useState([])
+  const [filterMark, setFilterMark] = useState([]);
+  const [modalBenefit,setModalBenefit]=useState(false);
 
   const classContainerDiscount = user === 0 ? 'containerDiscountBegginer' : 'containerDiscountAdventure';
   const classTextGetCoupon = user === 0 ? 'textGetCouponBegginer' : 'textGetCouponAdventure';
 
-  let buttonFilter=''
+  let buttonFilter = ''
 
-  if(filterMark.length===0){
-    buttonFilter=<div className=''>
-    <button className='buttonFilter'>
-      Todos los beneficios
-    </button>
-  </div>
-  }
-  else{
-    buttonFilter=filterMark.map((data, index) => {
-    return <div key={index} className=''>
+  if (filterMark.length === 0) {
+    buttonFilter = <div className=''>
       <button className='buttonFilter'>
-        {data}
+        Todos los beneficios
       </button>
     </div>
-  })
-}
-
-  const settings = {
-    dots: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
+  }
+  else {
+    buttonFilter = filterMark.map((data, index) => {
+      return <div key={index} className=''>
+        <button className='buttonFilter'>
+          {data}
+        </button>
+      </div>
+    })
+  }
   return (
     <div className='containerBenefits'>
       <section className='containerTextBenefits'>
@@ -115,41 +106,7 @@ const Benefits = () => {
             }
           })}
         </div>
-        <span className='titleBenefits'>
-          Regala Beneficios
-        </span>
-        <span className='textBenefits'>
-          Puedes regalarle a tus amigos algún beneficio que no quieras utilizar.
-        </span>
-        <span className='textBenefits'>
-          ¿Cómo lo puedes hacer?
-        </span>
-        <Slider className='containerSlider' {...settings}>
-          <div className='containerEachGift'>
-            <div className='containerElementsGift'>
-              <img src="" alt="" />
-              <span className='textGift'>
-                ¡ Y regálale tu beneficio a alguno de tus amigos para que lo disfrute !
-              </span>
-            </div>
-          </div>
-          <div className='containerEachGift'>
-            <div className='containerElementsGift'>
-              <img src="" alt="" />
-              <span className='textGift'>
-                ¡ Y regálale tu beneficio a alguno de tus amigos para que lo disfrute !
-            </span>
-            </div>
-          </div>
-          <div className='containerEachGift'>
-            <div className='containerElementsGift'>
-              <img src="" alt="" />
-              <span className='textGift'>
-                ¡ Y regálale tu beneficio a alguno de tus amigos para que lo disfrute !
-            </span>
-            </div>
-          </div>
-        </Slider>
+        {user === 0 ? null : <SliderComp />}
       </section>
     </div>
   );

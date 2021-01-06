@@ -1,8 +1,8 @@
 import React from 'react';
-import './styles/filter.css'
+import './Styles/filterChallenge.css'
 import back from '../../../img/back.svg'
 
-const Filter = (props) => {
+const FilterChallenge = (props) => {
   const classToogle = props.filter === true ? 'toggleVisible' : 'toggleHidden';
 
   const handleInputChange = (event) => {
@@ -43,4 +43,4 @@ const Filter = (props) => {
   );
 }
 
-export default Filter;
+export default FilterChallenge;

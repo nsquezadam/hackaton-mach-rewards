@@ -5,8 +5,7 @@ import { ContextUser } from '../../../App';
 
 
 const CardPartners = (props) => {
-  const { userValue } = useContext(ContextUser);
-  const [user] = userValue;
+  const [user]= useContext(ContextUser);
 
   return (
     <>
