@@ -5,6 +5,7 @@ import { ContextUser } from '../../../App.js';
 import data from '../../../data/users.json';
 import filterIcon from '../../../img/filter.svg';
 import FilterChallenge from './FilterChallenge';
+import ModalChallenges from './ModalChallenges';
 
 
 const Challenges = () => {
@@ -12,8 +13,12 @@ const Challenges = () => {
   const [user]= useContext(ContextUser);
 
   const [filter, setFilter] = useState(false);
-  const [filterMark, setFilterMark] = useState([])
+  const [filterMark, setFilterMark] = useState([]);
 
+  const state={ modal:false}
+  const selectModal =(info) =>{
+    this.setState({modal:!this.state.modal})
+  };
   let buttonFilter='';
 
   if (filterMark.length === 0) {
@@ -52,7 +57,7 @@ const Challenges = () => {
               <p className="cardSubtitlePpal">{data.titulo}</p>
               <p className="cardExplanationPpal">{data.Explicacion}</p>
             </div>
-            <button className="btnDesafio">
+            <button className="btnDesafio" >
               {data.textobton}
             </button>
           </div>
@@ -88,7 +93,7 @@ const Challenges = () => {
           }
           else {
             for (let i = 0; i < filterMark.length; i++) {
-              if (data.categoria === filterMark[i]) {
+              if (data.categorias === filterMark[i]) {
                 return <div key={index} className="challengeCard">
                   <div className="challengeImage">
                     <img src={data.foto} alt="" srcset="" />

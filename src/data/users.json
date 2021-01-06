@@ -50,84 +50,84 @@
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioTelefonia.svg",
         "descripcion": "Paga tu cuenta con MACH",
-        "categorias": ""
+        "categorias": "Servicios"
       },
       {
         "titulo": "Banda Ancha",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioBandaAncha.svg",
         "descripcion": "No te quedes sin internet",
-        "categorias": ""
+        "categorias": "Servicios"
       },
       {
         "titulo": "Streaming",
         "puntos": "+ 2.000 Puntos",
         "foto": "../img/desafios/DesafioStreaming.svg",
         "descripcion": "Que esperas para disfrutar y relajarte",
-        "categorias": ""
+        "categorias": "Servicios"
       },
       {
         "titulo": "Televisión",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioTelevision.svg",
         "descripcion": "Paga tu cuenta con MACH",
-        "categorias": ""
+        "categorias": "Servicios"
       },
       {
         "titulo": "Viajes",
         "puntos": "+ 10.000 Puntos",
         "foto": "../img/desafios/DesafioViajes.svg",
         "descripcion": "Conoce nuevos lugares",
-        "categorias": ""
+        "categorias": "Experiencias"
       },
       {
         "titulo": "Sabores",
         "puntos": "+ 1.000 Puntos",
         "foto": "../img/desafios/DesafioSabores.svg",
         "descripcion": "Alimentate, disfruta y gana",
-        "categorias": ""
+        "categorias": "Alimentación"
       },
       {
         "titulo": "Mascotas",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioMascotas.svg",
         "descripcion": "Eso que necesita tu mascota",
-        "categorias": ""
+        "categorias": "Mascotas"
       },
       {
         "titulo": "Experiencias",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioExperiencias.svg",
         "descripcion": "Desconéctate un momento",
-        "categorias": ""
+        "categorias": "Experiencias"
       },
       {
         "titulo": "Tecnología",
         "puntos": "+ 5.000 Puntos",
         "foto": "../img/desafios/DesafioTecnologia.svg",
         "descripcion": "Paga con MACH y suma puntos",
-        "categorias": ""
+        "categorias": "Tecnología"
       },
       {
         "titulo": "Salud",
         "puntos": "+ 2.000 Puntos",
         "foto": "../img/desafios/DesafioSalud.svg",
         "descripcion": "Paga tus remedios con MACH",
-        "categorias": ""
+        "categorias": "Bienestar"
       },
       {
         "titulo": "Deportes",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioDeportes.svg",
         "descripcion": "¡Que esperas para ejercitarte!",
-        "categorias": ""
+        "categorias": "Bienestar"
       },
       {
         "titulo": "Mercadería",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioMercaderia.svg",
         "descripcion": "¿Te faltan compras en el hogar?",
-        "categorias": ""
+        "categorias": "Alimentación"
       }
     ],
     "canjes": [
