@@ -10,6 +10,7 @@ import ImageIcon from '@material-ui/icons/Image';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import back from '../../../img/back.svg';
 
 const History = (props) => {
   const classToogle = props.filter === true ? 'toggleVisible' : 'toggleHidden';
@@ -19,13 +20,11 @@ const History = (props) => {
       maxWidth: 360,
       backgroundColor: theme.palette.background.paper,
     },
-    Avatar: {
-      color: "#6200EE",
-    },
   }));
     const classes = useStyles();
       return (
     <div className={classToogle}>
+      <img className="imaArrowBack" onClick={() => props.setFilter(!props.filter)} src={back} alt="" />
       <h1 className="title">Historial</h1>
     <List className={classes.root}>
       <ListItem>

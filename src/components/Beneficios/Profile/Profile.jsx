@@ -76,7 +76,7 @@ const UserProfile = () => {
         <img className="iconButtonProfile" src={imgBoton} alt="" />
         Mi historial
       </button>
-      <History filter={modalHistory}/>
+      <History filter={modalHistory} setFilter={setModalHistory}/>
       <div className="containerBenefitsProfile">
         <span className="titleBenefits">Tus ganancias MACHer</span>
         <span className="textBenefits">
