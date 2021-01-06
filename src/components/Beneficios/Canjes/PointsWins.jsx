@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import logoPtos from '../../../img/logPtos.svg';
 import './styles/pointsWins.css';
-//import { ContextUser } from '../../../App';
+import { ContextUser } from '../../../App';
 //import  data from '../../../data/users.json'
 
 const PointsWins = () => {
