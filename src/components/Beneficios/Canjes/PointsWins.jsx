@@ -5,11 +5,12 @@ import './styles/pointsWins.css';
 //import  data from '../../../data/users.json'
 
 const PointsWins = () => {
-  //const { userValue } = useContext(ContextUser);
-  //const [user] = userValue;
+  const [user] = useContext(ContextUser);
+  
+  const classContainerPointWin= user === 0 ? 'container_point_informationsBegginer' : 'container_point_informationsAdventure';
+
  // const classContainerPointWin = user === 0 ? 'container_point_informationsBegginer' : 'container_point_informationsAdventure';
   //const classTextGetCoupon = user === 0 ? 'textGetCouponBegginer' : 'textGetCouponAdventure';
-
 
   return (
     <>  

@@ -6,6 +6,7 @@ import data from '../../../data/users.json';
 import filterIcon from '../../../img/filter.svg';
 import FilterChallenge from './FilterChallenge';
 import ModalChallenges from './ModalChallenges';
+import ModalChallenge from './ModalChallenges';
 
 
 const Challenges = () => {
@@ -50,17 +51,7 @@ const Challenges = () => {
       {/*Cards in slide */}
       <section className="cardContainers">
         {data[user].desafiosprincipales.map((data, index) => {
-          return <div key={index} className="cardChallengePpal">
-            <img src={data.foto} alt="" srcset="" />
-            <div className="cardTextPpal">
-              <p className="pointsPpal">{data.puntos}</p>
-              <p className="cardSubtitlePpal">{data.titulo}</p>
-              <p className="cardExplanationPpal">{data.Explicacion}</p>
-            </div>
-            <button className="btnDesafio" >
-              {data.textobton}
-            </button>
-          </div>
+          return <ModalChallenge key={index} data={data} />
         })}
       </section>
       <section className="categories">
