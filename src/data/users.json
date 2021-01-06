@@ -50,84 +50,84 @@
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioTelefonia.svg",
         "descripcion": "Paga tu cuenta con MACH",
-        "categorias": ""
+        "categorias": "Servicios"
       },
       {
         "titulo": "Banda Ancha",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioBandaAncha.svg",
         "descripcion": "No te quedes sin internet",
-        "categorias": ""
+        "categorias": "Servicios"
       },
       {
         "titulo": "Streaming",
         "puntos": "+ 2.000 Puntos",
         "foto": "../img/desafios/DesafioStreaming.svg",
         "descripcion": "Que esperas para disfrutar y relajarte",
-        "categorias": ""
+        "categorias": "Servicios"
       },
       {
         "titulo": "Televisión",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioTelevision.svg",
         "descripcion": "Paga tu cuenta con MACH",
-        "categorias": ""
+        "categorias": "Servicios"
       },
       {
         "titulo": "Viajes",
         "puntos": "+ 10.000 Puntos",
         "foto": "../img/desafios/DesafioViajes.svg",
         "descripcion": "Conoce nuevos lugares",
-        "categorias": ""
+        "categorias": "Experiencias"
       },
       {
         "titulo": "Sabores",
         "puntos": "+ 1.000 Puntos",
         "foto": "../img/desafios/DesafioSabores.svg",
         "descripcion": "Alimentate, disfruta y gana",
-        "categorias": ""
+        "categorias": "Alimentación"
       },
       {
         "titulo": "Mascotas",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioMascotas.svg",
         "descripcion": "Eso que necesita tu mascota",
-        "categorias": ""
+        "categorias": "Mascotas"
       },
       {
         "titulo": "Experiencias",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioExperiencias.svg",
         "descripcion": "Desconéctate un momento",
-        "categorias": ""
+        "categorias": "Experiencias"
       },
       {
         "titulo": "Tecnología",
         "puntos": "+ 5.000 Puntos",
         "foto": "../img/desafios/DesafioTecnologia.svg",
         "descripcion": "Paga con MACH y suma puntos",
-        "categorias": ""
+        "categorias": "Tecnología"
       },
       {
         "titulo": "Salud",
         "puntos": "+ 2.000 Puntos",
         "foto": "../img/desafios/DesafioSalud.svg",
         "descripcion": "Paga tus remedios con MACH",
-        "categorias": ""
+        "categorias": "Bienestar"
       },
       {
         "titulo": "Deportes",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioDeportes.svg",
         "descripcion": "¡Que esperas para ejercitarte!",
-        "categorias": ""
+        "categorias": "Bienestar"
       },
       {
         "titulo": "Mercadería",
         "puntos": "+ 3.000 Puntos",
         "foto": "../img/desafios/DesafioMercaderia.svg",
         "descripcion": "¿Te faltan compras en el hogar?",
-        "categorias": ""
+        "categorias": "Alimentación"
       }
     ],
     "canjes": [
@@ -296,11 +296,15 @@
     },
     "beneficios": [
       {
-        "foto": "../img/lippi.svg",
-        "nombre": "Lippi",
-        "texto": "15% de descuento en tu primera compra",
-        "descuento": "15%",
-        "categoria": "Comida"
+        "foto": "../img/beneficios/netflix.svg",
+        "nombre": "Netflix",
+        "texto": "Contrata un plan básico y te devolvemos $3.000 a tu cuenta el próximo mes",
+        "descuento": "../img/dinero.svg",
+        "categoria": "Streaming",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio":"Para hacer válido este beneficio deberás hacer lo siguiente: 1. Ingresa al sitio de Netflix: https://www.netflix.com/cl/ 2. Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”. 3. Selecciona el plan básico por los meses que te acomode.4. Paga tu cuenta de Netflix con tu tarjeta MACH5. Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000 ",
+        "textoTerminosBeneficios":"1. Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones 2. La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.VIGENCIA: 1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/lippi.svg",
