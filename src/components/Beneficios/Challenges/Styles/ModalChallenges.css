@@ -4,8 +4,9 @@
     height: auto;
     top:0;
     left: 0;
-    z-index: 1;
+    z-index: 3;
     display: flex;
+    border-radius: 1rem 1rem 1rem 1rem;
   }
   .modalContentChallenge {
     position: fixed;
@@ -72,4 +73,68 @@
 .paragraphModal{
   font-size: 3.5vw;
   font-weight: 400;
+}
+
+.instructionCopy{
+  font-size: 3vw;
+  font-weight: 400;
+  color: #999999;
+}
+
+.linkDownload{
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: underline;
+}
+
+.btonDesafio{
+  background-color: #6200EE;
+  border-radius: 10px;
+  border: 2px solid #6200EE ;
+  color: #FFFFFF;
+  width: 65vw;
+  height: 7vh;
+  padding: 5px;
+  margin: 5px 10px 5px 30px;
+  font-weight: 700;
+  font-size: 3.5vw;
+}
+
+.btonDesafio img{
+  margin-right: 3vw;
+}
+
+.message{
+  font-size: 3vw;
+  font-weight: 400;
+}
+
+.socialMediacontainer{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.textSocialMedia p {
+  font-size: 3.5vw;
+  font-weight: 400;
+  color: #333333;
+}
+
+.iconSocialMedia{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1vh;
+}
+
+.WhatsApp img, .instagram img, .linkedin img, .gmail img{
+  height: 5vh;
+}
+
+.WhatsApp p, .instagram p, .linkedin p, .gmail p{
+  font-size: 2.5vw;
+  font-weight: 400;
+  color: #333333;
 }

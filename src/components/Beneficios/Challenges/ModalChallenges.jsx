@@ -6,11 +6,16 @@ import closeIcon from '../../../img/close.svg';
 import BanderaModal from '../../../img/BanderaDesafioModal.svg';
 import Logoptos from '../../../img/logPtos.svg';
 import copyIcon from '../../../img/CopyIcon.svg';
+import instagram from '../../../img/Instagram.svg';
+import linkdedin from '../../../img/linkedin.svg';
+import gmail from '../../../img/gmail.svg';
+import whatsapp from '../../../img/whatsApp.svg';
 
 const ModalChallenge = (props) => {
 	const [user] = useContext(ContextUser);
 
 	const [modalChallenge, setModalChallenge] = useState(false);
+	const [socialMedia, setsocialMedia] = useState(false)
 
 	return (
 		<div>
@@ -20,7 +25,6 @@ const ModalChallenge = (props) => {
           <img src={closeIcon} alt='closeIcon' className="closeModalChallenge" onClick={() => setModalChallenge(false)} />    
 		  <img className ="imgModal"src={props.data.foto} alt="" srcSet="" />
 		  <div className="challengeBanner">
-		  
 			  <p className="titleBanner"> <img src= {BanderaModal} className="iconoChallenge" alt=""/> Desafío</p>  
 		  </div>
 		  <div className="infoModal">
@@ -31,12 +35,46 @@ const ModalChallenge = (props) => {
 				  <p className="titleModal">{props.data.titulomodal}</p>
 				  <p className="paragraphModal">{props.data.textomodal}</p>
 			  </div>
+		  	</div>
+			  {socialMedia=== false ?
+			  <div >
 			  <div className ="copyLink">
 				  <p className="instructionCopy">Copia el link de descarga</p>
-				  <p className="linkDownload"> https://bajamach.com/MGyXjoQGocv <img className="copyIcon" src={copyIcon} alt=""/> </p>
+				  <p className="linkDownload"> https://bajamach.com/MGyXjoQGocv 
+				  	<img className="copyIcon" src={copyIcon} alt=""/> 
+				  </p>
 			  </div>
-		  </div>
-		
+			  <button className="btonDesafio" onClick={()=>{setsocialMedia(true)}}>
+			  		<img src={props.data.iconobton} alt=""/>
+					{props.data.textobton}
+			  </button>
+			  <div className="message">
+				  <p>*Tu invitad@ debe activar su tarjeta MACH para que ganes los puntos.</p>
+			  </div> 
+			  </div>: 
+		  	<div className="socialMediacontainer">
+			  <div className="textSocialMedia">
+				  <p>¿Cómo quieres enviar tu invitación?</p>
+			  </div>
+			  <div className="iconSocialMedia">
+				  <div className="WhatsApp">
+						<img src={whatsapp} alt=""/>
+						<p>WhatsApp</p>
+				  </div>
+				  <div className="instagram">
+					  <img src={instagram} alt=""/>
+					  <p>Instagram</p>
+				  </div>
+				  <div className="linkedin">
+					  <img src={linkdedin} alt=""/>
+					  <p>Linkedin</p>
+				  </div>
+				  <div className="gmail">
+					  <img src={gmail} alt=""/>
+					  <p>Gmail</p>
+				  </div>
+			  </div>
+		  </div> }
 		</div>
       </div>}
 				<img src={props.data.foto} className="photoCard"alt="" srcset="" />
@@ -46,6 +84,7 @@ const ModalChallenge = (props) => {
 					<p className="cardExplanationPpal">{props.data.Explicacion}</p>
 				</div>
 				<button className="btnDesafio"  onClick={() => setModalChallenge(!modalChallenge)}>
+					<img src={props.data.iconobton} alt=""/>
 					{props.data.textobton}
 				</button>
 			</div>

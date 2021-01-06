@@ -56,11 +56,10 @@ const Challenges = () => {
       </section>
       <section className="categories">
         <div className="categoriesIntro">
-          <h2>Categorías</h2>
-          <p>Paga con tu tarjeta MACH en cualquiera de estas tiendas y ganarás más puntos,
-              cada categoría tiene puntajes diferentes.</p>
+          <h2>Paga con MACH</h2>
+          <p>Paga con tu tarjeta en cualquiera de estas tiendas y acumularás más puntos, cada categoría tiene puntajes diferentes.</p>
         </div>
-        <div className='containerFiltersBenefit'>
+        <div className='containerFiltersChallenge'>
           <div className='containerButtonsFilter'>
             {buttonFilter}
           </div>
