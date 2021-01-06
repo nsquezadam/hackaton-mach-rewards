@@ -9,7 +9,7 @@ import filterIcon from '../../../img/filter.svg'
 
 const CardPartners = (props) => {
   const [user]= useContext(ContextUser);
-
+  
   const [filter, setFilter] = useState(false);
   // seleccion segun   usuario  beginner  o adventure
 
@@ -34,10 +34,8 @@ const CardPartners = (props) => {
   })
 }
   
-
-   // const classContainerDiscount = user === 0 ? 'containerDiscountBegginer' : 'containerDiscountAdventure';
+  // const classContainerDiscount = user === 0 ? 'containerDiscountBegginer' : 'containerDiscountAdventure';
   //const classTextGetCoupon = user === 0 ? 'textGetCouponBegginer' : 'textGetCouponAdventure';
-
 
   return (
     <div>
@@ -51,7 +49,7 @@ const CardPartners = (props) => {
     <div className="containerCanjes">
     {data[user].canjes.map((data, index) => {
       if(filterMark === 0){
-      return <div key={index} className="cardPartners" onClick={()=>console.log("click",index)}>
+      return <div key={index} className="cardPartners" onClick={props.click}>
       <div  className="containerImgCategory">
         <img   src={`${data.imgCanje}`} alt="imgCategory"/>
       </div>
@@ -71,7 +69,7 @@ const CardPartners = (props) => {
       }else{
         for(let i = 0; i < filterMark.length; i++) {
           if(data.categoria === filterMark[i]){
-            return <div key={index} className="cardPartners" onClick={()=>console.log("click",index)}>
+            return <div key={index} className="cardPartners" onClick={props.click}>
       <div  className="containerImgCategory">
         <img   src={`${data.imgCanje}`} alt="imgCategory"/>
       
