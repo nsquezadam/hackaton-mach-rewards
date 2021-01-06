@@ -1,4 +1,4 @@
-.toggleHidden {
+.toggleHiddenCanjes {
   display: flex;
   flex-flow: column nowrap;
   position: fixed;
@@ -6,15 +6,19 @@
   right: 0;
   top: 20vw;
   width: 100vw;
-  height: 90vh;
+  height: auto;
   /* border: 2px solid #F4F4F4; */
   box-sizing: border-box;
   transition: transform 0.2s ease-in-out;
-  background-color: white
+  background-color: white;
+ 
+  
 }
-.toggleVisible {
+.toggleVisibleCanjes{
   display: flex;
   position: fixed;
+  padding-top: 2vh;
+
   align-items: center;
   justify-content: center;
   flex-flow: column nowrap;
@@ -22,13 +26,17 @@
   top: 20vw;
   right: 0;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   /* border: 2px solid #F4F4F4; */
   box-sizing: border-box;
   transition: transform 0.2s ease-in-out;
   z-index: 3;
   cursor:pointer;
-  background-color: white
+  background-color: white;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  
 }
 .containerElementsFilter{
   display: flex;
@@ -42,10 +50,12 @@
   justify-content: space-between;
   margin-bottom: 30px;
 }
-.containerAllFilters{
+.containerAllFiltersCanjes{
   display: flex;
-  flex-flow: column nowrap;
-  margin-top: 30px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .textTitleFilter{
   font-weight: bold;
@@ -62,7 +72,8 @@
   font-size: 4.5vw;
   color: #333333;
 }
-.eachFilterName{
+.eachFilterNameCanjes{
+  width: 180px;
   display: flex;
   font-size: 4.5vw;
   color: #333333;
@@ -74,8 +85,8 @@
   height: 5vw;
   margin-right: 30px;
 }
-.containerExitFilter{
-  margin-top: 40px;
+.containerExitFilterCanjes{
+ 
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
