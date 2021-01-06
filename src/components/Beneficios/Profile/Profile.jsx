@@ -69,10 +69,11 @@ const UserProfile = () => {
           <span>Paga una cuenta de servicio con MACH</span>
         </section>
       </div>
-      <button className="boton-historial">
+      <button className="boton-historial" >
         <img className="iconButtonProfile" src={imgBoton} alt="" />
         Mi historial
       </button>
+      
       <div className="containerBenefitsProfile">
         <span className="titleBenefits">Tus ganancias MACHer</span>
         <span className="textBenefits">
