@@ -1,8 +1,8 @@
 import React from 'react';
-import './styles/filter.css'
+import './Styles/filterChallenge.css'
 import back from '../../../img/back.svg'
 
-const Filter = (props) => {
+const FilterChallenge = (props) => {
   const classToogle = props.filter === true ? 'toggleVisible' : 'toggleHidden';
 
   const handleInputChange = (event) => {
@@ -24,13 +24,12 @@ const Filter = (props) => {
           </div>
           <span className='textTitleFilterKind'>Tipo de beneficio</span>
           <div className='containerAllFilters'>
-            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox"  value="Streaming" /> Streaming </label>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox"  value="Servicios" /> Servicios </label>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox"  value="Experiencias" /> Experiencias </label>
             <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox"  value="Tecnología" /> Tecnología </label>
-            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox"  value="Ropa" /> Ropa </label>
             <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox" value="Mascotas" /> Mascotas </label>
-            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox" value="Comida" /> Comida </label>
-            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox" value="Planes Mobile" /> Planes Mobile </label>
-            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox" value="Hogar" /> Hogar </label>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox" value="Alimentación" /> Alimentación </label>
+            <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox" value="Bienestar" /> Bienestar </label>
             <label className='eachFilterName'><input className='eachInputCheckbox' onChange={handleInputChange} type="checkbox"  value="Todas las categorías" /> Todas las categorías </label>
           </div>
           <div className='containerExitFilter'>
@@ -43,4 +42,4 @@ const Filter = (props) => {
   );
 }
 
-export default Filter;
+export default FilterChallenge;

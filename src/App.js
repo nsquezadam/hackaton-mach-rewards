@@ -9,31 +9,22 @@ export const ContextUser = createContext(null);
 
 function App() {
   const [user, setUser] = useState(0);
-  const [modalWalktrought, setModalWalktrought]=useState(false)
 
   return (
     <Router>
       <Switch>
-      <Route path="/" exact >
+        <Route path="/" exact >
           <ContextUser.Provider value={[setUser]}>
-            <LoginPage/>
+            <LoginPage />
           </ContextUser.Provider>
         </Route>
         <Route path="/home" exact>
-          <ContextUser.Provider 
-          value={{
-            userValue: [user],
-            modalWalktroughtValue: [modalWalktrought, setModalWalktrought]
-          }}>
-            <HomePage/>
+          <ContextUser.Provider value={[user]}>
+            <HomePage />
           </ContextUser.Provider>
         </Route>
         <Route path="/beneficios" exact>
-          <ContextUser.Provider 
-          value={{
-            userValue: [user],
-            modalWalktroughtValue: [modalWalktrought, setModalWalktrought]
-          }}>
+          <ContextUser.Provider value={[user]}>
             <BeneficiosPage />
           </ContextUser.Provider>
         </Route>
