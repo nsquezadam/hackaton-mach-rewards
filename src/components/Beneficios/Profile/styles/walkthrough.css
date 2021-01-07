@@ -136,3 +136,18 @@
 .imgBeneficiosWalkthrough{
   margin: 5vw 0 5vw 0;
 }
+.btnFinalWalkthrogh{
+  background: #6200EE;
+  border: 2px solid #6200EE;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 4vw;
+  color: #FFFFFF;
+  width: 50vw;
+  height: 14vw;
+  align-self: center;
+  margin-bottom: 20px;
+}
+.containerImgpuntosmach{
+  margin-bottom: 40px;
+}

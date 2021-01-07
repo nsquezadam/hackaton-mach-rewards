@@ -94,7 +94,7 @@ const UserProfile = () => {
         <div className="containerCardsBefitsProfile">
           <div className="boxProfile">
             <img src={Pig} alt="pig" />
-            <CountUp start={0} end={data[user].perfil.dineroAhorrado} delay={0}>
+            <CountUp start={0} end={data[user].perfil.dineroAhorrado} duration={2} delay={0.5}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor onChange={start} delayedCall>
                   <div>
@@ -114,7 +114,7 @@ const UserProfile = () => {
           <div className="boxProfile">
             <img src={Puño} alt="" />
             <div className="containerNumbersCount">
-              <CountUp start={0} end={data[user].perfil.puntosAmigos} delay={0}>
+              <CountUp start={0} end={data[user].perfil.puntosAmigos} duration={2} delay={0.5}>
                 {({ countUpRef, start }) => (
                   <VisibilitySensor onChange={start} delayedCall>
                     <div>
@@ -142,7 +142,8 @@ const UserProfile = () => {
                 <CountUp
                   start={0}
                   end={data[user].perfil.puntosCarga}
-                  delay={0}
+                  delay={0.5}
+                  duration={2}
                 >
                   {({ countUpRef, start }) => (
                     <VisibilitySensor onChange={start} delayedCall>
@@ -171,7 +172,8 @@ const UserProfile = () => {
                 <CountUp
                   start={0}
                   end={data[user].perfil.puntosProxCategoria}
-                  delay={0}
+                  delay={0.5}
+                  duration={2}
                 >
                   {({ countUpRef, start }) => (
                     <VisibilitySensor onChange={start} delayedCall>
