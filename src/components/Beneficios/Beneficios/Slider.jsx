@@ -23,8 +23,8 @@ const SliderComp = () => {
         Puedes regalarle a tus amigos algún beneficio que no quieras utilizar.
         </span>
       <span className='textBenefits'>
-        ¿Cómo lo puedes hacer?
-        </span>
+        ¿Cómo lo puedes hacer?, acá te enseñamos
+      </span>
       <Slider {...settings}>
         <div className='containerEachGift'>
           <div className='containerElementsGift'>
