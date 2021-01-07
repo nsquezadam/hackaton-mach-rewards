@@ -6,15 +6,18 @@ import closeBlack from "../../../img/closeBlack.svg";
 //import PointWins from './PointsWins'
 
 const CardSubCategoria = (props) => {
+
   const classToogleAdventure =
     props.adventureSubcat === true
       ? "toggleVisibleSubCategory"
       : "toggleHiddenSubCategory";
-  const [user] = useContext(ContextUser);
+  const { userValue } = useContext(ContextUser);
+  const [user]= userValue
   const classBegginerCardSwapsSubcat =
     user === 0 ? "classBegginerPointsDetail" : "classAdventurePointsDetail";
   const classTextCanjear =
     user === 0 ? "textCanjearBeginner" : "textCanjearAdventure";
+
   return (
     <div className={classToogleAdventure}>
       <div className="containerModalSub">

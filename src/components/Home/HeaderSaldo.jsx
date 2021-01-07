@@ -7,7 +7,9 @@ import menu from '../../img/menu.svg'
 
 const HeaderSaldo = () => {
 
-  const [user]= useContext(ContextUser);
+  const { userValue } = useContext(ContextUser);
+
+  const [user]= userValue;
 
   return (
     <header className='containerHeaderSaldo'>

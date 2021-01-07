@@ -88,17 +88,22 @@
     border: 2px solid #6200EE ;
     color: #FFFFFF;
     width: 65vw;
-    height: 7vh;
+    height: 61px;
     padding: 5px;
     margin: 5px 10px 5px 10px;
     font-weight: 700;
+    font-size: 4vw;
+}
+
+.btnDesafio img{
+    margin-right: 3vw;
 }
 
 .containerFiltersChallenge{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 5px 10px 5px 10px;
+   flex-flow: row-reverse;
+   justify-content: space-between;
+   margin: 15px 0 15px 0;
 }
 
 .btonCategorias{

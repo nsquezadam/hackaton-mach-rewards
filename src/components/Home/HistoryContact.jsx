@@ -5,7 +5,11 @@ import { ContextUser } from '../../App'
 
 const HistoryContact = () => {
 
-  const [user]= useContext(ContextUser);
+
+  const { userValue } = useContext(ContextUser);
+
+  const [user]= userValue
+
 
   return (
     <section className='containerHistoryContact'>
