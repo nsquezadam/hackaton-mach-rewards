@@ -677,18 +677,60 @@
     ],
     "beneficiosOcultos": [
       {
-        "foto": "../img/beneficios/netflix.svg",
-        "nombre": "Netflix",
-        "texto": "Contrata un plan básico y te devolvemos $3.000 a tu cuenta el próximo mes",
-        "descuento": "$3.000",
-        "categoria": "Streaming"
+        "foto": "../img/beneficios/xboxBN.svg",
+        "nombre": "XBOX",
+        "texto": "Un 25% de dcto por la compra de un CONTROLER XBOX ONE NEBULA",
+        "descuento": "20%",
+        "categoria": "Tecnología"
       },
       {
-        "foto": "../img/beneficios/netflix.svg",
-        "nombre": "Netflix",
-        "texto": "Contrata un plan básico y te devolvemos $3.000 a tu cuenta el próximo mes",
-        "descuento": "$3.000",
-        "categoria": "Streaming"
+        "foto": "../img/beneficios/nikeBN.svg",
+        "nombre": "Nike",
+        "texto": "Te regalamos un 20% en cualquier par de zapatillas",
+        "descuento": "20%",
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/prettyWomanBN.svg",
+        "nombre": "Pretty Woman",
+        "texto": "Disfruta de esta promo 2x1 en limpieza facial para tí y un acompañante",
+        "descuento": "2x1",
+        "categoria": "Salud/Belleza"
+      },
+      {
+        "foto": "../img/beneficios/rappiBN.svg",
+        "nombre": "Rappi",
+        "texto": "Un 25% de dcto en cualquiera de los combos seleccionados",
+        "descuento": "25%",
+        "categoria": "Comida"
+      },
+      {
+        "foto": "../img/beneficios/playStationBN.svg",
+        "nombre": "Play Station",
+        "texto": "20% de dcto en la compra de un control PS4",
+        "descuento": "20%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/flexN.svg",
+        "nombre": "Flex",
+        "texto": "Aprovecha este 20% en la compra de sábanas de 2 plazas.",
+        "descuento": "20%",
+        "categoria": "Hogar"
+      },
+      {
+        "foto": "../img/beneficios/cabifyBN.svg",
+        "nombre": "Cabify",
+        "texto": "Te regalamos un 20% en tus 5 primeros viajes",
+        "descuento": "20%",
+        "categoria": "Transporte"
+      },
+      {
+        "foto": "../img/beneficios/h&mBN.svg",
+        "nombre": "H&M",
+        "texto": "Te regalamos un 20% en el total de tu compra online",
+        "descuento": "20%",
+        "categoria": "Ropa"
       }
     ]
   },
@@ -939,18 +981,60 @@
     ],
     "beneficiosOcultos": [
       {
-        "foto": "../img/beneficios/netflix.svg",
-        "nombre": "Netflix",
-        "texto": "Contrata un plan básico y te devolvemos $3.000 a tu cuenta el próximo mes",
-        "descuento": "$3.000",
-        "categoria": "Streaming"
+        "foto": "../img/beneficios/xboxBN.svg",
+        "nombre": "XBOX",
+        "texto": "Un 25% de dcto por la compra de un CONTROLER XBOX ONE NEBULA",
+        "descuento": "20%",
+        "categoria": "Tecnología"
       },
       {
-        "foto": "../img/beneficios/netflix.svg",
-        "nombre": "Netflix",
-        "texto": "Contrata un plan básico y te devolvemos $3.000 a tu cuenta el próximo mes",
-        "descuento": "$3.000",
-        "categoria": "Streaming"
+        "foto": "../img/beneficios/nikeBN.svg",
+        "nombre": "Nike",
+        "texto": "Te regalamos un 20% en cualquier par de zapatillas",
+        "descuento": "20%",
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/prettyWomanBN.svg",
+        "nombre": "Pretty Woman",
+        "texto": "Disfruta de esta promo 2x1 en limpieza facial para tí y un acompañante",
+        "descuento": "2x1",
+        "categoria": "Salud/Belleza"
+      },
+      {
+        "foto": "../img/beneficios/rappiBN.svg",
+        "nombre": "Rappi",
+        "texto": "Un 25% de dcto en cualquiera de los combos seleccionados",
+        "descuento": "25%",
+        "categoria": "Comida"
+      },
+      {
+        "foto": "../img/beneficios/playStationBN.svg",
+        "nombre": "Play Station",
+        "texto": "20% de dcto en la compra de un control PS4",
+        "descuento": "20%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/flexN.svg",
+        "nombre": "Flex",
+        "texto": "Aprovecha este 20% en la compra de sábanas de 2 plazas.",
+        "descuento": "20%",
+        "categoria": "Hogar"
+      },
+      {
+        "foto": "../img/beneficios/cabifyBN.svg",
+        "nombre": "Cabify",
+        "texto": "Te regalamos un 20% en tus 5 primeros viajes",
+        "descuento": "20%",
+        "categoria": "Transporte"
+      },
+      {
+        "foto": "../img/beneficios/h&mBN.svg",
+        "nombre": "H&M",
+        "texto": "Te regalamos un 20% en el total de tu compra online",
+        "descuento": "20%",
+        "categoria": "Ropa"
       }
     ],
     "canjes": [
