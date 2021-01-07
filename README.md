@@ -1,70 +1,70 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# MACH- HACKATHON GENERACIÓN 014SCL LABORATORIA 
 
-### `npm start`
+MACH es una de las Fintech líder del mercado, la cual busca democratizar el acceso a productos bancarios para todos.  Con más de 2 millones de usuarios registrados desde su inicio, MACH siempre tiene como objetivo la búsqueda de poder mejorar la experiencia de ellos y seguir creando una comunidad. 
+## DESAFIO 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+En atención a ello el desafío propuesto por MACH fue el siguiente: 
+_“Nos encanta premiar la lealtad de nuestros usuarios con beneficios _exclusivos por ser #MACHLovers de corazón.
+_Hoy nuestros usuarios tienen dificultades para ver sus beneficios, ver a _qué categorías pertenecen y poder usar los puntos que va acumulando en la _medida que va comprando en MACH (gamification).
+_Soñamos con una solución tecnológica que viva en un entorno web y que _posteriormente podríamos incluir dentro de la App.”
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## PLAN DE TRABAJO
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Se realizó un plan de trabajo en el cual tanto el proceso UX como el proceso de Front-End pudiera estar a la par. En el trabajo UX se realizaron análisis benchmark, entrevistas con usuarios y stakeholder, lluvias de ideas, creación de prototipo de alta fidelidad, testeo de prototipo de alta fidelidad e iteraciones finales. 
+Mientras que el plan de trabajo Front-End consistió en estudio de tecnologías y librerías que se pudieran utilizar en la maquetación, creación de ambiente de trabajo, análisis de prototipo y determinación de componentes reutilizables, trabajo en código de pantallas y componentes. 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## DESCUBRIMIENTOS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+En relación con todo el proceso de plan de trabajo mencionado, es que llegamos al siguiente descubrimiento respecto al desafío propuesto por MACH: 
+_“Los beneficios que ofrece MACH hoy no son atractivos para los usuarios. _Ellos preferirían obtener beneficios que se ajusten a sus intereses o _hobbies y verlos incluidos en la dentro de la App, ya que no navegan en _la página web de MACH”
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Además que la solución propuesta debe cumplir con los siguientes elementos: 
 
-### `npm run eject`
+-	Diseñada para la aplicación, en atención a que para los usuarios es más fácil y amigable tener dicha información en un solo lugar. 
+-	Beneficios deben ser atractivos para los usuarios. 
+-	Beneficios deben considerar los intereses y hobbies de cada persona. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## SOLUCIÓN
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Nuestra solución se basa en 4 pilares: 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1)	Walkthrough bienvenida: 
+Para los usuarios nuevos de MACH se va a desplegar un tutorial en el cual se les explicara el sistema de puntos, como obtener puntos, los beneficios y desafíos que existen. 
 
-## Learn More
+2)	(poner logo colores) Puntos MACH: 
+Creamos un sistema de puntajes y categorías en los cuales cada cierto rango los usuarios van a tener acceso a distintos beneficios(descuentos) y canjes de puntos en comercios asociados.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3)	Sistema de beneficios
+El usuario va a poder acceder a beneficios de forma progresiva, acorde a su categoría de Puntos MACH, además va a poder filtrar los beneficios según sus intereses y hobbies. Y en el caso que no quiera utilizar un beneficio, va a poder regalarlo a otro usuario. 
+(fotos beneficios)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4)	Desafíos MACH:
+Para incentivar a los usuarios a usar MACH y a seguir avanzando de categorías, establecimos distintos desafíos con los cuales van a poder juntar puntos. Entre ellos se encuentran desafíos de “Paga con MACH”, que es el pago de servicios y productos; y también existen desafíos para aumentar la comunidad como lo es “Invita a un amigo”, entre otros.
 
-### Code Splitting
+(fotos desafíos)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## TECNOLOGÍAS UTILIZADAS
 
-### Analyzing the Bundle Size
+- REACTJS
+- FIREBASE HOSTING
+- CSS 
+- MATERIAL UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ¿CÓMO VER ESTE PROYECTO?*
 
-### Making a Progressive Web App
+Accede desde tu dispositivo móvil y da click en el siguiente link: https://hackaton-mach-rewards.web.app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## EQUIPO – Squad MACHine Bots 
+Natalia Goicochea (UX)
+Macarena Cuevas (Front-End Developer)
+Natalia Quezada (Front-End Developer)
+Maritzu Zuñiga (Front-End Developer)
+Catalina Jara (Front-End Developer)  
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
