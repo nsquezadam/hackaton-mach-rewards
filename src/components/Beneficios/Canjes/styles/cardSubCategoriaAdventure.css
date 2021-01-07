@@ -176,12 +176,22 @@ margin-top: 1.5vh;
   color: #00EDDF;
 
 }
-.descriptionSubCategory{
-  margin-left: 4vw;
-  font-size: 0.87rem;
+.descriptionSubCategory p{
+  margin-left: 5vw;
+  font-size: 0.875rem;
   color: rgba(0, 0, 0, 0.6);
-mix-blend-mode: normal;
-margin-top: -2vh;
+  mix-blend-mode: normal;
+  margin-top: 0vh;
+  display: flex;
+  font-family: Nunito;
+
+font-style: normal;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+
+  
 }
 .textCanjearBeginner{
   color: #EE9B00;
