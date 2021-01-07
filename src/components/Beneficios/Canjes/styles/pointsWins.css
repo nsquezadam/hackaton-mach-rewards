@@ -22,9 +22,9 @@ align-items: center;
 align-content: center;
 justify-content: center;
 }
-.container_point_informationsBegginer h4{
+.container_point_informationsBegginer span{
 
-font-size: 2.25rem;
+font-size: 2.2rem;
 font-style: normal;
 font-weight: 700;
 line-height: 49px;
@@ -33,15 +33,15 @@ text-align: left;
 color: #EE9B00;
 margin-left: 4vw;
 }
-.container_point_informationsAdventure h4{
+.container_point_informationsAdventure span{
 
-  font-size: 2.25rem;
+  font-size: 2.2rem;
   font-style: normal;
   font-weight: 700;
   line-height: 49px;
   letter-spacing: -1.5px;
   text-align: left;
-  color: #00EDDF;
+  color: #009189;
   margin-left: 5vw;
   
   }

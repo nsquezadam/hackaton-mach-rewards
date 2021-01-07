@@ -10,6 +10,7 @@
       }
     ],
     "puntos": 0,
+    "puntosPorCanjear": 2000,
     "descTipoNivelPuntos":"Categoria Beginner:Hasta 50.000 Puntos",
     "desafiosprincipales": [
       {
@@ -301,7 +302,7 @@
         "descripcionAventurasSubCat":"Que esperas para vivir al límite, diviértete al máximo con estas aventuras extremas. ¡Sólo para atrevidos!"
     }],
     "perfil": {
-      "logoCategoria": "../img/Banner_Mach_Begginer.png",
+      "logoCategoria": "../img/Banner_mach_begginer.png",
       "fotoDesafio":"../img/perfil/DesafioBeginner.svg",
       "desafioDelDia":"Paga una cuenta de teléfono con MACH",
       "dineroAhorrado": 0,
@@ -310,18 +311,6 @@
       "puntosProxCategoria": 0,
       "puntos":"1", 
       "historial": [
-        {
-          "actividad": "Desafío del día", 
-          "fecha":"02/11/2020",
-          "texto":"Recarga tu tarjeta MACH +10.000", 
-          "puntos":"+2000"
-        },
-        {
-          "actividad": "Desafío del día", 
-          "fecha":"28/10/2020",
-          "texto":"Invita a un amigo", 
-          "puntos":"+1000"
-        },
         {
           "actividad": "Categoria MACH Beginner", 
           "fecha":"25/10/2020",
@@ -354,126 +343,382 @@
         "nombre": "Spotify",
         "texto": "Paga un mes de tu plan con MACH y te devolvemos $2.000 a tu cuenta de prepago",
         "descuento": "$2.000",
-        "categoria": "Streaming"
+        "categoria": "Streaming",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/xbox.svg",
         "nombre": "XBOX",
         "texto": "15% de dcto en cualquier juego de tu consola favorita.",
         "descuento": "15%",
-        "categoria": "Tecnología"
+        "categoria": "Tecnología",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/pcfactory.svg",
         "nombre": "PC Factory",
         "texto": "Aprovecha un 15% de dcto en cualquier juego para Play Station 4.",
         "descuento": "15%",
-        "categoria": "Tecnología"
+        "categoria": "Tecnología",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/starbucks.svg",
         "nombre": "Starbucks",
         "texto": "15% de dcto en cualquier bebida de tu primera compra.",
         "descuento": "15%",
-        "categoria": "Comida"
+        "categoria": "Comida",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/dunkin.svg",
         "nombre": "Dunkin Donuts",
         "texto": "15% de dcto en caja de 12 donuts + bebida 1.5lt",
         "descuento": "15%",
-        "categoria": "Comida"
+        "categoria": "Comida",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/rappi.svg",
         "nombre": "Rappi",
         "texto": "Aprovecha un 15% de dcto más delivery gratis en todas las categorías.",
         "descuento": "15%",
-        "categoria": "Comida"
+        "categoria": "Comida",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/ubereats.svg",
         "nombre": "Uber Eats",
         "texto": "Aprovecha un 15% de dcto más delivery gratis comprando en Uber Eats.",
         "descuento": "15%",
-        "categoria": "Comida"
+        "categoria": "Comida",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/lippi.svg",
         "nombre": "Lippi",
         "texto": "20% de descuento en tu primera compra.",
         "descuento": "20%",
-        "categoria": "Ropa"
+        "categoria": "Ropa",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/nike.svg",
         "nombre": "Nike",
         "texto": "Te regalamos un 15% de dcto en tu primera compra online.",
         "descuento": "15%",
-        "categoria": "Ropa"
+        "categoria": "Ropa",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/dafiti.svg",
         "nombre": "Dafiti",
         "texto": "Que esperas para aprovechar el 15% de dcto en la tienda.",
         "descuento": "15%",
-        "categoria": "Ropa"
+        "categoria": "Ropa",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/hakahonu.svg",
         "nombre": "Haka Honu",
         "texto": "¡Aprovecha el dcto exclusivo  en la tienda online de Haka Honu!",
         "descuento": "15%",
-        "categoria": "Ropa"
+        "categoria": "Ropa",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/virgin.svg",
         "nombre": "Virgin",
         "texto": "Portate online a Virgin y obtén $7.000 en tu cuenta MACH.",
         "descuento": "$7.000",
-        "categoria": "Planes Mobile"
+        "categoria": "Planes Mobile",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/samsung.svg",
         "nombre": "Samsung",
         "texto": "Aprovecha de un 15% de dcto por la compra de auriculares inalámbricos Galaxy Buds.",
         "descuento": "15%",
-        "categoria": "Tecnología"
+        "categoria": "Tecnología",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/sony.svg",
         "nombre": "Sony",
         "texto": "Obtén este 15% de dcto en tu compra online.",
         "descuento": "15%",
-        "categoria": "Tecnología"
+        "categoria": "Tecnología",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/genius.svg",
         "nombre": "Genius",
         "texto": "Obtén un 15% por la compra de cualquier mouse o teclado gamer de la tienda.",
         "descuento": "15%",
-        "categoria": "Tecnología"
+        "categoria": "Tecnología",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/playstation.svg",
         "nombre": "Play Station",
         "texto": "Te regalamos un 15% de dcto en cualquier juego, comprando online.",
         "descuento": "15%",
-        "categoria": "Tecnología"
+        "categoria": "Tecnología",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/proplan.svg",
         "nombre": "Pro Plan",
         "texto": "Un 15% de dcto en saco de alimento de 3kg, cachorros o adultos.",
         "descuento": "15%",
-        "categoria": "Mascotas"
+        "categoria": "Mascotas",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
         "foto": "../img/beneficios/flex.svg",
         "nombre": "Flex",
         "texto": "Te regalamos un 15% de dcto en la compra de colchón una plaza.",
         "descuento": "15%",
+        "categoria": "Hogar",
+        "fotoModal":"../img/beneficios/netflixModal.svg",
+        "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
+        "textoActivarBeneficio1":"Para hacer válido este beneficio deberás hacer lo siguiente:",  
+        "textoActivarBeneficio2": "Ingresa al sitio de Netflix: https://www.netflix.com/cl/",
+        "textoActivarBeneficio3": "Ingresa a tu usuario o crea una membresía en la plataforma y cliquea en “comienza ya”.",
+        "textoActivarBeneficio4": "Selecciona el plan básico por los meses que te acomode.",
+        "textoActivarBeneficio5": "Paga tu cuenta de Netflix con tu tarjeta MACH.",
+        "textoActivarBeneficio6": "Revisa tu cuenta MACH, deberías tener de vuelta los $ 3.000.",
+        "textoTerminosBeneficios1": "Válido solo para usuarios nuevos privados (no cuentas corporativas). No acumulable con otras promociones.",
+        "textoTerminosBeneficios2": "La entrega y calidad de los bienes y la prestación de servicios no bancarios ofrecidos, como asimismo los descuentos en el comercio, son de exclusiva responsabilidad de la empresa que realiza tal actividad, no cabiéndole al banco intervención alguna en su entrega o en la ulterior atención que ellos demanden.",
+        "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
+      }
+    ],
+    "beneficiosOcultos": [
+      {
+        "foto": "../img/beneficios/xboxBN.svg",
+        "nombre": "XBOX",
+        "texto": "Un 25% de dcto por la compra de un CONTROLER XBOX ONE NEBULA",
+        "descuento": "20%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/nikeBN.svg",
+        "nombre": "Nike",
+        "texto": "Te regalamos un 20% en cualquier par de zapatillas",
+        "descuento": "20%",
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/prettyWomanBN.svg",
+        "nombre": "Pretty Woman",
+        "texto": "Disfruta de esta promo 2x1 en limpieza facial para tí y un acompañante",
+        "descuento": "2x1",
+        "categoria": "Salud/Belleza"
+      },
+      {
+        "foto": "../img/beneficios/rappiBN.svg",
+        "nombre": "Rappi",
+        "texto": "Un 25% de dcto en cualquiera de los combos seleccionados",
+        "descuento": "25%",
+        "categoria": "Comida"
+      },
+      {
+        "foto": "../img/beneficios/playStationBN.svg",
+        "nombre": "Play Station",
+        "texto": "20% de dcto en la compra de un control PS4",
+        "descuento": "20%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/flexN.svg",
+        "nombre": "Flex",
+        "texto": "Aprovecha este 20% en la compra de sábanas de 2 plazas.",
+        "descuento": "20%",
         "categoria": "Hogar"
+      },
+      {
+        "foto": "../img/beneficios/cabifyBN.svg",
+        "nombre": "Cabify",
+        "texto": "Te regalamos un 20% en tus 5 primeros viajes",
+        "descuento": "20%",
+        "categoria": "Transporte"
+      },
+      {
+        "foto": "../img/beneficios/h&mBN.svg",
+        "nombre": "H&M",
+        "texto": "Te regalamos un 20% en el total de tu compra online",
+        "descuento": "20%",
+        "categoria": "Ropa"
       }
     ]
   },
@@ -494,6 +739,7 @@
       }
     ],
     "puntos": 175000,
+    "puntosPorCanjear":65000,
     "descTipoNivelPuntos":"Categoria Adventure: Desde 150.000 Hasta 300.000 Puntos",
     "perfil": {
       "logoCategoria": "../img/Banner_mach_adventure.png",
@@ -719,6 +965,64 @@
         "texto": "Te regalamos un 15% de dcto en la compra de colchón una plaza.",
         "descuento": "15%",
         "categoria": "Hogar"
+      }
+    ],
+    "beneficiosOcultos": [
+      {
+        "foto": "../img/beneficios/xboxBN.svg",
+        "nombre": "XBOX",
+        "texto": "Un 25% de dcto por la compra de un CONTROLER XBOX ONE NEBULA",
+        "descuento": "20%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/nikeBN.svg",
+        "nombre": "Nike",
+        "texto": "Te regalamos un 20% en cualquier par de zapatillas",
+        "descuento": "20%",
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/prettyWomanBN.svg",
+        "nombre": "Pretty Woman",
+        "texto": "Disfruta de esta promo 2x1 en limpieza facial para tí y un acompañante",
+        "descuento": "2x1",
+        "categoria": "Salud/Belleza"
+      },
+      {
+        "foto": "../img/beneficios/rappiBN.svg",
+        "nombre": "Rappi",
+        "texto": "Un 25% de dcto en cualquiera de los combos seleccionados",
+        "descuento": "25%",
+        "categoria": "Comida"
+      },
+      {
+        "foto": "../img/beneficios/playStationBN.svg",
+        "nombre": "Play Station",
+        "texto": "20% de dcto en la compra de un control PS4",
+        "descuento": "20%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/flexN.svg",
+        "nombre": "Flex",
+        "texto": "Aprovecha este 20% en la compra de sábanas de 2 plazas.",
+        "descuento": "20%",
+        "categoria": "Hogar"
+      },
+      {
+        "foto": "../img/beneficios/cabifyBN.svg",
+        "nombre": "Cabify",
+        "texto": "Te regalamos un 20% en tus 5 primeros viajes",
+        "descuento": "20%",
+        "categoria": "Transporte"
+      },
+      {
+        "foto": "../img/beneficios/h&mBN.svg",
+        "nombre": "H&M",
+        "texto": "Te regalamos un 20% en el total de tu compra online",
+        "descuento": "20%",
+        "categoria": "Ropa"
       }
     ],
     "canjes": [

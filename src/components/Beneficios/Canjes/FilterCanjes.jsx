@@ -10,6 +10,7 @@ const Filter = (props) => {
   const handleInputChange = (event) => {
     props.setFilterMark([...props.filterMark, event.target.value])
   }
+ 
 
   const enviarDatos = () => {
     console.log(props.filterMark)
@@ -22,7 +23,7 @@ const Filter = (props) => {
           <div className='containerTitleFilter'>
             <img onClick={() => props.setFilter(!props.filter)} src={back} alt="" />
             <span className='textTitleFilter'>Filtros</span>
-            <span className='textClearFilter'>Limpiar</span>
+            <span className='textClearFilter' onClick={()=> console.log('click')} >Limpiar</span>
           </div>
           <span className='textTitleFilterKind'>Tipo de beneficio</span>
           <div className='containerAllFiltersCanjes'>

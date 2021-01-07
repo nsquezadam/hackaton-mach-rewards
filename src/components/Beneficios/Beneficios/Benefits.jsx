@@ -7,6 +7,8 @@ import Filter from './Filter';
 import SliderComp from './Slider';
 import ModalBenefit from './EachBenefit';
 import slideIcon from '../../../img/slideIcon.svg'
+import bannerExplorer from '../../../img/bannerexplorer.svg';
+import bannerLover from '../../../img/bannerlover.svg'
 
 
 const Benefits = () => {
@@ -16,6 +18,8 @@ const Benefits = () => {
 
   const [filter, setFilter] = useState(false);
   const [filterMark, setFilterMark] = useState([]);
+
+  const banner = user === 0 ? bannerExplorer : bannerLover;
 
   let buttonFilter = ''
 
@@ -46,10 +50,10 @@ const Benefits = () => {
           Descubre los todos los beneficios que tenemos para tí, los que puedes utilizar en el comercio nacional e internacional.
         </span>
         <div className='containerFiltersBenefit'>
+          <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
           <div className='containerButtonsFilter'>
             {buttonFilter}
           </div>
-          <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
         </div>
         <Filter filter={filter} setFilter={setFilter} filterMark={filterMark} setFilterMark={setFilterMark} />
         <div className='containerIconAndCards'>
@@ -67,13 +71,26 @@ const Benefits = () => {
                 }
               }
             })}
-
           </div>
-
+          <img src={banner} alt="" />
+          <div className='containerAllCardsBenefits'>
+            {data[user].beneficiosOcultos.map((data, index) => {
+              if (filterMark.length === 0) {
+                return <ModalBenefit key={index} data={data} />
+              }
+              else {
+                for (let i = 0; i < filterMark.length; i++) {
+                  if (data.categoria === filterMark[i]) {
+                    return <ModalBenefit key={index} data={data} />
+                  }
+                }
+              }
+            })}
+          </div>
         </div>
         {user === 0 ? null : <SliderComp />}
       </section>
-    </div>
+    </div >
   );
 }
 

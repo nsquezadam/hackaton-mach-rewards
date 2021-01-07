@@ -4,20 +4,20 @@
   height: auto;
   top:0;
   left: 0;
-  z-index: 1;
   display: flex;
   z-index: 3;
 }
 .modalContent {
-  position: fixed;
+  /* position: fixed; */
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 80vh;
+  height: 140vh;
   background-color: white;
-  border-radius: 1rem;
   border: none;
+  overflow: auto;
+  overflow-y: initial !important
 }
 .closeModal{
   position:absolute;
@@ -54,27 +54,30 @@
   display: flex;
   flex-flow: column nowrap;
   width: 90vw;
-  background-color: yellow;
 }
 .titleTitlesModal{
   font-weight: bold;
   font-size: 5.5vw;
-  color: #333333
+  color: #333333;
+  margin: 2vw 0 2vw 0;
 }
 .winTitlesModalBeginner{
   font-weight: bold;
   font-size: 4.5vw;
   color: #EE9B00;
+  margin: 2vw 0 2vw 0;
 }
 .winTitlesModalAdventure{
   font-weight: bold;
   font-size: 4.5vw;
   color: #009189;
+  margin: 2vw 0 2vw 0;
 }
 .textTitlesModal{
   font-weight: bold;
   font-size: 4.6vw;
   color: #333333;
+  margin: 2vw 0 2vw 0;
 }
 .scrollNavBarModal {
   display: flex;
@@ -85,11 +88,11 @@
   border:none;
   width: 50vw;
   height: 15vw;
-  background-color: #F6F6F6;
+  background-color:white;
   border:none;
-  color: #6200EE;
+  color: #333333;
   font-weight: bold;
-  font-size: 4.5vw;
+  font-size: 4vw;
   outline:none;
   z-index: 2;
 }
@@ -98,14 +101,42 @@
   border:none;
   width: 50vw;
   height: 15vw;
-  background: linear-gradient(to bottom,  #F6F6F6 90%, #6200EE 90%,#6200EE 100%);
+  background: linear-gradient(to bottom,  white 90%, #EE9B00 90%,#EE9B00 100%);
   border:none;
-  color: #6200EE;
+  color: #333333;
   font-weight: bold;
-  font-size: 4.5vw;
+  font-size: 4vw;
   outline:none;
 }
-
+.textContentModalBeneficios{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 70vw; 
+  margin-top:10px;
+}
+.eachTextContentModalBeneficios{
+  font-size: 4vw;
+  color: #333333;
+  margin: 3vw 0 3vw 0;
+  color:#333333;
+}
+.btnFinaleModalBeneficios{
+  background: #D8D8D8;
+  border-radius: 10px;
+  color: #999999;
+  font-weight: bold;
+  font-size: 4vw;
+  border:none;
+  width: 50vw;
+  height: 15vw;
+  align-self: center;
+}
+.finalTextModalFenefit{
+  text-align: center;
+  color: #333333;
+  font-size: 3.3vw;
+  margin-top: 10px;
+}
 .containerEachCard{
   display:flex;
   flex-flow: row nowrap;

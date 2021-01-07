@@ -1,6 +1,6 @@
 
 
-
+![logomach](./src/img/ReadME/logomach1@3x.png) 
 # MACH- HACKATHON GENERACIÓN 014SCL LABORATORIA 
 
 MACH es una de las Fintech líder del mercado, la cual busca democratizar el acceso a productos bancarios para todos.  Con más de 2 millones de usuarios registrados desde su inicio, MACH siempre tiene como objetivo la búsqueda de poder mejorar la experiencia de ellos y seguir creando una comunidad. 
@@ -37,17 +37,26 @@ Nuestra solución se basa en 4 pilares:
 1)	Walkthrough bienvenida: 
 Para los usuarios nuevos de MACH se va a desplegar un tutorial en el cual se les explicara el sistema de puntos, como obtener puntos, los beneficios y desafíos que existen. 
 
-2)	(poner logo colores) Puntos MACH: 
+![walkthrough1](./src/img/ReadME/walkthrough1.png) 
+![walkthrough2](./src/img/ReadME/walkthrough2.png) 
+
+2)	![logoptos](./src/img/logPtos.svg) Puntos MACH: 
 Creamos un sistema de puntajes y categorías en los cuales cada cierto rango los usuarios van a tener acceso a distintos beneficios(descuentos) y canjes de puntos en comercios asociados.
+
+![walkthrough1](./src/img/ReadME/walkthrough1.png) 
+
 
 3)	Sistema de beneficios
 El usuario va a poder acceder a beneficios de forma progresiva, acorde a su categoría de Puntos MACH, además va a poder filtrar los beneficios según sus intereses y hobbies. Y en el caso que no quiera utilizar un beneficio, va a poder regalarlo a otro usuario. 
-(fotos beneficios)
+
+![cardbeneficios](./src/img/ReadME/CardBeneficios.png)
+![cardbeneficiosgris](./src/img/ReadME/cardbeneficiosgris.png)
 
 4)	Desafíos MACH:
 Para incentivar a los usuarios a usar MACH y a seguir avanzando de categorías, establecimos distintos desafíos con los cuales van a poder juntar puntos. Entre ellos se encuentran desafíos de “Paga con MACH”, que es el pago de servicios y productos; y también existen desafíos para aumentar la comunidad como lo es “Invita a un amigo”, entre otros.
 
-(fotos desafíos)
+![invitaygana](./src/img/ReadME/invitaygana.png)
+![streaming](./src/img/ReadME/streaming.png)
 
 ## TECNOLOGÍAS UTILIZADAS
 
@@ -60,11 +69,11 @@ Para incentivar a los usuarios a usar MACH y a seguir avanzando de categorías, 
 
 Accede desde tu dispositivo móvil y da click en el siguiente link: https://hackaton-mach-rewards.web.app/
 
-## EQUIPO – Squad MACHine Bots 
-Natalia Goicochea (UX)
-Macarena Cuevas (Front-End Developer)
-Natalia Quezada (Front-End Developer)
-Maritzu Zuñiga (Front-End Developer)
-Catalina Jara (Front-End Developer)  
+## EQUIPO – Squad MACHine Bots 🤖
+- Natalia Goicochea (UX)
+- Macarena Cuevas (Front-End Developer)
+- Natalia Quezada (Front-End Developer)
+- Maritzu Zuñiga (Front-End Developer)
+- Catalina Jara (Front-End Developer)  
 
 
