@@ -58,6 +58,10 @@ Para incentivar a los usuarios a usar MACH y a seguir avanzando de categorías, 
 ![invitaygana](./src/img/ReadME/invitaygana.png)
 ![streaming](./src/img/ReadME/streaming.png)
 
+## PROTOTIPO ALTA FIDELIDAD
+
+Realizamos el prototipo de alta fidelidad de nuestro proyecto en Figma, el cual puedes revisar en el siguiente link: [Prototipo Squad MACHine Bots](https://www.figma.com/proto/xp6qDw8Bqq4G3qfYomH3Jt/Mach?node-id=505%3A1581&viewport=-55%2C187%2C0.5&scaling=scale-down)
+
 ## TECNOLOGÍAS UTILIZADAS
 
 - REACTJS
