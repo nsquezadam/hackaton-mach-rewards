@@ -10,11 +10,15 @@ import ProgressBar from "react-customizable-progressbar";
 import imgBoton from "../../../img/Historial_icono.png";
 import logoColores from "../../../img/iconpequeno.svg";
 import CountUp from "react-countup";
-import Walkthrough from './Walkthrough';
+import History from "./History";
+import Filter from "../Beneficios/Filter";
+import Walkthrough from "./Walkthrough";
+import VisibilitySensor from "react-visibility-sensor";
 import { TuneRounded } from '@material-ui/icons';
 
 const UserProfile = () => {
   const { userValue, openModal, modalWalkthrough } = useContext(ContextUser);
+
 
   const [user]= userValue
   const openModalLocal=openModal
@@ -82,7 +86,7 @@ const UserProfile = () => {
 
         </section>
       </div>
-
+      <History filter={modalHistory} setFilter={setModalHistory} />
       <div className="containerBenefitsProfile">
         <span className="titleBenefits">Resumen de ganacias</span>
         <span className="textBenefits">
@@ -92,13 +96,16 @@ const UserProfile = () => {
           <div className="boxProfile">
             <img src={Pig} alt="pig" />
             <CountUp start={0} end={data[user].perfil.dineroAhorrado} delay={0}>
-              {({ countUpRef }) => (
-                <div>
-                  <span className={classNumberBenefitsProfile}>$</span>
-                  <span className={classNumberBenefitsProfile}
-                    ref={countUpRef}
-                  />
-                </div>
+              {({ countUpRef, start }) => (
+                <VisibilitySensor onChange={start} delayedCall>
+                  <div>
+                    <span className={classNumberBenefitsProfile}>$</span>
+                    <span
+                      className={classNumberBenefitsProfile}
+                      ref={countUpRef}
+                    />
+                  </div>
+                </VisibilitySensor>
               )}
             </CountUp>
             <span className="textBenefitsProfile">
@@ -109,14 +116,16 @@ const UserProfile = () => {
             <img src={Puño} alt="" />
             <div className="containerNumbersCount">
               <CountUp start={0} end={data[user].perfil.puntosAmigos} delay={0}>
-                {({ countUpRef }) => (
-                  <div>
-                    <span className={classNumberBenefitsProfile}>+</span>
-                    <span
-                      className={classNumberBenefitsProfile}
-                      ref={countUpRef}
-                    />
-                  </div>
+                {({ countUpRef, start }) => (
+                  <VisibilitySensor onChange={start} delayedCall>
+                    <div>
+                       <span className={classNumberBenefitsProfile}>+</span>
+                      <span
+                        className={classNumberBenefitsProfile}
+                        ref={countUpRef}
+                      />
+                    </div>
+                  </VisibilitySensor>
                 )}
               </CountUp>
             </div>
@@ -131,14 +140,20 @@ const UserProfile = () => {
             <img className='imgTarjetaProfile' src={tarjeta} alt="" />
             <div>
               <span className={classNumberBenefitsProfile}>
-                <CountUp start={0} end={data[user].perfil.puntosCarga} delay={0}>
-                  {({ countUpRef }) => (
-                    <div>
+                <CountUp
+                  start={0}
+                  end={data[user].perfil.puntosCarga}
+                  delay={0}
+                >
+                  {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                      div>
                       <span
                         className={classNumberBenefitsProfile}
                         ref={countUpRef}
                       />
                     </div>
+                    </VisibilitySensor>
                   )}
                 </CountUp>
               </span>
@@ -154,14 +169,20 @@ const UserProfile = () => {
             <img src={nextCategory} alt="" />
             <div>
               <span className={classNumberBenefitsProfile}>
-                <CountUp start={0} end={data[user].perfil.puntosProxCategoria} delay={0}>
-                  {({ countUpRef }) => (
-                    <div>
-                      <span
-                        className={classNumberBenefitsProfile}
-                        ref={countUpRef}
-                      />
-                    </div>
+                <CountUp
+                  start={0}
+                  end={data[user].perfil.puntosProxCategoria}
+                  delay={0}
+                >
+                  {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                      <div>
+                        <span
+                          className={classNumberBenefitsProfile}
+                          ref={countUpRef}
+                        />
+                      </div>
+                    </VisibilitySensor>
                   )}
                 </CountUp>
               </span>
@@ -175,7 +196,7 @@ const UserProfile = () => {
           </div>
         </div>
       </div>
-      <button className="boton-historial" >
+      <button className="boton-historial" onClick={() => setModalHistory(!modalHistory)}>
         <img className="iconButtonProfile" src={imgBoton} alt="" />
         Mi historial
       </button>
