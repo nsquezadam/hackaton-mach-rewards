@@ -20,6 +20,10 @@ const ModalChallenge = (props) => {
 	const [socialMedia, setsocialMedia] = useState(false);
 
 	const classPointsPpal= user===0? 'pointsPpalBeginner':'pointsPpalAdventure';
+	const classChallengeBanner= user===0? 'challengeBannerBeginner':'challengeBannerAdventure';
+
+	const classPointModal=user===0? 'pointsModalBeginner':'pointsModalAdventure';
+
 	
 
 	return (
@@ -29,12 +33,12 @@ const ModalChallenge = (props) => {
 				<div className="modalContentChallenge">
 					<img src={closeIcon} alt='closeIcon' className="closeModalChallenge" onClick={() => setModalChallenge(false)} />
 					<img className="imgModal" src={props.data.foto} alt="" srcSet="" />
-					<div className="challengeBanner">
+					<div className={classChallengeBanner}>
 						<p className="titleBanner"> <img src={BanderaModal} className="iconoChallenge" alt="" /> Desafío</p>
 					</div>
 					<div className="infoModal">
 						<div className="pointsModal">
-							<p><img src={Logoptos} alt="" />{props.data.puntos}</p>
+							<p className={classPointModal}><img src={Logoptos} alt="" />{props.data.puntos}</p>
 						</div>
 						<div className="textModal">
 							<p className="titleModal">{props.data.titulomodal}</p>

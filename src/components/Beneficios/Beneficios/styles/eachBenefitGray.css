@@ -1,0 +1,18 @@
+.containerDiscountGrey{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #999999;
+  border: 2px dashed #D8D8D8;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 3px 2px 3px;
+  font-size: 4vw;
+  min-width: 10vw;
+  font-weight: bold
+}
+.textGetCouponGrey{
+  font-weight: bold;
+  font-size: 3.8vw;
+  color: #F6F6F6;
+}

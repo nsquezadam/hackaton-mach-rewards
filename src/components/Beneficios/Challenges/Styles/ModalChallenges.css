@@ -7,6 +7,7 @@
     z-index: 3;
     display: flex;
     border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
   }
   
   .modalContentChallenge {
@@ -34,8 +35,12 @@
     border-radius: 1rem 1rem 0 0;
   }
 
-  .challengeBanner{
-    height: 4%;
+  .challengeBannerAdventure{
+    height: 8vw;
+    background-color: #00EDDF;
+  }
+  .challengeBannerBeginner{
+    height: 8vw;
     background-color: #EE9B00;
   }
 
@@ -57,11 +62,18 @@
   margin-right: 5%;
 }
 
-.pointsModal p{
+.pointsModalBeginner{
   color: #EE9B00;
   font-weight: 700;
   font-size: 3.5vw;
 }
+.pointsModalAdventure{
+  color: #009189;
+  font-weight: 700;
+  font-size: 3.5vw;
+}
+
+
 .pointsModal p img{
   margin-right: 3%;
 }
