@@ -1,4 +1,6 @@
-import React from "react";
+import React,{ useContext } from "react";
+import { ContextUser } from '../../../App.js';
+import data from '../../../data/users.json';
 import styles from "./styles/History.css";
 import { makeStyles, responsiveFontSizes } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
@@ -18,6 +20,10 @@ import back from "../../../img/back.svg";
 import Grid from "@material-ui/core/Grid";
 
 const History = (props) => {
+
+  const { userValue } = useContext(ContextUser);
+  const [user]= userValue;
+
   const classToogle =
     props.filter === true ? "toggleVisibleHistory" : "toggleHiddenHistory";
   const useStyles = makeStyles((theme) => ({
@@ -52,10 +58,36 @@ const History = (props) => {
         <Step active={true} key={0}>
           <StepLabel>&nbsp;</StepLabel>
           <StepContent>
-            <Grid container spacing={2}>
+          {data[user].perfil.historial.map((data, index)=>{
+                return (
+                  <div className="key">
+                    <Grid container spacing={2}>
+                        <Grid item xs={6}>
+                           <Typography className={classes.strongText} component="h2">
+                            {data.actividad}
+                           </Typography>
+                         </Grid>
+                        <Grid item xs={4}>
+                           <Typography color="textSecondary">{data.fecha}</Typography>
+                        </Grid>
+                    </Grid>
+                     <Typography component="p">
+                         {data.texto}
+                     </Typography>
+                     <Typography
+                        className={[classes.orangeText, classes.strongText]}
+                         component="p"
+                       >
+                        {data.puntos}
+                     </Typography>
+                  </div>
+                )
+              })}
+            {/* <Grid container spacing={2}>
               <Grid item xs={6}>
+             
                 <Typography className={classes.strongText} component="h2">
-                  Desafío del día
+                  
                 </Typography>
               </Grid>
               <Grid item xs={4}>
@@ -70,10 +102,10 @@ const History = (props) => {
               component="p"
             >
               + 2000
-            </Typography>
+            </Typography> */}
           </StepContent>
         </Step>
-        <Step active={true} key={1}>
+        {/* <Step active={true} key={1}>
           <StepLabel>&nbsp;</StepLabel>
           <StepContent>
             <Grid container spacing={2}>
@@ -248,7 +280,7 @@ const History = (props) => {
               </Grid>
             </Grid>
           </StepContent>
-        </Step>
+        </Step> */}
       </Stepper>
     </div>
   );

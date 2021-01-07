@@ -308,14 +308,34 @@
       "puntosAmigos": 0,
       "puntosCarga": 0,
       "puntosProxCategoria": 0,
-      "puntos":"1"
+      "puntos":"1", 
+      "historial": [
+        {
+          "actividad": "Desafío del día", 
+          "fecha":"02/11/2020",
+          "texto":"Recarga tu tarjeta MACH +10.000", 
+          "puntos":"+2000"
+        },
+        {
+          "actividad": "Desafío del día", 
+          "fecha":"28/10/2020",
+          "texto":"Invita a un amigo", 
+          "puntos":"+1000"
+        },
+        {
+          "actividad": "Categoria MACH Beginner", 
+          "fecha":"25/10/2020",
+          "texto":"", 
+          "puntos":""
+        }
+      ]
     },
     "beneficios": [
       {
         "foto": "../img/beneficios/netflix.svg",
         "nombre": "Netflix",
         "texto": "Contrata un plan básico y te devolvemos $3.000 a tu cuenta el próximo mes",
-        "descuento": "$",
+        "descuento": "$3.000",
         "categoria": "Streaming",
         "fotoModal":"../img/beneficios/netflixModal.svg",
         "textoModal":"Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH",
@@ -330,25 +350,130 @@
         "textoTerminosBeneficios3": "1 de Enero al 31 de Diciembre."
       },
       {
-        "foto": "../img/lippi.svg",
-        "nombre": "Lippi",
-        "texto": "15% de descuento en tu primera compra",
+        "foto": "../img/beneficios/spotify.svg",
+        "nombre": "Spotify",
+        "texto": "Paga un mes de tu plan con MACH y te devolvemos $2.000 a tu cuenta de prepago",
+        "descuento": "$2.000",
+        "categoria": "Streaming"
+      },
+      {
+        "foto": "../img/beneficios/xbox.svg",
+        "nombre": "XBOX",
+        "texto": "15% de dcto en cualquier juego de tu consola favorita.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/pcfactory.svg",
+        "nombre": "PC Factory",
+        "texto": "Aprovecha un 15% de dcto en cualquier juego para Play Station 4.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/starbucks.svg",
+        "nombre": "Starbucks",
+        "texto": "15% de dcto en cualquier bebida de tu primera compra.",
         "descuento": "15%",
         "categoria": "Comida"
       },
       {
-        "foto": "../img/lippi.svg",
+        "foto": "../img/beneficios/dunkin.svg",
+        "nombre": "Dunkin Donuts",
+        "texto": "15% de dcto en caja de 12 donuts + bebida 1.5lt",
+        "descuento": "15%",
+        "categoria": "Comida"
+      },
+      {
+        "foto": "../img/beneficios/rappi.svg",
+        "nombre": "Rappi",
+        "texto": "Aprovecha un 15% de dcto más delivery gratis en todas las categorías.",
+        "descuento": "15%",
+        "categoria": "Comida"
+      },
+      {
+        "foto": "../img/beneficios/ubereats.svg",
+        "nombre": "Uber Eats",
+        "texto": "Aprovecha un 15% de dcto más delivery gratis comprando en Uber Eats.",
+        "descuento": "15%",
+        "categoria": "Comida"
+      },
+      {
+        "foto": "../img/beneficios/lippi.svg",
         "nombre": "Lippi",
-        "texto": "15% de descuento en tu primera compra",
+        "texto": "20% de descuento en tu primera compra.",
+        "descuento": "20%",
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/nike.svg",
+        "nombre": "Nike",
+        "texto": "Te regalamos un 15% de dcto en tu primera compra online.",
         "descuento": "15%",
         "categoria": "Ropa"
       },
       {
-        "foto": "../img/lippi.svg",
-        "nombre": "Lippi",
-        "texto": "15% de descuento en tu primera compra",
+        "foto": "../img/beneficios/dafiti.svg",
+        "nombre": "Dafiti",
+        "texto": "Que esperas para aprovechar el 15% de dcto en la tienda.",
         "descuento": "15%",
-        "categoria": ""
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/hakahonu.svg",
+        "nombre": "Haka Honu",
+        "texto": "¡Aprovecha el dcto exclusivo  en la tienda online de Haka Honu!",
+        "descuento": "15%",
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/virgin.svg",
+        "nombre": "Virgin",
+        "texto": "Portate online a Virgin y obtén $7.000 en tu cuenta MACH.",
+        "descuento": "$7.000",
+        "categoria": "Planes Mobile"
+      },
+      {
+        "foto": "../img/beneficios/samsung.svg",
+        "nombre": "Samsung",
+        "texto": "Aprovecha de un 15% de dcto por la compra de auriculares inalámbricos Galaxy Buds.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/sony.svg",
+        "nombre": "Sony",
+        "texto": "Obtén este 15% de dcto en tu compra online.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/genius.svg",
+        "nombre": "Genius",
+        "texto": "Obtén un 15% por la compra de cualquier mouse o teclado gamer de la tienda.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/playstation.svg",
+        "nombre": "Play Station",
+        "texto": "Te regalamos un 15% de dcto en cualquier juego, comprando online.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/proplan.svg",
+        "nombre": "Pro Plan",
+        "texto": "Un 15% de dcto en saco de alimento de 3kg, cachorros o adultos.",
+        "descuento": "15%",
+        "categoria": "Mascotas"
+      },
+      {
+        "foto": "../img/beneficios/flex.svg",
+        "nombre": "Flex",
+        "texto": "Te regalamos un 15% de dcto en la compra de colchón una plaza.",
+        "descuento": "15%",
+        "categoria": "Hogar"
       }
     ]
   },
@@ -378,29 +503,222 @@
       "puntosAmigos": 5000,
       "puntosCarga": 40000,
       "puntosProxCategoria": 125000,
-      "puntos": 58
+      "puntos": 58,
+      "historial": [
+        {
+          "actividad": "Desafío del día", 
+          "fecha":"02/11/2020",
+          "texto":"Recarga tu tarjeta MACH +10.000", 
+          "puntos":"+3000"
+        },
+        {
+          "actividad": "Netflix", 
+          "fecha":"30/10/2020",
+          "texto":"Paga Netflix con MACH -8.990", 
+          "puntos":"+3000"
+        },
+        {
+          "actividad": "Emporio La Rosa", 
+          "fecha":"20/10/2020",
+          "texto":"Sabores con MACH -3.000", 
+          "puntos":"+1000"
+        },
+        {
+          "actividad": "Desafío del día", 
+          "fecha":"20/09/2020",
+          "texto":"Recarga tu tarjeta MACH +30.000", 
+          "puntos":"+3000"
+        },
+        {
+          "actividad": "Categoría MACH Explorer", 
+          "fecha":"11/08/2020",
+          "texto":"", 
+          "puntos":""
+        }
+      ]
     },
     "beneficios": [
       {
-        "foto": "../img/lippi.svg",
-        "nombre": "Lippi",
-        "texto": "15% de descuento en tu primera compra",
+        "foto": "../img/beneficios/nike.svg",
+        "nombre": "Nike",
+        "texto": "Te regalamos un 20% en cualquier par de zapatillas.",
+        "descuento": "20%",
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "",
+        "nombre": "Pretty Woman",
+        "texto": "Disfruta de esta promo 2x1 en limpieza facial para tí y un acompañante.",
+        "descuento": "2x1",
+        "categoria": ""
+      },
+      {
+        "foto": "../img/beneficios/rappi.svg",
+        "nombre": "Rappi",
+        "texto": "Un 25% de dcto en cualquiera de los combos seleccionados.",
+        "descuento": "25%",
+        "categoria": "Comida"
+      },
+      {
+        "foto": "",
+        "nombre": "H&M",
+        "texto": "Te regalamos un 20% en el total de tu compra online.",
+        "descuento": "20%",
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/playstation.svg",
+        "nombre": "Play Station",
+        "texto": "20% de dcto en la compra de un control PS4.",
+        "descuento": "20%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/flex.svg",
+        "nombre": "Flex",
+        "texto": "Aprovecha este 20% en la compra de sábanas de 2 plazas.",
+        "descuento": "20%",
+        "categoria": "Hogar"
+      },
+      {
+        "foto": "../img/beneficios/xbox.svg",
+        "nombre": "XBOX",
+        "texto": "Un 25% de dcto por la compra de un CONTROLER XBOX ONE NEBULA.",
+        "descuento": "20%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "",
+        "nombre": "Cabify",
+        "texto": "Te regalamos un 20% en tus 5 primeros viajes.",
+        "descuento": "20%",
+        "categoria": ""
+      },
+      {
+        "foto": "../img/beneficios/spotify.svg",
+        "nombre": "Spotify",
+        "texto": "Paga un mes de tu plan con MACH y te devolvemos $2.000 a tu cuenta de prepago",
+        "descuento": "$2.000",
+        "categoria": "Streaming"
+      },
+      {
+        "foto": "../img/beneficios/xbox.svg",
+        "nombre": "XBOX",
+        "texto": "15% de dcto en cualquier juego de tu consola favorita.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/pcfactory.svg",
+        "nombre": "PC Factory",
+        "texto": "Aprovecha un 15% de dcto en cualquier juego para Play Station 4.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/starbucks.svg",
+        "nombre": "Starbucks",
+        "texto": "15% de dcto en cualquier bebida de tu primera compra.",
+        "descuento": "15%",
+        "categoria": "Comida"
+      }, 
+      {
+        "foto": "../img/beneficios/dunkin.svg",
+        "nombre": "Dunkin Donuts",
+        "texto": "15% de dcto en caja de 12 donuts + bebida 1.5lt",
         "descuento": "15%",
         "categoria": "Comida"
       },
       {
-        "foto": "../img/lippi.svg",
-        "nombre": "Lippi",
-        "texto": "15% de descuento en tu primera compra",
+        "foto": "../img/beneficios/rappi.svg",
+        "nombre": "Rappi",
+        "texto": "Aprovecha un 15% de dcto más delivery gratis en todas las categorías.",
         "descuento": "15%",
         "categoria": "Comida"
       },
       {
-        "foto": "../img/lippi.svg",
+        "foto": "../img/beneficios/ubereats.svg",
+        "nombre": "Uber Eats",
+        "texto": "Aprovecha un 15% de dcto más delivery gratis comprando en Uber Eats.",
+        "descuento": "15%",
+        "categoria": "Comida"
+      },
+      {
+        "foto": "../img/beneficios/lippi.svg",
         "nombre": "Lippi",
-        "texto": "15% de descuento en tu primera compra",
+        "texto": "20% de descuento en tu primera compra.",
+        "descuento": "20%",
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/nike.svg",
+        "nombre": "Nike",
+        "texto": "Te regalamos un 15% de dcto en tu primera compra online.",
         "descuento": "15%",
         "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/dafiti.svg",
+        "nombre": "Dafiti",
+        "texto": "Que esperas para aprovechar el 15% de dcto en la tienda.",
+        "descuento": "15%",
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/hakahonu.svg",
+        "nombre": "Haka Honu",
+        "texto": "¡Aprovecha el dcto exclusivo  en la tienda online de Haka Honu!",
+        "descuento": "15%",
+        "categoria": "Ropa"
+      },
+      {
+        "foto": "../img/beneficios/virgin.svg",
+        "nombre": "Virgin",
+        "texto": "Portate online a Virgin y obtén $7.000 en tu cuenta MACH.",
+        "descuento": "$7.000",
+        "categoria": "Planes Mobile"
+      },
+      {
+        "foto": "../img/beneficios/samsung.svg",
+        "nombre": "Samsung",
+        "texto": "Aprovecha de un 15% de dcto por la compra de auriculares inalámbricos Galaxy Buds.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/sony.svg",
+        "nombre": "Sony",
+        "texto": "Obtén este 15% de dcto en tu compra online.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/genius.svg",
+        "nombre": "Genius",
+        "texto": "Obtén un 15% por la compra de cualquier mouse o teclado gamer de la tienda.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/playstation.svg",
+        "nombre": "Play Station",
+        "texto": "Te regalamos un 15% de dcto en cualquier juego, comprando online.",
+        "descuento": "15%",
+        "categoria": "Tecnología"
+      },
+      {
+        "foto": "../img/beneficios/proplan.svg",
+        "nombre": "Pro Plan",
+        "texto": "Un 15% de dcto en saco de alimento de 3kg, cachorros o adultos.",
+        "descuento": "15%",
+        "categoria": "Mascotas"
+      },
+      {
+        "foto": "../img/beneficios/flex.svg",
+        "nombre": "Flex",
+        "texto": "Te regalamos un 15% de dcto en la compra de colchón una plaza.",
+        "descuento": "15%",
+        "categoria": "Hogar"
       }
     ],
     "canjes": [
@@ -567,6 +885,128 @@
         "nameTitle":"Aventuras",
         "imgAventurasSubCat":"../img/canjes/subCategorias/aventurasImgModal.svg",
         "descripcionAventurasSubCat":"Que esperas para vivir al límite, diviértete al máximo con estas aventuras extremas. ¡Sólo para atrevidos!"
-    }]
+    }],
+    "desafiosprincipales": [
+      {
+        "titulo": "Invita a un amigo",
+        "puntos": "+ 1.000 puntos",
+        "foto": "../img/desafios/DesafioAmigos.svg",
+        "Explicacion": "Ayúdanos a que la comunidad MACH crezca y gana puntos fácilmente",
+        "iconobton": "../img/desafios/InviteIcon.svg",
+        "textobton": "Invita y gana",
+        "titulomodal":"Invita a tus amigos",
+        "textomodal": "Ayúdanos a que la comunidad de MACH crezca e invíta a un amig@ a descargar la App."
+      },
+      {
+        "titulo": "Colecciona las letras",
+        "puntos": "+ 1.000 puntos x letra",
+        "foto": "../img/desafios/DesafioLetras.svg",
+        "Explicacion": "Cada letra coleccionada de M-A-C-H te regalará un SUPER BENEFICIO",
+        "iconobton": "../img/desafios/ColectIcon.svg",
+        "textobton": "Colecciona y gana"
+      },
+      {
+        "titulo": "Desafío del mes",
+        "puntos": "+ 5.000 puntos",
+        "foto": "../img/desafios/DesafioMes.svg",
+        "Explicacion": "Acepta este desafío, gana puntaje y descubre la caja sorpresa MACH",
+        "iconobton": "../img/desafios/RechargIcon.svg",
+        "textobton": "Acepta y gana"
+      },
+      {
+        "titulo": "Recarga tu tarjeta MACH",
+        "puntos": "+ 2.000 puntos",
+        "foto": "../img/desafios/DesafioRecarga.svg",
+        "Explicacion": "Mantén tu tarjeta con saldo y paga rápidamente en el comercio",
+        "iconobton": "../img/desafios/RechargIcon.svg",
+        "textobton": "Recarga y gana"
+      }
+    ],
+    "categoriasdesafios": [
+      {
+        "titulo": "Telefonía",
+        "puntos": "+ 3.000 Puntos",
+        "foto": "../img/desafios/DesafioTelefonia.svg",
+        "descripcion": "Paga tu cuenta con MACH",
+        "categorias": "Servicios"
+      },
+      {
+        "titulo": "Banda Ancha",
+        "puntos": "+ 3.000 Puntos",
+        "foto": "../img/desafios/DesafioBandaAncha.svg",
+        "descripcion": "No te quedes sin internet",
+        "categorias": "Servicios"
+      },
+      {
+        "titulo": "Streaming",
+        "puntos": "+ 2.000 Puntos",
+        "foto": "../img/desafios/DesafioStreaming.svg",
+        "descripcion": "Que esperas para disfrutar y relajarte",
+        "categorias": "Servicios"
+      },
+      {
+        "titulo": "Televisión",
+        "puntos": "+ 3.000 Puntos",
+        "foto": "../img/desafios/DesafioTelevision.svg",
+        "descripcion": "Paga tu cuenta con MACH",
+        "categorias": "Servicios"
+      },
+      {
+        "titulo": "Viajes",
+        "puntos": "+ 10.000 Puntos",
+        "foto": "../img/desafios/DesafioViajes.svg",
+        "descripcion": "Conoce nuevos lugares",
+        "categorias": "Experiencias"
+      },
+      {
+        "titulo": "Sabores",
+        "puntos": "+ 1.000 Puntos",
+        "foto": "../img/desafios/DesafioSabores.svg",
+        "descripcion": "Alimentate, disfruta y gana",
+        "categorias": "Alimentación"
+      },
+      {
+        "titulo": "Mascotas",
+        "puntos": "+ 3.000 Puntos",
+        "foto": "../img/desafios/DesafioMascotas.svg",
+        "descripcion": "Eso que necesita tu mascota",
+        "categorias": "Mascotas"
+      },
+      {
+        "titulo": "Experiencias",
+        "puntos": "+ 3.000 Puntos",
+        "foto": "../img/desafios/DesafioExperiencias.svg",
+        "descripcion": "Desconéctate un momento",
+        "categorias": "Experiencias"
+      },
+      {
+        "titulo": "Tecnología",
+        "puntos": "+ 5.000 Puntos",
+        "foto": "../img/desafios/DesafioTecnologia.svg",
+        "descripcion": "Paga con MACH y suma puntos",
+        "categorias": "Tecnología"
+      },
+      {
+        "titulo": "Salud",
+        "puntos": "+ 2.000 Puntos",
+        "foto": "../img/desafios/DesafioSalud.svg",
+        "descripcion": "Paga tus remedios con MACH",
+        "categorias": "Bienestar"
+      },
+      {
+        "titulo": "Deportes",
+        "puntos": "+ 3.000 Puntos",
+        "foto": "../img/desafios/DesafioDeportes.svg",
+        "descripcion": "¡Que esperas para ejercitarte!",
+        "categorias": "Bienestar"
+      },
+      {
+        "titulo": "Mercadería",
+        "puntos": "+ 3.000 Puntos",
+        "foto": "../img/desafios/DesafioMercaderia.svg",
+        "descripcion": "¿Te faltan compras en el hogar?",
+        "categorias": "Alimentación"
+      }
+    ]
   }
 ]
