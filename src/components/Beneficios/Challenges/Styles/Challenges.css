@@ -27,6 +27,10 @@
 
 .cardContainers{
     display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-left:-5vw;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
