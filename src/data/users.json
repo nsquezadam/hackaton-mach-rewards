@@ -17,7 +17,7 @@
         "puntos": "+ 1.000 puntos",
         "foto": "../img/desafios/DesafioAmigos.svg",
         "Explicacion": "Ayúdanos a que la comunidad MACH crezca y gana puntos fácilmente",
-        "iconobton": "",
+        "iconobton": "../img/desafios/InviteIcon.svg",
         "textobton": "Invita y gana",
         "titulomodal":"Invita a tus amigos",
         "textomodal": "Ayúdanos a que la comunidad de MACH crezca e invíta a un amig@ a descargar la App."
@@ -27,7 +27,7 @@
         "puntos": "+ 1.000 puntos x letra",
         "foto": "../img/desafios/DesafioLetras.svg",
         "Explicacion": "Cada letra coleccionada de M-A-C-H te regalará un SUPER BENEFICIO",
-        "iconobton": "",
+        "iconobton": "../img/desafios/ColectIcon.svg",
         "textobton": "Colecciona y gana"
       },
       {
@@ -35,7 +35,7 @@
         "puntos": "+ 5.000 puntos",
         "foto": "../img/desafios/DesafioMes.svg",
         "Explicacion": "Acepta este desafío, gana puntaje y descubre la caja sorpresa MACH",
-        "iconobton": "",
+        "iconobton": "../img/desafios/RechargIcon.svg",
         "textobton": "Acepta y gana"
       },
       {
@@ -43,7 +43,7 @@
         "puntos": "+ 2.000 puntos",
         "foto": "../img/desafios/DesafioRecarga.svg",
         "Explicacion": "Mantén tu tarjeta con saldo y paga rápidamente en el comercio",
-        "iconobton": "",
+        "iconobton": "../img/desafios/RechargIcon.svg",
         "textobton": "Recarga y gana"
       }
     ],
@@ -291,12 +291,21 @@
         "description": "Navega por el río Maipo con 4 amigos"
       }
     ],
+    "detalleSubCategoriaCanjeAventuras":[
+      {
+        "nameTitle":"Aventuras",
+        "imgAventurasSubCat":"../img/canjes/subCategorias/aventurasImgModal.svg",
+        "descripcionAventurasSubCat":"Que esperas para vivir al límite, diviértete al máximo con estas aventuras extremas. ¡Sólo para atrevidos!"
+    }],
     "perfil": {
-      "logoCategoria": "../img/Banner_Mach_Beginner.png",
-      "dineroAhorrado": "$0",
-      "puntosAmigos": "0",
-      "puntosCarga": "0",
-      "puntosProxCategoria": "0"
+      "logoCategoria": "../img/Banner_Mach_Begginer.png",
+      "fotoDesafio":"../img/perfil/DesafioBeginner.svg",
+      "desafioDelDia":"Paga una cuenta de teléfono con MACH",
+      "dineroAhorrado": 0,
+      "puntosAmigos": 0,
+      "puntosCarga": 0,
+      "puntosProxCategoria": 0,
+      "puntos":"1"
     },
     "beneficios": [
       {
@@ -356,14 +365,17 @@
         "fecha": "11/04/2020"
       }
     ],
-    "puntos": "175.000",
+    "puntos": 175000,
     "descTipoNivelPuntos":"Categoria Adventure:desde 150.000 Hasta 300.000 Puntos",
     "perfil": {
       "logoCategoria": "../img/Banner_mach_adventure.png",
+      "fotoDesafio":"../img/perfil/DesafioAdventure.svg",
+      "desafioDelDia":"Carga tu tarjeta de MACH con mínimo de $10.000",
       "dineroAhorrado": 15538,
-      "puntosAmigos": "5000",
-      "puntosCarga": "3000",
-      "puntosProxCategoria": "60430"
+      "puntosAmigos": 5000,
+      "puntosCarga": 40000,
+      "puntosProxCategoria": 125000,
+      "puntos": 58
     },
     "beneficios": [
       {
@@ -544,6 +556,12 @@
         "imgPointCat": "../img/canjes/logPtos.svg",
         "description": "Navega por el río Maipo con 4 amigos"
       }
-    ]
+    ],
+    "detalleSubCategoriaCanjeAventuras":[
+      {
+        "nameTitle":"Aventuras",
+        "imgAventurasSubCat":"../img/canjes/subCategorias/aventurasImgModal.svg",
+        "descripcionAventurasSubCat":"Que esperas para vivir al límite, diviértete al máximo con estas aventuras extremas. ¡Sólo para atrevidos!"
+    }]
   }
 ]

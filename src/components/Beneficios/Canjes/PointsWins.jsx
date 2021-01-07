@@ -6,7 +6,9 @@ import  data from '../../../data/users.json'
 
 
 const PointsWins = () => {
-  const [user] = useContext(ContextUser);
+  const { userValue } = useContext(ContextUser);
+
+  const [user]= userValue
   
   const classContainerPointWin= user === 0 ? 'container_point_informationsBegginer' : 'container_point_informationsAdventure';
 
@@ -15,7 +17,7 @@ const PointsWins = () => {
 
   return (
     <>  
-      <h3>Puntos Acumulados</h3>
+       <h3>Puntos Acumulados</h3>
         <div className={classContainerPointWin}>
       <div className="containerLogPtos">
       <img src={logoPtos} alt="logoPtos"/>

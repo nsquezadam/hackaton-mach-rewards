@@ -21,7 +21,7 @@ const Rewards = () => {
       <h5>Canjea tus Puntos </h5>
       <p>Paga con tu tarjeta MACH en cualquiera de estas tiendas y acumula más puntos. Puedes canjear tus puntos en cualquiera de las tiendas asociadas del comercio.</p>
       </div>
-     
+      
       <CardPartners  click={() => setadventureSubcat(!adventureSubcat)}/>
       <CardSubCategoriaAdventure adventureSubcat={adventureSubcat} setadventureSubcat={setadventureSubcat}/>
      </div>

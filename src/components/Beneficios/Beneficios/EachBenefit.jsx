@@ -6,7 +6,8 @@ import present from '../../../img/regalo.svg';
 
 const ModalBenefit = (props) => {
 
-  const [user] = useContext(ContextUser);
+  const { userValue, openModal } = useContext(ContextUser);
+  const [user]= userValue
 
   const categoryBenefit = user === 0 ? 'Beneficio Beginner' : 'Beneficio Advance';
   const classContainerCategoryModal = user === 0 ? 'containerCategoryModalBeginner' : 'containerCategoryModalAdvance';
