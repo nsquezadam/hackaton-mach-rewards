@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   padding-top:15vw;
-  margin-bottom:20vw;
+  margin-bottom:30vw;
 }
 .containerTextBenefits{
   display: flex;
@@ -20,15 +20,24 @@
   font-size: 4vw;
   margin-top: 10px;
 }
+.containerIconAndCards{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  margin-left: -4vw;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
 .containerAllCardsBenefits{
   display: flex;
   flex-flow: column wrap;
   margin-top:10px;
-  margin-bottom:40px;
+  margin-bottom:18vw;;
   max-height: 120vw;
-  overflow: auto;
+  /* overflow: auto;
   -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-overflow-style: -ms-autohiding-scrollbar; */
 }
 .containerAllCardsBenefits::-webkit-scrollbar {
   display: none;
@@ -38,10 +47,15 @@
   display: flex ! Important  ;
   justify-content: center ! Important;
   align-content: center ! Important ;
-  background: #FFFBD6;
+  background: white;
   border-radius: 5px;
   width: 85! Important;
   height: 70vw ! Important;
+  background: #FFFFFF;
+  box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.18), 0px 4px 8px rgba(0, 0, 0, 0.18);
+  border-radius: 5px;
+  margin-bottom: 5vw;
+  margin-top: 5vw;
 }
 .containerElementsGift{
   display: flex;
