@@ -6,22 +6,22 @@ import data from '../../../data/users.json';
 import filterIcon from '../../../img/filter.svg';
 import FilterChallenge from './FilterChallenge';
 import ModalChallenge from './ModalChallenges';
-import swipeIcon from '../../../img/swipeicon.svg';
+import slideIcon from '../../../img/slideIcon.svg'
 
 
 const Challenges = () => {
 
   const { userValue } = useContext(ContextUser);
-  const [user]= userValue
+  const [user] = userValue
 
   const [filter, setFilter] = useState(false);
   const [filterMark, setFilterMark] = useState([]);
 
-  const state={ modal:false}
-  const selectModal =(info) =>{
-    this.setState({modal:!this.state.modal})
+  const state = { modal: false }
+  const selectModal = (info) => {
+    this.setState({ modal: !this.state.modal })
   };
-  let buttonFilter='';
+  let buttonFilter = '';
 
   if (filterMark.length === 0) {
     buttonFilter = <div className=''>
@@ -50,10 +50,8 @@ const Challenges = () => {
           </p>
       </section>
       {/*Cards in slide */}
-        <div className="swipeicon">
-          <img src={swipeIcon} alt=""/>
-        </div>
       <section className="cardContainers">
+        <img src={slideIcon} alt="" />
         {data[user].desafiosprincipales.map((data, index) => {
           return <ModalChallenge key={index} data={data} />
         })}
@@ -70,11 +68,10 @@ const Challenges = () => {
           <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
         </div>
       </section>
-        <div className="swipeicon">
-          <img src={swipeIcon} alt=""/>
-        </div>
+
       <FilterChallenge filter={filter} setFilter={setFilter} filterMark={filterMark} setFilterMark={setFilterMark} />
       <section className="cardsCategories">
+        <img src={slideIcon} alt="" />
         {data[user].categoriasdesafios.map((data, index) => {
           if (filterMark.length === 0) {
             return <div key={index} className="challengeCard">

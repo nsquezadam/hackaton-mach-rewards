@@ -46,10 +46,10 @@ const Benefits = () => {
           Descubre los todos los beneficios que tenemos para tí, los que puedes utilizar en el comercio nacional e internacional.
         </span>
         <div className='containerFiltersBenefit'>
+          <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
           <div className='containerButtonsFilter'>
             {buttonFilter}
           </div>
-          <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
         </div>
         <Filter filter={filter} setFilter={setFilter} filterMark={filterMark} setFilterMark={setFilterMark} />
         <div className='containerIconAndCards'>

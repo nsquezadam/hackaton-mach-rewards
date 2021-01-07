@@ -3,6 +3,7 @@ import './styles/eachBenefit.css'
 import { ContextUser } from '../../../App';
 import closeIcon from '../../../img/close.svg';
 import present from '../../../img/regalo.svg';
+import regalaunamigo from '../../../img/regalaunamigo.svg'
 
 const ModalBenefit = (props) => {
 
@@ -24,7 +25,7 @@ const ModalBenefit = (props) => {
   const classMenuTerminos = navBarModal === 'Terminos' ? 'btnMenuActivateModal' : 'btnMenuModal';
 
   return (
-    <div className='containerEachCard' onClick={() => setModalBenefit(!modalBenefit)}>
+    <div >
       {modalBenefit === false ? null : <div className="modalBenefit">
         <div className="modalContent">
           <img src={closeIcon} alt='closeIcon' className="closeModal" onClick={() => setModalBenefit(false)} />
@@ -42,36 +43,51 @@ const ModalBenefit = (props) => {
             <button className={classMenuActivar} onClick={() => setNavBarModal('Activar')}>Cómo activar beneficio</button>
             <button className={classMenuTerminos} onClick={() => setNavBarModal('Terminos')}>Términos y condiciones</button>
           </nav>
-          {/* {reward} */}
-          <section>
-            <span>{props.data.textoActivarBeneficio1}</span>
-            <span>1-{props.data.textoActivarBeneficio2}</span>
-            <span>2-{props.data.textoActivarBeneficio3}</span>
-            <span>3-{props.data.textoActivarBeneficio4}</span>
-            <span>4-{props.data.textoActivarBeneficio5}</span>
-            <span>5-{props.data.textoActivarBeneficio6}</span>
-            <button>Regala a un amigo</button>
-          </section>
-
+          {navBarModal === 'Activar' ?
+            <section className='textContentModalBeneficios'>
+              <span className='eachTextContentModalBeneficios'>{props.data.textoActivarBeneficio1}</span>
+              <span className='eachTextContentModalBeneficios'>1-{props.data.textoActivarBeneficio2}</span>
+              <span className='eachTextContentModalBeneficios'>2-{props.data.textoActivarBeneficio3}</span>
+              <span className='eachTextContentModalBeneficios'>3-{props.data.textoActivarBeneficio4}</span>
+              <span className='eachTextContentModalBeneficios'>4-{props.data.textoActivarBeneficio5}</span>
+              <span className='eachTextContentModalBeneficios'>5-{props.data.textoActivarBeneficio6}</span>
+              <button className='btnFinaleModalBeneficios'>
+                <img src={regalaunamigo} alt='foto beneficios' />
+                Regala a un amigo
+              </button>
+              <span className='finalTextModalFenefit'>* Puedes regalar un beneficio desde la categoría Explorer en adelante</span>
+            </section> :
+            <section className='textContentModalBeneficios'>
+              <span className='eachTextContentModalBeneficios'>1-{props.data.textoTerminosBeneficios1}</span>
+              <span className='eachTextContentModalBeneficios'>2-{props.data.textoTerminosBeneficios2}</span>
+              <span className='eachTextContentModalBeneficios'><strong>VIGENCIA:</strong>{props.data.textoTerminosBeneficios3}</span>
+              <button className='btnFinaleModalBeneficios'>
+                <img src={regalaunamigo} alt='foto beneficios' />
+              Regala a un amigo
+            </button>
+              <span className='finalTextModalFenefit'>* Puedes regalar un beneficio desde la categoría Explorer en adelante</span>
+            </section>}
         </div>
       </div>}
-      <img src={`${props.data.foto}`} alt='foto beneficios' />
-      <div className='containerInfoBenefit'>
-        <div className='containerNameSubjectBenefit'>
-          <span className='nameBenefit'>
-            {props.data.nombre}
-          </span>
-          <span className='subjectBenefit'>
-            {props.data.texto}
-          </span>
-        </div>
-        <div className='containerDiscountBenefit'>
-          <div className={classContainerDiscount}>
-            {props.data.descuento}
+      <div className='containerEachCard' onClick={() => setModalBenefit(true)}>
+        <img src={`${props.data.foto}`} alt='foto beneficios' />
+        <div className='containerInfoBenefit'>
+          <div className='containerNameSubjectBenefit'>
+            <span className='nameBenefit'>
+              {props.data.nombre}
+            </span>
+            <span className='subjectBenefit'>
+              {props.data.texto}
+            </span>
           </div>
-          <span className={classTextGetCoupon}>
-            Obtener cupón
+          <div className='containerDiscountBenefit'>
+            <div className={classContainerDiscount}>
+              {props.data.descuento}
+            </div>
+            <span className={classTextGetCoupon}>
+              Obtener cupón
           </span>
+          </div>
         </div>
       </div>
     </div>
