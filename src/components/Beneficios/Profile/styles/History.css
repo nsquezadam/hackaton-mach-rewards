@@ -52,14 +52,14 @@
     color: #333333;
   }
   
-  /* p{
+  .paragraph{
     font-family: Nunito;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     color: #333333;
-  } */
+  } 
 
   .MuiStepIcon-text {
       fill: transparent!important;

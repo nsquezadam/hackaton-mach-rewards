@@ -1,6 +1,6 @@
-import React,{ useContext } from "react";
-import { ContextUser } from '../../../App.js';
-import data from '../../../data/users.json';
+import React, { useContext } from "react";
+import { ContextUser } from "../../../App.js";
+import data from "../../../data/users.json";
 import styles from "./styles/History.css";
 import { makeStyles, responsiveFontSizes } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
@@ -20,9 +20,8 @@ import back from "../../../img/back.svg";
 import Grid from "@material-ui/core/Grid";
 
 const History = (props) => {
-
   const { userValue } = useContext(ContextUser);
-  const [user]= userValue;
+  const [user] = userValue;
 
   const classToogle =
     props.filter === true ? "toggleVisibleHistory" : "toggleHiddenHistory";
@@ -55,35 +54,34 @@ const History = (props) => {
         &nbsp; Historial de beneficios
       </h1>
       <Stepper nonLinear={true} orientation="vertical">
-        <Step active={true} key={0}>
-          <StepLabel>&nbsp;</StepLabel>
-          <StepContent>
-          {data[user].perfil.historial.map((data, index)=>{
-                return (
-                  <div className="key">
-                    <Grid container spacing={2}>
-                        <Grid item xs={6}>
-                           <Typography className={classes.strongText} component="h2">
-                            {data.actividad}
-                           </Typography>
-                         </Grid>
-                        <Grid item xs={4}>
-                           <Typography color="textSecondary">{data.fecha}</Typography>
-                        </Grid>
-                    </Grid>
-                     <Typography component="p">
-                         {data.texto}
-                     </Typography>
-                     <Typography
-                        className={[classes.orangeText, classes.strongText]}
-                         component="p"
-                       >
-                        {data.puntos}
-                     </Typography>
-                  </div>
-                )
-              })}
-            {/* <Grid container spacing={2}>
+        {data[user].perfil.historial.map((data, index) => {
+          return (
+            <Step active={true} key={index}>
+              <StepLabel>&nbsp;</StepLabel>
+              <StepContent>
+                <Grid container spacing={2}>
+                  <Grid item xs={6}>
+                    <Typography className={classes.strongText} component="h2">
+                      {data.actividad}
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={4}>
+                    <Typography color="textSecondary">{data.fecha}</Typography>
+                  </Grid>
+                </Grid>
+                <Typography className="paragraph" component="p">{data.texto}</Typography>
+                <Typography
+                  className={[classes.orangeText, classes.strongText]}
+                  component="p"
+                >
+                  {data.puntos}
+                </Typography>
+              </StepContent>
+            </Step>
+          );
+        })}
+      </Stepper>
+      {/* <Grid container spacing={2}>
               <Grid item xs={6}>
              
                 <Typography className={classes.strongText} component="h2">
@@ -103,9 +101,9 @@ const History = (props) => {
             >
               + 2000
             </Typography> */}
-          </StepContent>
-        </Step>
-        {/* <Step active={true} key={1}>
+      {/* </StepContent>
+        </Step> */}
+      {/* <Step active={true} key={1}>
           <StepLabel>&nbsp;</StepLabel>
           <StepContent>
             <Grid container spacing={2}>
@@ -281,7 +279,7 @@ const History = (props) => {
             </Grid>
           </StepContent>
         </Step> */}
-      </Stepper>
+      {/* </Stepper> */}
     </div>
   );
 };
