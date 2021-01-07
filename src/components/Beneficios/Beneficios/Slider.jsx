@@ -47,7 +47,7 @@ const SliderComp = () => {
         </div>
         <div className='containerEachGift'>
           <div className='containerElementsGift'>
-            <img src={beneficios3} alt="" />
+            <img className='imgBeneficios3' src={beneficios3} alt="" />
             <span className='textGift'>
               4. Tu amigo debe aceptar la invitación y descargar la aplicación.
             </span>

@@ -41,7 +41,7 @@ const History = (props) => {
       fontSize: "18px",
     },
     orangeText: {
-      color: "#f90",
+      color: "#009189;",
       fontFamily: "Nunito",
       fontSize: "18px",
     },

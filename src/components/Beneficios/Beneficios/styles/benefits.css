@@ -25,6 +25,7 @@
   flex-flow: row nowrap;
   align-items: flex-start;
   margin-left: -4vw;
+  margin-bottom:18vw;;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -33,11 +34,11 @@
   display: flex;
   flex-flow: column wrap;
   margin-top:10px;
-  margin-bottom:18vw;;
   max-height: 120vw;
-  /* overflow: auto;
+  width: 400vw;
+  overflow: auto;
   -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar; */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 .containerAllCardsBenefits::-webkit-scrollbar {
   display: none;
@@ -66,7 +67,7 @@
 }
 .textGift{
   color: #333333;
-  text-align: center;
+  /* text-align: center; */
   font-size: 4vw;
 }
 .containerFiltersBenefit{
