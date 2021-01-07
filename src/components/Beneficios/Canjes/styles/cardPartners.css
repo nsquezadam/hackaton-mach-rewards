@@ -7,6 +7,8 @@
 .containerButtonsFilterCanjes{
   display: flex;
   flex-flow: row wrap;
+  margin-left:6.038647342995169vw ;
+ 
 }
 
 
@@ -17,7 +19,7 @@
   background-color: white;
   font-size: 4vw;
   padding: 5px 10px 5px 10px;
-  margin-right: 10px;
+  
   margin-top: 10px;
 }
 
@@ -78,12 +80,12 @@
 }
 .descBegginnerCard {
   color: #EE9B00;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   margin-left: 4vw;
 }
 .descAdventureCard {
   color: #00EDDF;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   margin-left: 4vw;
 }
 .containerDetails{
@@ -94,7 +96,7 @@
 
 }
 .containerDetails h6{
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   color:#333333;
   margin-bottom: -2vh;
   margin-top: 1vh;
@@ -102,7 +104,7 @@
 
 }
 .containerDetails p{
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: #444444;
   margin-left: 3vw;
 }

@@ -17,12 +17,12 @@ const PointsWins = () => {
 
   return (
     <>  
-       <h3>Puntos Acumulados</h3>
+       <h3>Puntos por canjear</h3>
         <div className={classContainerPointWin}>
       <div className="containerLogPtos">
       <img src={logoPtos} alt="logoPtos"/>
       </div>
-       <h4>{data[user].puntos}</h4>
+       <h4>{data[user].puntosPorCanjear}</h4>
       </div>
       <h5>{data[user].descTipoNivelPuntos}</h5>
     </>

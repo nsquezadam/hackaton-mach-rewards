@@ -369,6 +369,7 @@
       }
     ],
     "puntos": 175000,
+    "puntosPorCanjear":65000,
     "descTipoNivelPuntos":"Categoria Adventure: Desde 150.000 Hasta 300.000 Puntos",
     "perfil": {
       "logoCategoria": "../img/Banner_mach_adventure.png",

@@ -44,10 +44,11 @@ const CardPartners = (props) => {
   return (
     <div>
       <div className='containerFiltersCanjes'>
+        
+        <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
         <div className='containerButtonsFilterCanjes'>
           {buttonFilterCanjes}
         </div>
-        <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
       </div>
       < FilterCanjes filter={filter} setFilter={setFilter} filterMark={filterMark} setFilterMark={setFilterMark} />
       <div className="containerCanjes">
