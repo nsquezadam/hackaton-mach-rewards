@@ -17,7 +17,7 @@
         "puntos": "+ 1.000 puntos",
         "foto": "../img/desafios/DesafioAmigos.svg",
         "Explicacion": "Ayúdanos a que la comunidad MACH crezca y gana puntos fácilmente",
-        "iconobton": "",
+        "iconobton": "../img/desafios/InviteIcon.svg",
         "textobton": "Invita y gana",
         "titulomodal":"Invita a tus amigos",
         "textomodal": "Ayúdanos a que la comunidad de MACH crezca e invíta a un amig@ a descargar la App."
@@ -27,7 +27,7 @@
         "puntos": "+ 1.000 puntos x letra",
         "foto": "../img/desafios/DesafioLetras.svg",
         "Explicacion": "Cada letra coleccionada de M-A-C-H te regalará un SUPER BENEFICIO",
-        "iconobton": "",
+        "iconobton": "../img/desafios/ColectIcon.svg",
         "textobton": "Colecciona y gana"
       },
       {
@@ -35,7 +35,7 @@
         "puntos": "+ 5.000 puntos",
         "foto": "../img/desafios/DesafioMes.svg",
         "Explicacion": "Acepta este desafío, gana puntaje y descubre la caja sorpresa MACH",
-        "iconobton": "",
+        "iconobton": "../img/desafios/RechargIcon.svg",
         "textobton": "Acepta y gana"
       },
       {
@@ -43,7 +43,7 @@
         "puntos": "+ 2.000 puntos",
         "foto": "../img/desafios/DesafioRecarga.svg",
         "Explicacion": "Mantén tu tarjeta con saldo y paga rápidamente en el comercio",
-        "iconobton": "",
+        "iconobton": "../img/desafios/RechargIcon.svg",
         "textobton": "Recarga y gana"
       }
     ],
