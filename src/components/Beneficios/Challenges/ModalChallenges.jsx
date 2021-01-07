@@ -17,7 +17,10 @@ const ModalChallenge = (props) => {
 	const [user] = userValue
 
 	const [modalChallenge, setModalChallenge] = useState(false);
-	const [socialMedia, setsocialMedia] = useState(false)
+	const [socialMedia, setsocialMedia] = useState(false);
+
+	const classPointsPpal= user===0? 'pointsPpalBeginner':'pointsPpalAdventure';
+	
 
 	return (
 
@@ -81,7 +84,7 @@ const ModalChallenge = (props) => {
 			</div>}
 			<img src={props.data.foto} className="photoCard" alt="" srcset="" />
 			<div className="cardTextPpal">
-				<p className="pointsPpal">{props.data.puntos}</p>
+				<p className={classPointsPpal}>{props.data.puntos}</p>
 				<p className="cardSubtitlePpal">{props.data.titulo}</p>
 				<p className="cardExplanationPpal">{props.data.Explicacion}</p>
 			</div>

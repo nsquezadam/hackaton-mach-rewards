@@ -21,6 +21,9 @@ const Challenges = () => {
   const selectModal = (info) => {
     this.setState({ modal: !this.state.modal })
   };
+
+  const classChallengePoint= user===0? 'challengePointsBeginner ':'challengePointsAdventure';
+  
   let buttonFilter = '';
 
   if (filterMark.length === 0) {
@@ -70,46 +73,48 @@ const Challenges = () => {
       </section>
 
       <FilterChallenge filter={filter} setFilter={setFilter} filterMark={filterMark} setFilterMark={setFilterMark} />
-      <section className="cardsCategories">
+      <div className='containerIconAndCardsChallenge'>
         <img src={slideIcon} alt="" />
-        {data[user].categoriasdesafios.map((data, index) => {
-          if (filterMark.length === 0) {
-            return <div key={index} className="challengeCard">
-              <div className="challengeImage">
-                <img src={data.foto} alt="" srcset="" />
-              </div>
-              <div className="challengeText">
-                <p className="challengePoints"> {data.puntos}</p>
-                <p className="challengeName"> {data.titulo}</p>
-                <p className="challengeSumary">{data.descripcion}</p>
-              </div>
-            </div>
-          }
-          else {
-            for (let i = 0; i < filterMark.length; i++) {
-              if (data.categorias === filterMark[i]) {
-                return <div key={index} className="challengeCard">
-                  <div className="challengeImage">
-                    <img src={data.foto} alt="" srcset="" />
-                  </div>
-                  <div className="challengeText">
-                    <p className="challengePoints"> {data.puntos}</p>
-                    <p className="challengeName"> {data.titulo}</p>
-                    <p className="challengeSumary">{data.descripcion}</p>
-                  </div>
+        <section className="cardsCategories">
+          {data[user].categoriasdesafios.map((data, index) => {
+            if (filterMark.length === 0) {
+              return <div key={index} className="challengeCard">
+                <div className="challengeImage">
+                  <img src={data.foto} alt="" srcset="" />
                 </div>
+                <div className="challengeText">
+                  <p className={classChallengePoint}> {data.puntos}</p>
+                  <p className="challengeName"> {data.titulo}</p>
+                  <p className="challengeSumary">{data.descripcion}</p>
+                </div>
+              </div>
+            }
+            else {
+              for (let i = 0; i < filterMark.length; i++) {
+                if (data.categorias === filterMark[i]) {
+                  return <div key={index} className="challengeCard">
+                    <div className="challengeImage">
+                      <img src={data.foto} alt="" srcset="" />
+                    </div>
+                    <div className="challengeText">
+                      <p className="challengePoints"> {data.puntos}</p>
+                      <p className="challengeName"> {data.titulo}</p>
+                      <p className="challengeSumary">{data.descripcion}</p>
+                    </div>
+                  </div>
+                }
               }
             }
-          }
-        })}
-      </section>
-      <section className="machChallenge">
+          })}
+        </section>
+      </div>
+      {/* <section className="machChallenge">
         <h2>#MACHallenge</h2>
         <p>
           Acepta los desafíos en redes sociales y participa de los sorteos que lanzamos semanalmente.
           Tenemos PREMIOS FABULOSOS para tí.
           </p>
-      </section>
+      </section> */}
     </div>
   );
 };
