@@ -7,7 +7,7 @@ import present from '../../../img/regalo.svg';
 const ModalBenefit = (props) => {
 
   const { userValue, openModal } = useContext(ContextUser);
-  const [user]= userValue
+  const [user] = userValue
 
   const categoryBenefit = user === 0 ? 'Beneficio Beginner' : 'Beneficio Advance';
   const classContainerCategoryModal = user === 0 ? 'containerCategoryModalBeginner' : 'containerCategoryModalAdvance';
@@ -16,6 +16,12 @@ const ModalBenefit = (props) => {
 
   const classContainerDiscount = user === 0 ? 'containerDiscountBegginer' : 'containerDiscountAdventure';
   const classTextGetCoupon = user === 0 ? 'textGetCouponBegginer' : 'textGetCouponAdventure';
+  const classWinTitlesModal = user === 0 ? 'winTitlesModalBeginner' : 'winTitlesModalAdventure'
+
+  const [navBarModal, setNavBarModal] = useState('Activar');
+
+  const classMenuActivar = navBarModal === 'Activar' ? 'btnMenuActivateModal' : 'btnMenuModal';
+  const classMenuTerminos = navBarModal === 'Terminos' ? 'btnMenuActivateModal' : 'btnMenuModal';
 
   return (
     <div className='containerEachCard' onClick={() => setModalBenefit(!modalBenefit)}>
@@ -27,15 +33,26 @@ const ModalBenefit = (props) => {
             <img src={present} alt='regalo' />
             <span className='textCategoryBenefit'>{categoryBenefit}</span>
           </div>
-          <span>{props.data.nombre}</span>
-          <span></span>
-          <span>{props.data.textoActivarBeneficio1}</span>
-          <span>1-{props.data.textoActivarBeneficio2}</span>
-          <span>2-{props.data.textoActivarBeneficio3}</span>
-          <span>3-{props.data.textoActivarBeneficio4}</span>
-          <span>4-{props.data.textoActivarBeneficio5}</span>
-          <span>5-{props.data.textoActivarBeneficio6}</span>
-          <button>Regala a un amigo</button>
+          <div className='containerTitlesModal'>
+            <span className='titleTitlesModal'>{props.data.nombre}</span>
+            <span className={classWinTitlesModal}>$3000 a tu tarjeta</span>
+            <span className='textTitlesModal'>Contrata un mes de plan básico y te devolvemos $3.000 a tu cuenta de prepago MACH</span>
+          </div>
+          <nav className='scrollNavBarModal'>
+            <button className={classMenuActivar} onClick={() => setNavBarModal('Activar')}>Cómo activar beneficio</button>
+            <button className={classMenuTerminos} onClick={() => setNavBarModal('Terminos')}>Términos y condiciones</button>
+          </nav>
+          {/* {reward} */}
+          <section>
+            <span>{props.data.textoActivarBeneficio1}</span>
+            <span>1-{props.data.textoActivarBeneficio2}</span>
+            <span>2-{props.data.textoActivarBeneficio3}</span>
+            <span>3-{props.data.textoActivarBeneficio4}</span>
+            <span>4-{props.data.textoActivarBeneficio5}</span>
+            <span>5-{props.data.textoActivarBeneficio6}</span>
+            <button>Regala a un amigo</button>
+          </section>
+
         </div>
       </div>}
       <img src={`${props.data.foto}`} alt='foto beneficios' />
