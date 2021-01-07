@@ -12,6 +12,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 80vh;
   background-color: white;
@@ -32,6 +33,7 @@
   flex-flow: row nowrap;
   align-items: center;
   background-color: #EE9B00;
+  padding-left: 5vw;
 }
 .containerCategoryModalAdvance{
   display: flex;
@@ -40,9 +42,68 @@
   width: 100vw;
   height: 7vw;
   background-color: #009189;
+  margin-left: 5vw;
 }
 .textCategoryBenefit{
   color: white;
+  font-weight: bold;
+  font-size: 3.8vw;
+  margin-left: 2vw;
+}
+.containerTitlesModal{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90vw;
+  background-color: yellow;
+}
+.titleTitlesModal{
+  font-weight: bold;
+  font-size: 5.5vw;
+  color: #333333
+}
+.winTitlesModalBeginner{
+  font-weight: bold;
+  font-size: 4.5vw;
+  color: #EE9B00;
+}
+.winTitlesModalAdventure{
+  font-weight: bold;
+  font-size: 4.5vw;
+  color: #009189;
+}
+.textTitlesModal{
+  font-weight: bold;
+  font-size: 4.6vw;
+  color: #333333;
+}
+.scrollNavBarModal {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.btnMenuModal {
+  flex: 0 0 auto;
+  border:none;
+  width: 50vw;
+  height: 15vw;
+  background-color: #F6F6F6;
+  border:none;
+  color: #6200EE;
+  font-weight: bold;
+  font-size: 4.5vw;
+  outline:none;
+  z-index: 2;
+}
+.btnMenuActivateModal {
+  flex: 0 0 auto;
+  border:none;
+  width: 50vw;
+  height: 15vw;
+  background: linear-gradient(to bottom,  #F6F6F6 90%, #6200EE 90%,#6200EE 100%);
+  border:none;
+  color: #6200EE;
+  font-weight: bold;
+  font-size: 4.5vw;
+  outline:none;
 }
 
 .containerEachCard{
@@ -91,16 +152,21 @@
   color: white;
   padding: 2px 3px 2px 3px;
   font-size: 4vw;
-  min-width: 9vw;
+  min-width: 10vw;
+  font-weight: bold
 }
 .containerDiscountAdventure{
-  background: #FFCF26;
-  border: 2px dashed #FFE769;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#00EDDF;
+  border: 2px dashed #009189;
   border-radius: 5px;
-  color: white;
+  color: #009189;
   padding: 2px 3px 2px 3px;
   font-size: 4vw;
-  min-width: 7vw;
+  min-width: 10vw;
+  font-weight: bold
 }
 .textGetCouponBegginer{
   font-weight: bold;

@@ -6,12 +6,13 @@ import filterIcon from '../../../img/filter.svg'
 import Filter from './Filter';
 import SliderComp from './Slider';
 import ModalBenefit from './EachBenefit';
+import slideIcon from '../../../img/slideIcon.svg'
 
 
 const Benefits = () => {
 
   const { userValue } = useContext(ContextUser);
-  const [user]= userValue
+  const [user] = userValue
 
   const [filter, setFilter] = useState(false);
   const [filterMark, setFilterMark] = useState([]);
@@ -51,19 +52,24 @@ const Benefits = () => {
           <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
         </div>
         <Filter filter={filter} setFilter={setFilter} filterMark={filterMark} setFilterMark={setFilterMark} />
-        <div className='containerAllCardsBenefits'>
-          {data[user].beneficios.map((data, index) => {
-            if (filterMark.length === 0) {
-              return <ModalBenefit key={index} data={data} />
-            }
-            else {
-              for (let i = 0; i < filterMark.length; i++) {
-                if (data.categoria === filterMark[i]) {
-                  return <ModalBenefit key={index} data={data} />
+        <div className='containerIconAndCards'>
+          <img src={slideIcon} alt="" />
+          <div className='containerAllCardsBenefits'>
+            {data[user].beneficios.map((data, index) => {
+              if (filterMark.length === 0) {
+                return <ModalBenefit key={index} data={data} />
+              }
+              else {
+                for (let i = 0; i < filterMark.length; i++) {
+                  if (data.categoria === filterMark[i]) {
+                    return <ModalBenefit key={index} data={data} />
+                  }
                 }
               }
-            }
-          })}
+            })}
+
+          </div>
+
         </div>
         {user === 0 ? null : <SliderComp />}
       </section>
