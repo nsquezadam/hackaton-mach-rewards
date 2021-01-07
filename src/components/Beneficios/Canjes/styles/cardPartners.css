@@ -23,7 +23,15 @@
   margin-top: 10px;
 }
 
-
+.containerIconAndCards{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  margin-left: -4vw;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
 
 
 
