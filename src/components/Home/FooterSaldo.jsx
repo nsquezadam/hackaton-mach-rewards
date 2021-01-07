@@ -1,12 +1,23 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import { Link } from 'react-router-dom'
 import transferir from '../../img/transferir.svg';
 import tarjeta from '../../img/tarjeta.svg';
 import servicios from '../../img/servicios.svg';
 import beneficiosNuevos from '../../img/beneficiosNuevo.svg';
+import { ContextUser } from '../../App'
 
 const FooterSaldo = () => {
 
+  const { userValue, openModal } = useContext(ContextUser);
+
+  const [user]= userValue
+  const openModalLocal=openModal
+
+  const openModalUser=()=>{
+    if(user===0){
+      openModalLocal()
+    }
+  }
 
   return (
     <section className='containerFooterSaldo'>
@@ -38,7 +49,7 @@ const FooterSaldo = () => {
           </span>
         </div>
         <div className='containereEachElementFooterSaldo'>
-          <Link className='containerLinks' to='/beneficios'>
+          <Link className='containerLinks' to='/beneficios' onClick={openModalUser}>
             <img className='imgBeneficiosNuevos' src={beneficiosNuevos} alt='beneficiosNuevos' />
             <span className='textFooter'>
               Beneficios

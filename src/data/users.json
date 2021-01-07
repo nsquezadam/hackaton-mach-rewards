@@ -293,10 +293,13 @@
     ],
     "perfil": {
       "logoCategoria": "../img/Banner_Mach_Begginer.png",
-      "dineroAhorrado": "$0",
-      "puntosAmigos": "0",
-      "puntosCarga": "0",
-      "puntosProxCategoria": "0"
+      "fotoDesafio":"../img/perfil/DesafioBeginner.svg",
+      "desafioDelDia":"Paga una cuenta de teléfono con MACH",
+      "dineroAhorrado": 0,
+      "puntosAmigos": 0,
+      "puntosCarga": 0,
+      "puntosProxCategoria": 0,
+      "puntos":"1"
     },
     "beneficios": [
       {
@@ -356,14 +359,17 @@
         "fecha": "11/04/2020"
       }
     ],
-    "puntos": "175.000",
+    "puntos": 175000,
     "descTipoNivelPuntos":"Categoria Adventure:desde 150.000 Hasta 300.000 Puntos",
     "perfil": {
       "logoCategoria": "../img/Banner_mach_adventure.png",
+      "fotoDesafio":"../img/perfil/DesafioAdventure.svg",
+      "desafioDelDia":"Carga tu tarjeta de MACH con mínimo de $10.000",
       "dineroAhorrado": 15538,
-      "puntosAmigos": "5000",
-      "puntosCarga": "3000",
-      "puntosProxCategoria": "60430"
+      "puntosAmigos": 5000,
+      "puntosCarga": 40000,
+      "puntosProxCategoria": 125000,
+      "puntos": 58
     },
     "beneficios": [
       {

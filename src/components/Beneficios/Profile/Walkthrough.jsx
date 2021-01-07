@@ -132,23 +132,23 @@ const Walkthrough = () => {
               </div>
               <div className='containerEachCanjesWalkthrough'>
                 <img src={retail} alt="retail" />
-                <span className=''>Tecnología</span>
+                <span className=''>Retail</span>
               </div>
               <div className='containerEachCanjesWalkthrough'>
                 <img src={deporte} alt="deporte" />
-                <span className=''>Tecnología</span>
+                <span className=''>Deporte</span>
               </div>
               <div className='containerEachCanjesWalkthrough'>
                 <img src={aventura} alt="aventura" />
-                <span className=''>Tecnología</span>
+                <span className=''>Aventura</span>
               </div>
               <div className='containerEachCanjesWalkthrough'>
                 <img src={mascotas} alt="mascotas" />
-                <span className=''>Tecnología</span>
+                <span className=''>Mascotas</span>
               </div>
               <div className='containerEachCanjesWalkthrough'>
                 <img src={libros} alt="libros" />
-                <span className=''>Tecnología</span>
+                <span className=''>Libros y más</span>
               </div>
             </div>
             <span className='textWalkthrough'>

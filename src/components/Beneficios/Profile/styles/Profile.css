@@ -20,22 +20,27 @@
 .cardProfile{
 	display: flex;
 	flex-flow: column nowrap;
-	justify-content: space-between;
-  width: 40vw;
-  height: 60vw;
+  width: 45vw;
+  height: 68vw;
   background: white;
   box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.18), 0px 4px 8px rgba(0, 0, 0, 0.18);
   border-radius: 10px;
 	border: none;
 	margin-left: 5px;
   margin-right: 5px;
-  padding: 0 10px 15px 10px;
 }
-
-
+.containerTextChallenge{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  height: 26vw;
+  justify-content: space-between;
+  padding: 3vw 2vw 6vw 2vw
+}
 .containerTextCardProfile{
   display: flex;
   flex-flow: column nowrap;
+  padding: 0 3vw 0 3vw
 }
 .containerNextPoints{
 	display: flex;
@@ -55,9 +60,8 @@
   color:#EE9B00;
   font-size: 4vw;
 }
-.textPointsAdvance{
-  /* cambiar por color advance */
-  color:#EE9B00;
+.textPointsAdventure{
+  color: #009189;
   font-size: 4vw;
 }
 .textChallengeDay{
@@ -82,43 +86,28 @@
   display: flex;
   flex-direction: column;
 }
-
-.indicator{
-  line-height: 0;
-  margin-top: -102px;
-  margin-bottom: 18px;
+.indicator {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  user-select: none;
 }
-
-/* texto que va en medio del ProgressBar*/
-.text p{
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  color: #999999;
-  mix-blend-mode: normal;
+.containerIconPoints{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
-
-/* Tipografias dentro de card y box */
-.card h2{
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 4vw;
-  line-height: 27px;
-  color: #333333;
-  mix-blend-mode: normal;
-}
-
-.card p{
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 25px;
-  color: #333333;
-  mix-blend-mode: normal;  
+.textPointsProgressBar{
+  color:#999999;
+  font-size: 3.5vw;
+  margin-left: 8px;
 }
 
 .boton-historial{
@@ -129,12 +118,24 @@
   margin-left:5vw;
   background-color: #6200EE;
   color: #ffffff;
-  border-radius: 5px;
-  width: 174px;
-  height: 55px;
+  border-radius: 10px;
+  width: 90vw;
+  height: 14vw;
   font-size: 5vw;
   border: none;
   align-self: flex-start;
+}
+.btnSistemaBeneficios{
+  width: 90vw;
+  height: 14vw;
+  margin-bottom: 25vw;
+  background-color: white;
+  color:#6200EE;
+  font-weight: bold;
+  font-size: 4.5vw;
+  margin-top:20px;
+  border: 2px solid #6200EE;
+  border-radius: 10px;
 }
 .iconButtonProfile{
   margin-right: 10px;
@@ -149,10 +150,11 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin-bottom: 18vw;
   margin-top: 20px;
 }
-
+.imgTarjetaProfile{
+  margin: 2vw 0 2vw 0
+}
 .boxProfile{
   display: flex;
   flex-flow: column nowrap;
@@ -170,19 +172,36 @@
   font-size: 7vw;
   font-weight: bold;
 }
-.numberBenefitsPointsAdvance{
-  /* cambiar a advance */
-  color: #EE9B00;
+.numberBenefitsPointsAdventure{
+  color: #009189;
   font-size: 7vw;
   font-weight: bold;
 }
 .textBenefitsProfile{
   color: #333333;
   font-size: 3.6vw;
-  margin: 0 5px 0 5px;
-  text-align: center;
+  margin: 0 0px 0 10px;
 }
 .containerNumbersCount{
   display: flex;
   flex-flow: row nowrap;
+}
+.pointsProfileBeginner{
+  font-weight: bold;
+  font-size: 7vw;
+  color: #EE9B00;
+}
+.pointsProfileAdventure{
+  font-weight: bold;
+  font-size: 7vw;
+  color: #009189;
+}
+.containerLogoPoints{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  padding: 0 3vw 0 3vw;
+}
+.logoPointsPequeno{
+  align-self: flex-start;
 }

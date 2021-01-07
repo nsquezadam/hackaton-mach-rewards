@@ -11,7 +11,8 @@ import ModalChallenge from './ModalChallenges';
 
 const Challenges = () => {
 
-  const [user]= useContext(ContextUser);
+  const { userValue } = useContext(ContextUser);
+  const [user]= userValue
 
   const [filter, setFilter] = useState(false);
   const [filterMark, setFilterMark] = useState([]);

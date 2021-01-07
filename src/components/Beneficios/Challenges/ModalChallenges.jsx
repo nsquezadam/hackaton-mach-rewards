@@ -8,7 +8,9 @@ import Logoptos from '../../../img/logPtos.svg';
 import copyIcon from '../../../img/CopyIcon.svg';
 
 const ModalChallenge = (props) => {
-	const [user] = useContext(ContextUser);
+	const { userValue } = useContext(ContextUser);
+
+  const [user]= userValue
 
 	const [modalChallenge, setModalChallenge] = useState(false);
 

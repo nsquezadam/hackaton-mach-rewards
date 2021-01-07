@@ -7,7 +7,9 @@ import PointWins from './PointsWins'
 
 const CardSubCategoria = (props) => {
   const classToogleAdventure = props.adventureSubcat === true ? 'toggleVisibleSubCategory' : 'toggleHiddenSubCategory';
-  const [user] = useContext(ContextUser);
+  const { userValue } = useContext(ContextUser);
+
+  const [user]= userValue
 
 // let subCategory = data[user].canjes.map((subdata)=>{
 //   return subdata.subCategoria
