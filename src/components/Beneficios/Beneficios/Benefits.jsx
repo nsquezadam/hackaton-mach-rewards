@@ -6,6 +6,7 @@ import filterIcon from '../../../img/filter.svg'
 import Filter from './Filter';
 import SliderComp from './Slider';
 import ModalBenefit from './EachBenefit';
+import ModalBenefitGrey from './EachBenefitGray'
 import slideIcon from '../../../img/slideIcon.svg'
 import bannerExplorer from '../../../img/bannerexplorer.svg';
 import bannerLover from '../../../img/bannerlover.svg'
@@ -72,22 +73,25 @@ const Benefits = () => {
               }
             })}
           </div>
+        </div>
+        <div className='containerIconAndCards'>
           <img src={banner} alt="" />
           <div className='containerAllCardsBenefits'>
             {data[user].beneficiosOcultos.map((data, index) => {
               if (filterMark.length === 0) {
-                return <ModalBenefit key={index} data={data} />
+                return <ModalBenefitGrey key={index} data={data} />
               }
               else {
                 for (let i = 0; i < filterMark.length; i++) {
                   if (data.categoria === filterMark[i]) {
-                    return <ModalBenefit key={index} data={data} />
+                    return <ModalBenefitGrey key={index} data={data} />
                   }
                 }
               }
             })}
           </div>
         </div>
+
         {user === 0 ? null : <SliderComp />}
       </section>
     </div >

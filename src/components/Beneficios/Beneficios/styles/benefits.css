@@ -25,7 +25,7 @@
   flex-flow: row nowrap;
   align-items: flex-start;
   margin-left: -4vw;
-  margin-bottom:18vw;;
+  margin-bottom:2vw;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -36,9 +36,9 @@
   margin-top:10px;
   max-height: 120vw;
   width: 400vw;
-  overflow: auto;
+  /* overflow: auto;
   -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-overflow-style: -ms-autohiding-scrollbar; */
 }
 .containerAllCardsBenefits::-webkit-scrollbar {
   display: none;
