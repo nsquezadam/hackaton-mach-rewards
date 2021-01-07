@@ -26,9 +26,6 @@ const PointsWins = () => {
               {({ countUpRef, start }) => (
                 <VisibilitySensor onChange={start} delayedCall>
                   <span ref={countUpRef} ><h4>{data[user].puntosPorCanjear} </h4></span>
-                  {/* <div>
-                  <h4>{data[user].puntosPorCanjear} ref={countUpRef}</h4>
-                  </div> */}
                 </VisibilitySensor>
               )}
             </CountUp>
