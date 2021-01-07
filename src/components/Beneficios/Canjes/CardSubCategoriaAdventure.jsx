@@ -31,15 +31,14 @@ const CardSubCategoria = (props) => {
           <img src={`${data.imgAventurasSubCat}`} alt="Aventuras"/>
           </div>
         <div className="containerTitleAndDescription">
-          <h4>{data.nameTitle}</h4>
-          <p>{data.descripcionAventurasSubCat}</p>
+          <h4 className="tituloSub" >{data.nameTitle}</h4>
+          <p className="descripcionSub" >{data.descripcionAventurasSubCat}</p>
         </div>
         </div>
         })}
        
-      
+      <div className="containerscroll">
       <div className="containerAllSubCat">
-       
         {data[user].subCategoriaCanjes.map((data, index) => {
           return (
             <div key={index} className="containerCardSubcategory">
@@ -64,6 +63,7 @@ const CardSubCategoria = (props) => {
             </div>
           );
         })}
+      </div>
       </div>
       </div>
     </div>
