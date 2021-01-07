@@ -5,8 +5,8 @@ import { ContextUser } from '../../../App.js';
 import data from '../../../data/users.json';
 import filterIcon from '../../../img/filter.svg';
 import FilterChallenge from './FilterChallenge';
-import ModalChallenges from './ModalChallenges';
 import ModalChallenge from './ModalChallenges';
+import swipeIcon from '../../../img/swipeicon.svg';
 
 
 const Challenges = () => {
@@ -49,6 +49,9 @@ const Challenges = () => {
           </p>
       </section>
       {/*Cards in slide */}
+        <div className="swipeicon">
+          <img src={swipeIcon} alt=""/>
+        </div>
       <section className="cardContainers">
         {data[user].desafiosprincipales.map((data, index) => {
           return <ModalChallenge key={index} data={data} />
@@ -66,6 +69,9 @@ const Challenges = () => {
           <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
         </div>
       </section>
+        <div className="swipeicon">
+          <img src={swipeIcon} alt=""/>
+        </div>
       <FilterChallenge filter={filter} setFilter={setFilter} filterMark={filterMark} setFilterMark={setFilterMark} />
       <section className="cardsCategories">
         {data[user].categoriasdesafios.map((data, index) => {

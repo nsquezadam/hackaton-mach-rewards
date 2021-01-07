@@ -8,6 +8,7 @@
     display: flex;
     border-radius: 1rem 1rem 1rem 1rem;
   }
+  
   .modalContentChallenge {
     position: fixed;
     display: flex;
@@ -75,6 +76,12 @@
   font-weight: 400;
 }
 
+.copyLink{
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
 .instructionCopy{
   font-size: 3vw;
   font-weight: 400;
@@ -107,6 +114,9 @@
 .message{
   font-size: 3vw;
   font-weight: 400;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .socialMediacontainer{
