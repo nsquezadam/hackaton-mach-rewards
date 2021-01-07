@@ -19,14 +19,13 @@ import { TuneRounded } from '@material-ui/icons';
 const UserProfile = () => {
   const { userValue, openModal, modalWalkthrough } = useContext(ContextUser);
 
+  const [user] = userValue
+  const openModalLocal = openModal
+  const [modalHistory, setModalHistory]=useState(false);
 
-  const [user]= userValue
-  const openModalLocal=openModal
+  const [valueModalWalkthrough] = modalWalkthrough;
 
-  const [valueModalWalkthrough]= modalWalkthrough;
-
-  console.log(valueModalWalkthrough)
-  const [modalProfile,setModalProfile]=useState(false);
+  const [modalProfile, setModalProfile] = useState(false);
 
   const category = user === 0 ? "MACH Explorer, pasas desde los 50.000 puntos" : "MACH Lover, pasas desde los 300.000 puntos";
   const classPointsChallenge = user === 0 ? "textPointsBegginer" : "textPointsAdventure";
@@ -147,7 +146,7 @@ const UserProfile = () => {
                 >
                   {({ countUpRef, start }) => (
                     <VisibilitySensor onChange={start} delayedCall>
-                      div>
+                      <div>
                       <span
                         className={classNumberBenefitsProfile}
                         ref={countUpRef}
@@ -161,7 +160,7 @@ const UserProfile = () => {
             <div className='containerLogoPoints'>
               <img className='logoPointsPequeno' src={logoColores} alt="logo" />
               <span className="textBenefitsProfile">
-                Puntos ganados al cargar tu tarjeta
+              Puntos ganados al cargar tu tarjeta
             </span>
             </div>
           </div>
@@ -190,7 +189,7 @@ const UserProfile = () => {
             <div className='containerLogoPoints'>
               <img className='logoPointsPequeno' src={logoColores} alt="logo" />
               <span className="textBenefitsProfile">
-                Puntos para la próxima categoría
+              Puntos para la próxima categoría
             </span>
             </div>
           </div>
@@ -201,9 +200,9 @@ const UserProfile = () => {
         Mi historial
       </button>
       <button className="btnSistemaBeneficios" onClick={openModalLocal}>
-        Cómo funciona el sistema de beneficios
+      Cómo funciona el sistema de beneficios
       </button>
-    </div>
+    </div >
   );
 };
 
