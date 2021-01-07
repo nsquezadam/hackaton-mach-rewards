@@ -5,13 +5,14 @@ import { ContextUser } from '../../../App.js';
 import data from '../../../data/users.json';
 import filterIcon from '../../../img/filter.svg';
 import FilterChallenge from './FilterChallenge';
-import ModalChallenges from './ModalChallenges';
 import ModalChallenge from './ModalChallenges';
+import swipeIcon from '../../../img/swipeicon.svg';
 
 
 const Challenges = () => {
 
-  const [user]= useContext(ContextUser);
+  const { userValue } = useContext(ContextUser);
+  const [user]= userValue
 
   const [filter, setFilter] = useState(false);
   const [filterMark, setFilterMark] = useState([]);
@@ -49,6 +50,9 @@ const Challenges = () => {
           </p>
       </section>
       {/*Cards in slide */}
+        <div className="swipeicon">
+          <img src={swipeIcon} alt=""/>
+        </div>
       <section className="cardContainers">
         {data[user].desafiosprincipales.map((data, index) => {
           return <ModalChallenge key={index} data={data} />
@@ -56,17 +60,19 @@ const Challenges = () => {
       </section>
       <section className="categories">
         <div className="categoriesIntro">
-          <h2>Categorías</h2>
-          <p>Paga con tu tarjeta MACH en cualquiera de estas tiendas y ganarás más puntos,
-              cada categoría tiene puntajes diferentes.</p>
+          <h2>Paga con MACH</h2>
+          <p>Paga con tu tarjeta en cualquiera de estas tiendas y acumularás más puntos, cada categoría tiene puntajes diferentes.</p>
         </div>
-        <div className='containerFiltersBenefit'>
+        <div className='containerFiltersChallenge'>
           <div className='containerButtonsFilter'>
             {buttonFilter}
           </div>
           <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
         </div>
       </section>
+        <div className="swipeicon">
+          <img src={swipeIcon} alt=""/>
+        </div>
       <FilterChallenge filter={filter} setFilter={setFilter} filterMark={filterMark} setFilterMark={setFilterMark} />
       <section className="cardsCategories">
         {data[user].categoriasdesafios.map((data, index) => {

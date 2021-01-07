@@ -1,6 +1,10 @@
 .container_rewards{
   width: 100vw;
+<<<<<<< HEAD
   background: #FFFFFF;
+=======
+  background: white;
+>>>>>>> 14904d5c3e809e6696e8a6ec13a77af26028ab0f
   height: 120vh;
   padding-top: 18vw;
   overflow: scroll;

@@ -9,6 +9,14 @@ export const ContextUser = createContext(null);
 
 function App() {
   const [user, setUser] = useState(0);
+  const [modalWalkthrough,setModalWalkthrough]=useState(false)
+
+  const openModal=()=>{
+    setModalWalkthrough(true)
+  }
+  const closeModal=()=>{
+    setModalWalkthrough(false)
+  }
 
   return (
     <Router>
@@ -19,12 +27,12 @@ function App() {
           </ContextUser.Provider>
         </Route>
         <Route path="/home" exact>
-          <ContextUser.Provider value={[user]}>
+          <ContextUser.Provider value={{userValue:[user], openModal:openModal, closeModal:closeModal}}>
             <HomePage />
           </ContextUser.Provider>
         </Route>
         <Route path="/beneficios" exact>
-          <ContextUser.Provider value={[user]}>
+          <ContextUser.Provider value={{userValue:[user], openModal:openModal, closeModal:closeModal, modalWalkthrough:[modalWalkthrough]}}>
             <BeneficiosPage />
           </ContextUser.Provider>
         </Route>

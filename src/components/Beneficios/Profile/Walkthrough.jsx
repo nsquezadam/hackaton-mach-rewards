@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './styles/walkthrough.css';
@@ -16,14 +16,23 @@ import aventura from './../../../img/aventura.svg'
 import mascotas from './../../../img/mascota.svg'
 import libros from './../../../img/libros.svg'
 import beneficiosmach from './../../../img/beneficiosmach.svg';
-import puntosmach from './../../../img/puntosmach.png';
+import puntosmach from './../../../img/puntosmach.svg';
+import finalWal from  './../../../img/finalWalkthrough.svg';
+import { ContextUser } from "../../../App";
+
 
 const Walkthrough = () => {
+  const {closeModal } = useContext(ContextUser);
+
+  const closeModalLocal = closeModal
+
   const settings = {
     dots: true,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
+
   return (
     <div className="modaltWalkthrough">
       <div className="modalContentWalkthrough">
@@ -82,12 +91,8 @@ const Walkthrough = () => {
               Para acumular los puntos, deberás cumplir con los desafíos MACH que tenemos para tí.
             </span>
             <div className='containerImgPuntos'>
-              <img src={puntosmach} alt='puntosmach' />
+              <img className='containerImgpuntosmach' src={puntosmach} alt='puntosmach' />
             </div>
-            <button className='btnDEsafiosMach'>
-              Desafíos MACH
-            </button>
-
             <span className='textWalkthrough'>
               Desafíos: Invita a un amigo, acumula las letras M-A-C-H, desafío del día y carga tu tarjeta de prepago.
             </span>
@@ -132,23 +137,23 @@ const Walkthrough = () => {
               </div>
               <div className='containerEachCanjesWalkthrough'>
                 <img src={retail} alt="retail" />
-                <span className=''>Tecnología</span>
+                <span className=''>Retail</span>
               </div>
               <div className='containerEachCanjesWalkthrough'>
                 <img src={deporte} alt="deporte" />
-                <span className=''>Tecnología</span>
+                <span className=''>Deporte</span>
               </div>
               <div className='containerEachCanjesWalkthrough'>
                 <img src={aventura} alt="aventura" />
-                <span className=''>Tecnología</span>
+                <span className=''>Aventura</span>
               </div>
               <div className='containerEachCanjesWalkthrough'>
                 <img src={mascotas} alt="mascotas" />
-                <span className=''>Tecnología</span>
+                <span className=''>Mascotas</span>
               </div>
               <div className='containerEachCanjesWalkthrough'>
                 <img src={libros} alt="libros" />
-                <span className=''>Tecnología</span>
+                <span className=''>Libros y más</span>
               </div>
             </div>
             <span className='textWalkthrough'>
@@ -167,7 +172,25 @@ const Walkthrough = () => {
             <img className='imgBeneficiosWalkthrough' src={beneficiosmach} alt="beneficiosmach" />
             <span className='textWalkthrough'>
               Mientras estés más arriba en las categorías, accederás a mejores beneficios.
+            </span>
+            <span className='textWalkthrough'>
               <strong>¡No necesitas puntos para cobrarlos!</strong>
+            </span>
+          </div>
+          {/* sexta pantalla */}
+          <div className='containerPageWalkthrough'>
+            <span className='titleWalkthrough'>
+              A disfrutar tus beneficios
+            </span>
+            <img className='imgBeneficiosWalkthrough' src={finalWal} alt="beneficiosmach" />
+            <button className='btnFinalWalkthrogh' onClick={closeModalLocal}>
+              Seguir en la App
+            </button>
+            <span className='textWalkthrough'>
+              Ahora comienza tu camino para convertirte en un MACH Lover.
+            </span>
+            <span className='textWalkthrough'>
+              Esperamos que lo disfrutes al máximo.
             </span>
           </div>
         </Slider>

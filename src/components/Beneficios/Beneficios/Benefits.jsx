@@ -10,7 +10,8 @@ import ModalBenefit from './EachBenefit';
 
 const Benefits = () => {
 
-  const [user] = useContext(ContextUser);
+  const { userValue } = useContext(ContextUser);
+  const [user]= userValue
 
   const [filter, setFilter] = useState(false);
   const [filterMark, setFilterMark] = useState([]);

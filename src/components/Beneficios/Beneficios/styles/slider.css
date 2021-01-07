@@ -1,9 +1,3 @@
-/* .containerSlider{
-  margin-bottom: 10vw;
-  margin-top: 15px;
-  display: flex;
-  width: 85vw ! Important;
-} */
 .slick-dots li.slick-active button:before {
   opacity: 1;
   color:  #6200EE;
