@@ -297,7 +297,7 @@
     "detalleSubCategoriaCanjeAventuras":[
       {
         "nameTitle":"Aventuras",
-        "imgAventurasSubCat":"../img/canjes/subCategorias/aventurasImgModal.svg",
+        "imgAventurasSubCat":"../img/canjes/subcategorias/aventurasImgModal.svg",
         "descripcionAventurasSubCat":"Que esperas para vivir al límite, diviértete al máximo con estas aventuras extremas. ¡Sólo para atrevidos!"
     }],
     "perfil": {
@@ -883,7 +883,7 @@
     "detalleSubCategoriaCanjeAventuras":[
       {
         "nameTitle":"Aventuras",
-        "imgAventurasSubCat":"../img/canjes/subCategorias/aventurasImgModal.svg",
+        "imgAventurasSubCat":"../img/canjes/subcategorias/aventurasImgModal.svg",
         "descripcionAventurasSubCat":"Que esperas para vivir al límite, diviértete al máximo con estas aventuras extremas. ¡Sólo para atrevidos!"
     }],
     "desafiosprincipales": [
