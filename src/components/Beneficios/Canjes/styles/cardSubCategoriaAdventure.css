@@ -4,9 +4,9 @@
   position: fixed;
   transform: translateX(100%);
   right: 0;
-  top: 20vw;
+  top: 0;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   /* border: 2px solid #F4F4F4; */
   box-sizing: border-box;
   transition: transform 0.2s ease-in-out;
@@ -15,39 +15,108 @@
 .toggleVisibleSubCategory  {
   display: flex;
   position: fixed;
-  /* padding-top: 40vh;
-  padding-bottom: 10vh; */
   align-items: center;
   justify-content: center;
-  flex-flow: column nowrap;
-  transform: translateX(0%);
-  top: 20vh;
+ 
+  transform: translateX(0%);  
+  top: 0;
   right: 0;
   width: 100vw;
-  height: 130vh;
+  height: auto;
   /* border: 2px solid #F4F4F4; */
   box-sizing: border-box;
   transition: transform 0.2s ease-in-out;
-  z-index: 3;
+  z-index: 4;
   cursor:pointer;
   background-color: white;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
+  height: 1325px;
 }
-
-
-
-.imaArrowBack{
+.containerModalSub{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction:column;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  
+  
+}
+.imaCloseBack{
   align-self: flex-start;
-  margin-left: 8vw;
-  margin-bottom: 3vh;
+  right: 4vw;
+  top: 3vh;
+  position: absolute;
+  /* color: #333333; */
+  
 
 }
+
+.headerModalCanjesSubCat{
+  display: flex;
+  width: 100%;
+  height: 373px;
+  /* position: fixed;
+  top: 0; */
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap ;
+
+
+
+}
+
+
 .containerTitleAndDescription{
   width: 352px;
   height: 140px;
-  margin-bottom: 2vh;
+  margin-top: -2vh;
+  margin-bottom: 5vh;
+ 
+
+}
+.containerTitleAndDescription h4{
+  color: #6200EE;
+  font-size: 1.312rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 2.3vh;
+
+
+}
+.containerTitleAndDescription  p{
+  color: #333333;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: -2.9VH;
+  
+
+
+
+}
+
+.containerAllSubCat{
+  display: flex;
+  padding-top: 8vh;
+  width: 100vw;
+  height: auto;
+  overflow: scroll;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column ;
+  
+
 
 }
 
@@ -84,9 +153,14 @@ margin-top: 1.5vh;
   margin-right: 3vw;
   
 }
-.pointsAndLevelSubCategory h6{
+.classBegginerPointsDetail{
   font-size: 0.87rem;
   color: #EE9B00;
+
+}
+.classAdventurePointsDetail{
+  font-size: 0.87rem;
+  color: #00EDDF;
 
 }
 .descriptionSubCategory{
@@ -96,8 +170,20 @@ margin-top: 1.5vh;
 mix-blend-mode: normal;
 margin-top: -2vh;
 }
-.textCanjear{
+.textCanjearBeginner{
   color: #EE9B00;
+  font-size: 1.125rem;
+  margin-top: -1.5vh;
+  margin-left: 4vw;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 25px;
+  mix-blend-mode: normal;
+
+
+}
+.textCanjearAdventure{
+  color: #00EDDF;
   font-size: 1.125rem;
   margin-top: -1.5vh;
   margin-left: 4vw;

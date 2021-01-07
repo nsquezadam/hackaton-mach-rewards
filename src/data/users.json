@@ -291,6 +291,12 @@
         "description": "Navega por el río Maipo con 4 amigos"
       }
     ],
+    "detalleSubCategoriaCanjeAventuras":[
+      {
+        "nameTitle":"Aventuras",
+        "imgAventurasSubCat":"../img/canjes/subCategorias/aventurasImgModal.svg",
+        "descripcionAventurasSubCat":"Que esperas para vivir al límite, diviértete al máximo con estas aventuras extremas. ¡Sólo para atrevidos!"
+    }],
     "perfil": {
       "logoCategoria": "../img/Banner_Mach_Begginer.png",
       "dineroAhorrado": "$0",
@@ -544,6 +550,12 @@
         "imgPointCat": "../img/canjes/logPtos.svg",
         "description": "Navega por el río Maipo con 4 amigos"
       }
-    ]
+    ],
+    "detalleSubCategoriaCanjeAventuras":[
+      {
+        "nameTitle":"Aventuras",
+        "imgAventurasSubCat":"../img/canjes/subCategorias/aventurasImgModal.svg",
+        "descripcionAventurasSubCat":"Que esperas para vivir al límite, diviértete al máximo con estas aventuras extremas. ¡Sólo para atrevidos!"
+    }]
   }
 ]
