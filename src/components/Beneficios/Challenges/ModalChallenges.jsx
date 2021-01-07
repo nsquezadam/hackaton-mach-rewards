@@ -12,7 +12,9 @@ import gmail from '../../../img/gmail.svg';
 import whatsapp from '../../../img/whatsApp.svg';
 
 const ModalChallenge = (props) => {
-	const [user] = useContext(ContextUser);
+	const { userValue } = useContext(ContextUser);
+
+  const [user]= userValue
 
 	const [modalChallenge, setModalChallenge] = useState(false);
 	const [socialMedia, setsocialMedia] = useState(false)
