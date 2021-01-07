@@ -249,19 +249,20 @@
       }
     ],
     "subCategoriaCanjes": [
-      {
-        "img": "../img/canjes/subcategorias/farellones.svg",
-        "title": "Farellones",
-        "points": "50.000 Puntos",
-        "imgPointCat": "../img/canjes/logPtos.svg",
-        "description": "Entrada 1 adulto para pista Ski por un día"
-      },
+      
       {
         "img": "../img/canjes/subcategorias/clasesdesurf.svg",
         "title": "Clase de surf",
         "points": "5.000 Puntos",
         "imgPointCat": "../img/canjes/logPtos.svg",
         "description": "Clases de Surf en Viña del mar 1 adulto"
+      },
+      {
+        "img": "../img/canjes/subcategorias/paseoenmoto.svg",
+        "title": "Paseo en moto",
+        "points": "8.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Siéntete todo terreno con este circuito en moto 4 ruedas"
       },
       {
         "img": "../img/canjes/subcategorias/clasedeescalada.svg",
@@ -277,18 +278,20 @@
         "imgPointCat": "../img/canjes/logPtos.svg",
         "description": "Disfruta del cielo y vuela con un instructor"
       },
-      {
-        "img": "../img/canjes/subcategorias/paseoenmoto.svg",
-        "title": "Paseo en moto",
-        "points": "8.000 Puntos",
-        "imgPointCat": "../img/canjes/logPtos.svg",
-        "description": "Siéntete todo terreno con este circuito en moto 4 ruedas"
-      },
+      
       {
         "img": "../img/canjes/subcategorias/raftingpara4.svg",
         "title": "Rafting para 4",
+        "points": "40.000 Puntos",
         "imgPointCat": "../img/canjes/logPtos.svg",
         "description": "Navega por el río Maipo con 4 amigos"
+      },
+      {
+        "img": "../img/canjes/subcategorias/farellones.svg",
+        "title": "Farellones",
+        "points": "50.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Entrada 1 adulto para pista Ski por un día"
       }
     ],
     "detalleSubCategoriaCanjeAventuras":[
@@ -366,7 +369,7 @@
       }
     ],
     "puntos": 175000,
-    "descTipoNivelPuntos":"Categoria Adventure:desde 150.000 Hasta 300.000 Puntos",
+    "descTipoNivelPuntos":"Categoria Adventure: Desde 150.000 Hasta 300.000 Puntos",
     "perfil": {
       "logoCategoria": "../img/Banner_mach_adventure.png",
       "fotoDesafio":"../img/perfil/DesafioAdventure.svg",
@@ -516,18 +519,18 @@
     ],
     "subCategoriaCanjes": [
       {
-        "img": "../img/canjes/subcategorias/farellones.svg",
-        "title": "Farellones",
-        "points": "50.000 Puntos",
-        "imgPointCat": "../img/canjes/logPtos.svg",
-        "description": "Entrada 1 adulto para pista Ski por un día"
-      },
-      {
         "img": "../img/canjes/subcategorias/clasesdesurf.svg",
         "title": "Clase de surf",
         "points": "5.000 Puntos",
         "imgPointCat": "../img/canjes/logPtos.svg",
         "description": "Clases de Surf en Viña del mar 1 adulto"
+      },
+      {
+        "img": "../img/canjes/subcategorias/paseoenmoto.svg",
+        "title": "Paseo en moto",
+        "points": "8.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Siéntete todo terreno con este circuito en moto 4 ruedas"
       },
       {
         "img": "../img/canjes/subcategorias/clasedeescalada.svg",
@@ -543,18 +546,20 @@
         "imgPointCat": "../img/canjes/logPtos.svg",
         "description": "Disfruta del cielo y vuela con un instructor"
       },
-      {
-        "img": "../img/canjes/subcategorias/paseoenmoto.svg",
-        "title": "Paseo en moto",
-        "points": "8.000 Puntos",
-        "imgPointCat": "../img/canjes/logPtos.svg",
-        "description": "Siéntete todo terreno con este circuito en moto 4 ruedas"
-      },
+      
       {
         "img": "../img/canjes/subcategorias/raftingpara4.svg",
         "title": "Rafting para 4",
+        "points": "40.000 Puntos",
         "imgPointCat": "../img/canjes/logPtos.svg",
         "description": "Navega por el río Maipo con 4 amigos"
+      },
+      {
+        "img": "../img/canjes/subcategorias/farellones.svg",
+        "title": "Farellones",
+        "points": "50.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Entrada 1 adulto para pista Ski por un día"
       }
     ],
     "detalleSubCategoriaCanjeAventuras":[
