@@ -3,7 +3,7 @@ import data from '../../../data/users.json'
 import './styles/cardPartners.css'
 import { ContextUser } from '../../../App';
 import FilterCanjes from './FilterCanjes'
-
+import slideIcon from '../../../img/slideIcon.svg'
 import filterIcon from '../../../img/filter.svg'
 
 
@@ -44,12 +44,15 @@ const CardPartners = (props) => {
   return (
     <div>
       <div className='containerFiltersCanjes'>
+        
+        <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
         <div className='containerButtonsFilterCanjes'>
           {buttonFilterCanjes}
         </div>
-        <img src={filterIcon} alt='filter' onClick={() => setFilter(!filter)} />
       </div>
       < FilterCanjes filter={filter} setFilter={setFilter} filterMark={filterMark} setFilterMark={setFilterMark} />
+      <div className='containerIconAndCards'>
+          <img src={slideIcon} alt="" />
       <div className="containerCanjes">
         {data[user].canjes.map((data, index) => {
           if (filterMark.length === 0) {
@@ -90,6 +93,7 @@ const CardPartners = (props) => {
             }
           }
         })}
+      </div>
       </div>
     </div>
   )
