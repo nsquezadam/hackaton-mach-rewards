@@ -311,18 +311,6 @@
       "puntos":"1", 
       "historial": [
         {
-          "actividad": "Desafío del día", 
-          "fecha":"02/11/2020",
-          "texto":"Recarga tu tarjeta MACH +10.000", 
-          "puntos":"+2000"
-        },
-        {
-          "actividad": "Desafío del día", 
-          "fecha":"28/10/2020",
-          "texto":"Invita a un amigo", 
-          "puntos":"+1000"
-        },
-        {
           "actividad": "Categoria MACH Beginner", 
           "fecha":"25/10/2020",
           "texto":"", 
