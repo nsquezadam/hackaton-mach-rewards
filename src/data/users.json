@@ -302,7 +302,7 @@
         "descripcionAventurasSubCat":"Que esperas para vivir al límite, diviértete al máximo con estas aventuras extremas. ¡Sólo para atrevidos!"
     }],
     "perfil": {
-      "logoCategoria": "../img/Banner_Mach_Begginer.png",
+      "logoCategoria": "../img/Banner_mach_begginer.png",
       "fotoDesafio":"../img/perfil/DesafioBeginner.svg",
       "desafioDelDia":"Paga una cuenta de teléfono con MACH",
       "dineroAhorrado": 0,
