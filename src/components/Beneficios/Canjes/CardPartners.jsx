@@ -38,7 +38,7 @@ const CardPartners = (props) => {
     })
   }
 
-  // const classContainerDiscount = user === 0 ? 'containerDiscountBegginer' : 'containerDiscountAdventure';
+   const classBegginerCardSwaps = user === 0 ? 'descBegginnerCard' : 'descAdventureCard';
   //const classTextGetCoupon = user === 0 ? 'textGetCouponBegginer' : 'textGetCouponAdventure';
 
   return (
@@ -61,7 +61,7 @@ const CardPartners = (props) => {
                 <div className="containerLogPtos">
                   <img src={`${data.imgPointCat}`} alt="logoPtos" />
                 </div>
-                <h5>{data.pointCategoria}</h5>
+                <h5 className={classBegginerCardSwaps}>{data.pointCategoria}</h5>
               </div>
               <div className="containerDetails">
                 <h6>{data.categoria}</h6>

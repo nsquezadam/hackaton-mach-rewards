@@ -17,7 +17,7 @@ const PointsWins = () => {
 
   return (
     <>  
-      <h3>Puntos Acumulados</h3>
+       <h3>Puntos Acumulados</h3>
         <div className={classContainerPointWin}>
       <div className="containerLogPtos">
       <img src={logoPtos} alt="logoPtos"/>
