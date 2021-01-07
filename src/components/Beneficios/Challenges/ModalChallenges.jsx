@@ -19,12 +19,12 @@ const ModalChallenge = (props) => {
 	const [modalChallenge, setModalChallenge] = useState(false);
 	const [socialMedia, setsocialMedia] = useState(false);
 
-	const classPointsPpal= user===0? 'pointsPpalBeginner':'pointsPpalAdventure';
-	const classChallengeBanner= user===0? 'challengeBannerBeginner':'challengeBannerAdventure';
+	const classPointsPpal = user === 0 ? 'pointsPpalBeginner' : 'pointsPpalAdventure';
+	const classChallengeBanner = user === 0 ? 'challengeBannerBeginner' : 'challengeBannerAdventure';
 
-	const classPointModal=user===0? 'pointsModalBeginner':'pointsModalAdventure';
+	const classPointModal = user === 0 ? 'pointsModalBeginner' : 'pointsModalAdventure';
 
-	
+
 
 	return (
 
@@ -53,10 +53,14 @@ const ModalChallenge = (props) => {
 				  	<img className="copyIcon" src={copyIcon} alt="" />
 								</p>
 							</div>
-							<button className="btonDesafio" onClick={() => { setsocialMedia(true) }}>
-								<img src={props.data.iconobton} alt="" />
-								{props.data.textobton}
-							</button>
+							<div className='containerbtnModalChallenge'>
+								<button className="btonDesafio" onClick={() => { setsocialMedia(true) }}>
+									<img src={props.data.iconobton} alt="" />
+									{props.data.textobton}
+								</button>
+
+							</div>
+
 							<div className="message">
 								<p>*Tu invitad@ debe activar su tarjeta MACH para que ganes los puntos.</p>
 							</div>
