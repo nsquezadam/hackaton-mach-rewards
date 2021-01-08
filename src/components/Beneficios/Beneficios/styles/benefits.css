@@ -50,7 +50,7 @@
   align-content: center ! Important ;
   background: white;
   border-radius: 5px;
-  width: 85! Important;
+  /* width: 85vw! Important; */
   height: 70vw ! Important;
   background: #FFFFFF;
   box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.18), 0px 4px 8px rgba(0, 0, 0, 0.18);
@@ -69,6 +69,7 @@
   color: #333333;
   /* text-align: center; */
   font-size: 4vw;
+  margin:0 8vw 0 8vw
 }
 .containerFiltersBenefit{
   display: flex;
