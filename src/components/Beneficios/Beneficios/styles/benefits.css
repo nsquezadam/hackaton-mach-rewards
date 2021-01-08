@@ -69,7 +69,7 @@
   color: #333333;
   /* text-align: center; */
   font-size: 4vw;
-  margin:0 8vw 0 8vw;
+  margin:0 16vw 0 16vw ! Important;
 }
 .containerFiltersBenefit{
   display: flex;
