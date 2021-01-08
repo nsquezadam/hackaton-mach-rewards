@@ -167,7 +167,7 @@ const Walkthrough = () => {
               Beneficios MACH
             </span>
             <span className='textWalkthrough'>
-              ¡ Eso no es todo ! Además te regalamos beneficios de <strong>descuentos</strong> para que los utilices en el comercio o también <strong>recargas de dinero</strong>por pagar con tu tarjeta MACH.
+              ¡ Eso no es todo ! Además te regalamos beneficios de <strong>descuentos</strong> para que los utilices en el comercio o también <strong>recargas de dinero</strong> por pagar con tu tarjeta MACH.
               </span>
             <img className='imgBeneficiosWalkthrough' src={beneficiosmach} alt="beneficiosmach" />
             <span className='textWalkthrough'>
