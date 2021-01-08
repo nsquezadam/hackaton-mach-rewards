@@ -19,8 +19,12 @@ const ModalChallenge = (props) => {
 	const [modalChallenge, setModalChallenge] = useState(false);
 	const [socialMedia, setsocialMedia] = useState(false);
 
-	const classPointsPpal= user===0? 'pointsPpalBeginner':'pointsPpalAdventure';
-	
+	const classPointsPpal = user === 0 ? 'pointsPpalBeginner' : 'pointsPpalAdventure';
+	const classChallengeBanner = user === 0 ? 'challengeBannerBeginner' : 'challengeBannerAdventure';
+
+	const classPointModal = user === 0 ? 'pointsModalBeginner' : 'pointsModalAdventure';
+
+
 
 	return (
 
@@ -29,12 +33,12 @@ const ModalChallenge = (props) => {
 				<div className="modalContentChallenge">
 					<img src={closeIcon} alt='closeIcon' className="closeModalChallenge" onClick={() => setModalChallenge(false)} />
 					<img className="imgModal" src={props.data.foto} alt="" srcSet="" />
-					<div className="challengeBanner">
+					<div className={classChallengeBanner}>
 						<p className="titleBanner"> <img src={BanderaModal} className="iconoChallenge" alt="" /> Desafío</p>
 					</div>
 					<div className="infoModal">
 						<div className="pointsModal">
-							<p><img src={Logoptos} alt="" />{props.data.puntos}</p>
+							<p className={classPointModal}><img src={Logoptos} alt="" />{props.data.puntos}</p>
 						</div>
 						<div className="textModal">
 							<p className="titleModal">{props.data.titulomodal}</p>
@@ -49,10 +53,14 @@ const ModalChallenge = (props) => {
 				  	<img className="copyIcon" src={copyIcon} alt="" />
 								</p>
 							</div>
-							<button className="btonDesafio" onClick={() => { setsocialMedia(true) }}>
-								<img src={props.data.iconobton} alt="" />
-								{props.data.textobton}
-							</button>
+							<div className='containerbtnModalChallenge'>
+								<button className="btonDesafio" onClick={() => { setsocialMedia(true) }}>
+									<img src={props.data.iconobton} alt="" />
+									{props.data.textobton}
+								</button>
+
+							</div>
+
 							<div className="message">
 								<p>*Tu invitad@ debe activar su tarjeta MACH para que ganes los puntos.</p>
 							</div>

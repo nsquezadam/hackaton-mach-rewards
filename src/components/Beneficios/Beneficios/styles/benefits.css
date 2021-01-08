@@ -25,7 +25,7 @@
   flex-flow: row nowrap;
   align-items: flex-start;
   margin-left: -4vw;
-  margin-bottom:18vw;;
+  margin-bottom:2vw;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -36,9 +36,9 @@
   margin-top:10px;
   max-height: 120vw;
   width: 400vw;
-  overflow: auto;
+  /* overflow: auto;
   -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-overflow-style: -ms-autohiding-scrollbar; */
 }
 .containerAllCardsBenefits::-webkit-scrollbar {
   display: none;
@@ -50,7 +50,7 @@
   align-content: center ! Important ;
   background: white;
   border-radius: 5px;
-  width: 85! Important;
+  /* width: 85vw! Important; */
   height: 70vw ! Important;
   background: #FFFFFF;
   box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.18), 0px 4px 8px rgba(0, 0, 0, 0.18);
@@ -69,12 +69,13 @@
   color: #333333;
   /* text-align: center; */
   font-size: 4vw;
+  margin:0 16vw 0 16vw ! Important;
 }
 .containerFiltersBenefit{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin: 15px 0 15px 0;
+  margin: 15px 0 15px 0 ! Important;
 }
 .buttonFilter{
   border: 2px solid #6200EE;
